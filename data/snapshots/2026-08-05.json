@@ -1,0 +1,605 @@
+{
+ "date": "2026-08-05",
+ "rows": [
+  {
+   "id": "zcrm_1843523000069562148",
+   "rank": 1,
+   "score": 98,
+   "account": "All or Nothing Roofing"
+  },
+  {
+   "id": "zcrm_1843523000066986023",
+   "rank": 1,
+   "score": 91,
+   "account": "Porter Exteriors"
+  },
+  {
+   "id": "zcrm_1843523000069890013",
+   "rank": 1,
+   "score": 91,
+   "account": "Middle Creek Roof"
+  },
+  {
+   "id": "zcrm_1843523000060934429",
+   "rank": 1,
+   "score": 90,
+   "account": "Specialty Roofing"
+  },
+  {
+   "id": "zcrm_1843523000067191390",
+   "rank": 8,
+   "score": 87,
+   "account": "J&J Roofing"
+  },
+  {
+   "id": "zcrm_1843523000070141202",
+   "rank": 2,
+   "score": 79,
+   "account": "FreshVendCLT"
+  },
+  {
+   "id": "zcrm_1843523000064793415",
+   "rank": 5,
+   "score": 78,
+   "account": "FairWeather Roofing"
+  },
+  {
+   "id": "zcrm_1843523000070048016",
+   "rank": 9,
+   "score": 76,
+   "account": "Apex satx"
+  },
+  {
+   "id": "zcrm_1843523000067025011",
+   "rank": 6,
+   "score": 76,
+   "account": "Lunchpail Service Partners"
+  },
+  {
+   "id": "zcrm_1843523000059024823",
+   "rank": 6,
+   "score": 73,
+   "account": "Good Golly Garage Doors"
+  },
+  {
+   "id": "zcrm_1843523000057015482",
+   "rank": 12,
+   "score": 72,
+   "account": "Enercare"
+  },
+  {
+   "id": "zcrm_1843523000067191252",
+   "rank": 14,
+   "score": 70,
+   "account": "Probook"
+  },
+  {
+   "id": "zcrm_1843523000062330147",
+   "rank": 11,
+   "score": 69,
+   "account": "Creative Service Partners"
+  },
+  {
+   "id": "zcrm_1843523000070307055",
+   "rank": 18,
+   "score": 69,
+   "account": "Paragon Heating, Cooling, and Tankless Inc."
+  },
+  {
+   "id": "zcrm_1843523000069427141",
+   "rank": 18,
+   "score": 68,
+   "account": "Guardian Dentistry Partners"
+  },
+  {
+   "id": "zcrm_1843523000069455059",
+   "rank": 19,
+   "score": 68,
+   "account": "Renovus Capital Partners"
+  },
+  {
+   "id": "zcrm_1843523000065014027",
+   "rank": 21,
+   "score": 68,
+   "account": "Canter Power Systems"
+  },
+  {
+   "id": "zcrm_1843523000063176024",
+   "rank": 16,
+   "score": 68,
+   "account": "Freedom Restoration and Remodeling"
+  },
+  {
+   "id": "zcrm_1843523000064468101",
+   "rank": 18,
+   "score": 68,
+   "account": "The SGD Group"
+  },
+  {
+   "id": "zcrm_1843523000068513011",
+   "rank": 16,
+   "score": 67,
+   "account": "Durable Roofing"
+  },
+  {
+   "id": "zcrm_1843523000061519214",
+   "rank": 25,
+   "score": 67,
+   "account": "Half Moon Plumbing & Electrical"
+  },
+  {
+   "id": "zcrm_1843523000070141170",
+   "rank": 25,
+   "score": 67,
+   "account": "NY Garage Doors"
+  },
+  {
+   "id": "zcrm_1843523000068323030",
+   "rank": 19,
+   "score": 67,
+   "account": "Davenport Energy, Inc."
+  },
+  {
+   "id": "zcrm_1843523000066105019",
+   "rank": 26,
+   "score": 66,
+   "account": "Bacon Plumbing, Heating, Air and Electric"
+  },
+  {
+   "id": "zcrm_1843523000069057068",
+   "rank": 24,
+   "score": 66,
+   "account": "Frederick Social Sports"
+  },
+  {
+   "id": "zcrm_1843523000067824711",
+   "rank": 25,
+   "score": 65,
+   "account": "Howard Air"
+  },
+  {
+   "id": "zcrm_1843523000067920122",
+   "rank": 27,
+   "score": 65,
+   "account": "AquaVerse"
+  },
+  {
+   "id": "zcrm_1843523000067769307",
+   "rank": 27,
+   "score": 65,
+   "account": "Evo Pest Control"
+  },
+  {
+   "id": "zcrm_1843523000067572392",
+   "rank": 27,
+   "score": 65,
+   "account": "MTA360"
+  },
+  {
+   "id": "zcrm_1843523000065602015",
+   "rank": 27,
+   "score": 65,
+   "account": "Shank Door"
+  },
+  {
+   "id": "zcrm_1843523000067920034",
+   "rank": 32,
+   "score": 65,
+   "account": "OGD Overhead Garage Door"
+  },
+  {
+   "id": "zcrm_1843523000057045542",
+   "rank": 36,
+   "score": 65,
+   "account": "RoofKing Construction TX"
+  },
+  {
+   "id": "zcrm_1843523000057723694",
+   "rank": 30,
+   "score": 64,
+   "account": "Fountain Comfort Group"
+  },
+  {
+   "id": "zcrm_1843523000068859040",
+   "rank": 32,
+   "score": 64,
+   "account": "Plumbing-Heating-Cooling Contractors -National Association"
+  },
+  {
+   "id": "zcrm_1843523000059152407",
+   "rank": 38,
+   "score": 63,
+   "account": "Cam Collective"
+  },
+  {
+   "id": "zcrm_1843523000057723718",
+   "rank": 38,
+   "score": 63,
+   "account": "Rotunda Capital Partners"
+  },
+  {
+   "id": "zcrm_1843523000058814314",
+   "rank": 33,
+   "score": 63,
+   "account": "Trivest Partners"
+  },
+  {
+   "id": "zcrm_1843523000065754064",
+   "rank": 39,
+   "score": 62,
+   "account": "Easton Select Group"
+  },
+  {
+   "id": "zcrm_1843523000068596125",
+   "rank": 37,
+   "score": 62,
+   "account": "International Franchise Professionals Group"
+  },
+  {
+   "id": "zcrm_1843523000066768553",
+   "rank": 37,
+   "score": 62,
+   "account": "Allied Roofing Partners"
+  },
+  {
+   "id": "zcrm_1843523000057220686",
+   "rank": 41,
+   "score": 61,
+   "account": "Neighborly® - Tim"
+  },
+  {
+   "id": "zcrm_1843523000065410011",
+   "rank": 41,
+   "score": 61,
+   "account": "Mosaic Roofing Company"
+  },
+  {
+   "id": "zcrm_1843523000068447059",
+   "rank": 42,
+   "score": 61,
+   "account": "Building36"
+  },
+  {
+   "id": "zcrm_1843523000062946042",
+   "rank": 42,
+   "score": 61,
+   "account": "Meadows Garage Doors, LLC"
+  },
+  {
+   "id": "zcrm_1843523000066145041",
+   "rank": 42,
+   "score": 60,
+   "account": "Schaeffer Oil"
+  },
+  {
+   "id": "zcrm_1843523000059677128",
+   "rank": 42,
+   "score": 60,
+   "account": "Infinity Home Services"
+  },
+  {
+   "id": "zcrm_1843523000061082037",
+   "rank": 49,
+   "score": 60,
+   "account": "AirWorks Solutions"
+  },
+  {
+   "id": "zcrm_1843523000069685047",
+   "rank": 51,
+   "score": 60,
+   "account": "Culinary Ventures Vending"
+  },
+  {
+   "id": "zcrm_1843523000067572467",
+   "rank": 48,
+   "score": 60,
+   "account": "Tree Care Partners"
+  },
+  {
+   "id": "zcrm_1843523000070011100",
+   "rank": 54,
+   "score": 60,
+   "account": "FranServe, Inc."
+  },
+  {
+   "id": "zcrm_1843523000057045942",
+   "rank": 49,
+   "score": 59,
+   "account": "United Comfort Group"
+  },
+  {
+   "id": "zcrm_1843523000066145108",
+   "rank": 49,
+   "score": 59,
+   "account": "St. Moritz Security Services, Inc."
+  },
+  {
+   "id": "zcrm_1843523000067432073",
+   "rank": 54,
+   "score": 59,
+   "account": "Wheelhouse Brands"
+  },
+  {
+   "id": "zcrm_1843523000066768360",
+   "rank": 52,
+   "score": 59,
+   "account": "Sage Surface Partners"
+  },
+  {
+   "id": "zcrm_1843523000068447113",
+   "rank": 57,
+   "score": 59,
+   "account": "Galaxy Service Partners / Guild Garage Group"
+  },
+  {
+   "id": "zcrm_1843523000069535012",
+   "rank": 54,
+   "score": 59,
+   "account": "NorCal Premier Soccer"
+  },
+  {
+   "id": "zcrm_1843523000058567001",
+   "rank": 58,
+   "score": 59,
+   "account": "Current Electric"
+  },
+  {
+   "id": "zcrm_1843523000058623688",
+   "rank": 58,
+   "score": 58,
+   "account": "National Reliance Group"
+  },
+  {
+   "id": "zcrm_1843523000069680152",
+   "rank": 60,
+   "score": 58,
+   "account": "Better Health Solutions"
+  },
+  {
+   "id": "zcrm_1843523000057892019",
+   "rank": 61,
+   "score": 58,
+   "account": "Ned's Home"
+  },
+  {
+   "id": "zcrm_1843523000060626022",
+   "rank": 58,
+   "score": 58,
+   "account": "Smith's Plumbing, Heating & Air"
+  },
+  {
+   "id": "zcrm_1843523000069757618",
+   "rank": 58,
+   "score": 57,
+   "account": "Digitized Solutions"
+  },
+  {
+   "id": "zcrm_1843523000070833258",
+   "rank": 66,
+   "score": 57,
+   "account": "US Dock & Door"
+  },
+  {
+   "id": "zcrm_1843523000070833222",
+   "rank": 65,
+   "score": 57,
+   "account": "Brinks Home"
+  },
+  {
+   "id": "zcrm_1843523000059532079",
+   "rank": 65,
+   "score": 57,
+   "account": "Flotilla Partners"
+  },
+  {
+   "id": "zcrm_1843523000070559033",
+   "rank": 63,
+   "score": 57,
+   "account": "JP McHale Pest Management"
+  },
+  {
+   "id": "zcrm_1843523000057039634",
+   "rank": 65,
+   "score": 57,
+   "account": "Uassist ME"
+  },
+  {
+   "id": "zcrm_1843523000063559238",
+   "rank": 64,
+   "score": 57,
+   "account": "Yarbrough and Sons"
+  },
+  {
+   "id": "zcrm_1843523000057045683",
+   "rank": 71,
+   "score": 57,
+   "account": "United Plumbing"
+  },
+  {
+   "id": "zcrm_1843523000056990341",
+   "rank": 68,
+   "score": 56,
+   "account": "Champions Group Holdings - Travis"
+  },
+  {
+   "id": "zcrm_1843523000067562012",
+   "rank": 69,
+   "score": 56,
+   "account": "Juniper Landscaping"
+  },
+  {
+   "id": "zcrm_1843523000065571222",
+   "rank": 71,
+   "score": 56,
+   "account": "National Veterinary Associates"
+  },
+  {
+   "id": "zcrm_1843523000068746043",
+   "rank": 73,
+   "score": 56,
+   "account": "Shelly Electrical"
+  },
+  {
+   "id": "zcrm_1843523000067566968",
+   "rank": 73,
+   "score": 55,
+   "account": "optimum"
+  },
+  {
+   "id": "zcrm_1843523000061523020",
+   "rank": 72,
+   "score": 55,
+   "account": "Cotti-Johnson"
+  },
+  {
+   "id": "zcrm_1843523000063441145",
+   "rank": 73,
+   "score": 55,
+   "account": "Kaulig Companies"
+  },
+  {
+   "id": "zcrm_1843523000070141142",
+   "rank": 81,
+   "score": 55,
+   "account": "Phoenix Garage Doors"
+  },
+  {
+   "id": "zcrm_1843523000065388220",
+   "rank": 80,
+   "score": 55,
+   "account": "Cardinal Heating and Air"
+  },
+  {
+   "id": "zcrm_1843523000058135581",
+   "rank": 76,
+   "score": 54,
+   "account": "HomeX Services Group"
+  },
+  {
+   "id": "zcrm_1843523000064793011",
+   "rank": 77,
+   "score": 54,
+   "account": "My Professional Plumber"
+  },
+  {
+   "id": "zcrm_1843523000069685019",
+   "rank": 85,
+   "score": 54,
+   "account": "Strategic America"
+  },
+  {
+   "id": "zcrm_1843523000057059326",
+   "rank": 85,
+   "score": 54,
+   "account": "Blue Jay Roofing"
+  },
+  {
+   "id": "zcrm_1843523000063912539",
+   "rank": 79,
+   "score": 53,
+   "account": "Energy Air"
+  },
+  {
+   "id": "zcrm_1843523000063559122",
+   "rank": 82,
+   "score": 53,
+   "account": "Unified Service Partners"
+  },
+  {
+   "id": "zcrm_1843523000057039979",
+   "rank": 86,
+   "score": 52,
+   "account": "Schomburg Heating & Cooling"
+  },
+  {
+   "id": "zcrm_1843523000058094131",
+   "rank": 86,
+   "score": 52,
+   "account": "House Doctors"
+  },
+  {
+   "id": "zcrm_1843523000068068012",
+   "rank": 87,
+   "score": 52,
+   "account": "Tutor Doctor"
+  },
+  {
+   "id": "zcrm_1843523000069079001",
+   "rank": 86,
+   "score": 52,
+   "account": "AJ’s Heating & Air Conditioning"
+  },
+  {
+   "id": "zcrm_1843523000057324235",
+   "rank": 86,
+   "score": 51,
+   "account": "Right Time Group of Companies"
+  },
+  {
+   "id": "zcrm_1843523000065839011",
+   "rank": 93,
+   "score": 51,
+   "account": "Dermatology Specialists of Illinois"
+  },
+  {
+   "id": "zcrm_1843523000062368199",
+   "rank": 91,
+   "score": 51,
+   "account": "Impression Roofing"
+  },
+  {
+   "id": "zcrm_1843523000063774224",
+   "rank": 91,
+   "score": 51,
+   "account": "Storm Nation Roofing & Solar"
+  },
+  {
+   "id": "zcrm_1843523000057030509",
+   "rank": 94,
+   "score": 51,
+   "account": "Driven Brands Inc."
+  },
+  {
+   "id": "zcrm_1843523000062299904",
+   "rank": 97,
+   "score": 51,
+   "account": "Chamberlain Group"
+  },
+  {
+   "id": "zcrm_1843523000062299408",
+   "rank": 91,
+   "score": 51,
+   "account": "Florida Energy Water & Air"
+  },
+  {
+   "id": "zcrm_1843523000057238412",
+   "rank": 97,
+   "score": 50,
+   "account": "Guthrie and Sons"
+  },
+  {
+   "id": "zcrm_1843523000066995104",
+   "rank": 98,
+   "score": 50,
+   "account": "Redemption Marketing"
+  },
+  {
+   "id": "zcrm_1843523000068447011",
+   "rank": 101,
+   "score": 50,
+   "account": "Jack Custer's Consulting LLC"
+  },
+  {
+   "id": "zcrm_1843523000067432099",
+   "rank": 97,
+   "score": 50,
+   "account": "Humming AI"
+  },
+  {
+   "id": "zcrm_1843523000058909533",
+   "rank": 101,
+   "score": 50,
+   "account": "Pure Plumbing & Air"
+  }
+ ]
+}

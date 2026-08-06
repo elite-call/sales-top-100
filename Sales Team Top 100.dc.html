@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #eef1f4; -webkit-text-size-adjust: 100%; }
+  * { box-sizing: border-box; }
+  a { color: oklch(0.55 0.10 250); text-decoration: none; }
+  a:hover { color: oklch(0.45 0.11 250); text-decoration: underline; }
+  input, select, button { font: inherit; }
+  input[type=range] { accent-color: oklch(0.62 0.07 250); }
+  @media print { .no-print { display: none !important; } }
+  @keyframes om-countdown { from { width: 100%; } to { width: 0%; } }
+  @keyframes om-settle { from { opacity: 0.45; } to { opacity: 1; } }
+</style>
+</helmet>
+
+<div style="min-height: 100vh; background: #eef1f4; font-family: 'Space Grotesk', system-ui, sans-serif; color: #14181d; padding: 0 0 40px;">
+
+  <div style="background: #fff; border-bottom: 1px solid #dfe5ea;">
+    <div style="max-width: 1520px; margin: 0 auto; padding: 16px 22px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 18px;">
+        <img src="assets/elitecall.png" alt="Elite Call" style="height: 32px; width: auto; display: block;">
+        <span style="width: 1px; height: 26px; background: #dfe5ea; display: block;"></span>
+        <img src="assets/hail911.png" alt="Hail 911" style="height: 26px; width: auto; display: block;">
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px;" class="no-print">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86;">{{ generatedShort }}</span>
+        <button onClick="{{ exportCsv }}" style="background: oklch(0.55 0.10 250); color: #fff; border: none; border-radius: 6px; padding: 8px 14px; font-size: 12px; font-weight: 600; cursor: pointer;" style-hover="background: oklch(0.47 0.11 250);">Export CSV</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="max-width: 1520px; margin: 0 auto; padding: 26px 22px 0;">
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 18px;">
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #737d86;">Daily build &middot; ranked from Zoho CRM</div>
+        <div style="font-size: 32px; font-weight: 700; letter-spacing: -0.025em; line-height: 1.1;">Sales Team Top 100</div>
+        <div style="font-size: 14px; line-height: 1.55; color: #4d565e; max-width: 660px; text-wrap: pretty;">The most valuable unsold prospects across both brands, scored on seven weighted signals. Industry and lead-source fit are calibrated against {{ closedCount }} closed records, so the ranking reflects what has actually converted.</div>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(184px, 1fr)); gap: 12px; margin-bottom: 16px;">
+      <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">RANKED PIPELINE VALUE</span>
+        <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; letter-spacing: -0.02em;">{{ totalEst }}</span>
+        <span style="font-size: 11px; color: #8b949c;">{{ expectedTotal }} expected</span>
+      </div>
+      <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">BRAND SPLIT</span>
+        <div style="display: flex; align-items: baseline; gap: 9px;">
+          <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: oklch(0.55 0.10 250);">{{ eliteCount }}</span>
+          <span style="font-size: 12px; color: #8b949c;">/</span>
+          <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: oklch(0.55 0.12 28);">{{ hailCount }}</span>
+        </div>
+        <span style="font-size: 11px; color: #8b949c;">Elite Call / Hail 911</span>
+      </div>
+      <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">AVG SCORE</span>
+        <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace;">{{ avgScore }}</span>
+        <span style="font-size: 11px; color: #8b949c;">{{ openCount }} open records assessed</span>
+      </div>
+      <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">MOVEMENT TODAY</span>
+        <div style="display: flex; align-items: baseline; gap: 12px;">
+          <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: oklch(0.58 0.10 150);">{{ upCount }}</span>
+          <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: oklch(0.60 0.10 28);">{{ downCount }}</span>
+        </div>
+        <span style="font-size: 11px; color: #8b949c;">{{ newCount }} new &middot; {{ staleCount }} stale over 60d</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: {{ shellCols }}; gap: 14px; align-items: start;">
+
+      <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; display: flex; flex-direction: column;" class="no-print">
+        <div style="padding: 16px 16px 14px; display: flex; flex-direction: column; gap: 10px; border-bottom: 1px solid #eaeef2;">
+          <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">FILTERS</span>
+          <input value="{{ query }}" onChange="{{ setQuery }}" onInput="{{ setQuery }}" placeholder="Search account or contact" style="background: #f4f6f8; border: 1px solid #dde3e9; border-radius: 6px; padding: 8px 10px; font-size: 13px; width: 100%;">
+          <div style="display: flex; gap: 6px;">
+            <sc-for list="{{ brandTabs }}" as="b" hint-placeholder-count="3">
+              <button onClick="{{ b.onClick }}" style="flex: 1; border-radius: 6px; padding: 7px 4px; font-size: 11px; font-weight: 600; cursor: pointer; border: 1px solid {{ b.border }}; background: {{ b.bg }}; color: {{ b.fg }};">{{ b.label }}</button>
+            </sc-for>
+          </div>
+          <select value="{{ owner }}" onChange="{{ setOwner }}" style="background: #f4f6f8; border: 1px solid #dde3e9; border-radius: 6px; padding: 8px 9px; font-size: 12px; width: 100%;">
+            <option value="">All owners</option>
+            <sc-for list="{{ owners }}" as="o" hint-placeholder-count="9"><option value="{{ o.value }}">{{ o.label }}</option></sc-for>
+          </select>
+          <select value="{{ stage }}" onChange="{{ setStage }}" style="background: #f4f6f8; border: 1px solid #dde3e9; border-radius: 6px; padding: 8px 9px; font-size: 12px; width: 100%;">
+            <option value="">All stages</option>
+            <sc-for list="{{ stages }}" as="o" hint-placeholder-count="5"><option value="{{ o.value }}">{{ o.label }}</option></sc-for>
+          </select>
+          <select value="{{ industry }}" onChange="{{ setIndustry }}" style="background: #f4f6f8; border: 1px solid #dde3e9; border-radius: 6px; padding: 8px 9px; font-size: 12px; width: 100%;">
+            <option value="">All industries</option>
+            <sc-for list="{{ industries }}" as="o" hint-placeholder-count="12"><option value="{{ o.value }}">{{ o.label }}</option></sc-for>
+          </select>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 11px; color: #8b949c;">{{ matchLabel }}</span>
+            <button onClick="{{ clearFilters }}" style="background: none; border: none; font-size: 11px; color: oklch(0.55 0.10 250); cursor: pointer; padding: 0;">Clear</button>
+          </div>
+        </div>
+
+        <div style="padding: 16px; display: flex; flex-direction: column; gap: 12px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">SCORE WEIGHTS</span>
+            <button onClick="{{ resetWeights }}" style="background: none; border: none; font-size: 11px; color: oklch(0.55 0.10 250); cursor: pointer; padding: 0;">Reset</button>
+          </div>
+          <sc-for list="{{ weightControls }}" as="w" hint-placeholder-count="7">
+            <div style="display: flex; flex-direction: column; gap: 5px;">
+              <div style="display: flex; justify-content: space-between; font-size: 12px;">
+                <span style="color: {{ w.labelColor }};">{{ w.label }}</span>
+                <span style="font-family: 'IBM Plex Mono', monospace; color: #737d86;">{{ w.value }}</span>
+              </div>
+              <input type="range" min="0" max="30" step="1" value="{{ w.value }}" onChange="{{ w.onChange }}" onInput="{{ w.onChange }}" style="width: 100%;">
+            </div>
+          </sc-for>
+          <div style="border-top: 1px solid #eef2f5; padding-top: 10px; display: flex; flex-direction: column; gap: 8px;">
+            <sc-if value="{{ pending }}" hint-placeholder-val="{{ false }}">
+              <div style="display: flex; flex-direction: column; gap: 6px;">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.1em; color: oklch(0.55 0.10 250);">{{ weightStatus }}</span>
+                  <button onClick="{{ applyNow }}" style="background: none; border: none; font-size: 11px; color: oklch(0.55 0.10 250); cursor: pointer; padding: 0;">Apply now</button>
+                </div>
+                <div style="height: 3px; background: #eaeef2; border-radius: 2px; overflow: hidden;">
+                  <div style="height: 100%; background: oklch(0.62 0.07 250); animation: om-countdown 2.5s linear forwards;"></div>
+                </div>
+              </div>
+            </sc-if>
+            <div style="font-size: 11px; line-height: 1.55; color: #8b949c; text-wrap: pretty;">Move a weight and the list re-ranks a couple of seconds later, once you have stopped adjusting. Nothing is written back to Zoho. Call intelligence holds a neutral value for every prospect until the Trellus transcript feed is connected.</div>
+          </div>
+        </div>
+      </div>
+
+      <div key="{{ rerankKey }}" style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; overflow: hidden; animation: om-settle 420ms ease-out;">
+        <div style="display: grid; grid-template-columns: {{ tableCols }}; gap: {{ tableGap }}; padding: 11px 18px; border-bottom: 1px solid #e3e8ed; background: #fafbfc;" class="no-print">
+          <div onClick="{{ sortRank }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer;">#{{ arrowRank }}</div>
+          <div onClick="{{ sortAccount }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer;">ACCOUNT{{ arrowAccount }}</div>
+          <div onClick="{{ sortStage }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer; overflow: hidden; white-space: nowrap;">PROFILE{{ arrowStage }}</div>
+          <div onClick="{{ sortEst }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer; text-align: right; overflow: hidden; white-space: nowrap;">EST{{ arrowEst }}</div>
+          <div onClick="{{ sortExpected }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer; text-align: right;">EXP. VALUE{{ arrowExpected }}</div>
+          <div onClick="{{ sortScore }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer; text-align: right;">SCORE{{ arrowScore }}</div>
+        </div>
+
+        <sc-for list="{{ pageRows }}" as="r" hint-placeholder-count="12">
+          <div style="border-bottom: 1px solid #eef2f5;">
+            <div onClick="{{ r.select }}" style="display: grid; grid-template-columns: {{ tableCols }}; gap: {{ tableGap }}; padding: 12px 18px; align-items: center; cursor: pointer; background: {{ r.bg }}; background-image: {{ r.topGlow }}; border-left: 3px solid {{ r.edge }};" style-hover="background: #eef3f8;">
+              <div style="display: flex; flex-direction: column; gap: 2px; align-items: flex-start;">
+                <span style="font-family: 'IBM Plex Mono', monospace; font-size: {{ r.rankSize }}; font-weight: 700; min-width: 25px; height: 25px; padding: 0 5px; border-radius: 13px; display: flex; align-items: center; justify-content: center; background: {{ r.rankBg }}; color: {{ r.rankFg }}; box-shadow: inset 0 0 0 1px {{ r.rankRing }};">{{ r.rank }}</span>
+                <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: {{ r.deltaColor }}; padding-left: 2px;">{{ r.delta }}</span>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 3px; min-width: 0;">
+                <div style="display: flex; align-items: baseline; gap: 8px; min-width: 0;">
+                  <span style="font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ r.account }}</span>
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.06em; padding: 2px 5px; border-radius: 3px; white-space: nowrap; background: {{ r.brandBg }}; color: {{ r.brandColor }};">{{ r.brandName }}</span>
+                </div>
+                <span style="font-size: 11px; color: #7b848d; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ r.metaLine }}</span>
+              </div>
+              <div style="display: flex; gap: 2px; align-items: flex-end; height: 24px; overflow: hidden;">
+                <sc-for list="{{ r.components }}" as="c" hint-placeholder-count="7">
+                  <div title="{{ c.tip }}" style="width: 12px; background: #e6ebef; border-radius: 2px; height: 100%; display: flex; align-items: flex-end; overflow: hidden;"><div style="width: 100%; height: {{ c.w }}; background: {{ c.bar }}; border-radius: 2px;"></div></div>
+                </sc-for>
+              </div>
+              <div style="text-align: right; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4d565e; overflow: hidden; white-space: nowrap;">{{ r.est }}</div>
+              <div style="text-align: right; font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600;">{{ r.expected }}</div>
+              <div style="text-align: right;"><span style="display: inline-block; min-width: 40px; padding: 4px 7px; border-radius: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; background: {{ r.chipBg }}; color: {{ r.chipFg }}; box-shadow: inset 0 0 0 1px {{ r.chipBorder }};">{{ r.scoreLabel }}</span></div>
+            </div>
+
+            <sc-if value="{{ r.showInline }}" hint-placeholder-val="{{ false }}">
+              <div style="padding: 16px 18px 20px; background: #f7f9fb; border-top: 1px solid #e3e8ed; display: flex; flex-direction: column; gap: 14px;">
+                <div style="font-size: 13px; line-height: 1.65; color: #3d454d; text-wrap: pretty;">{{ r.summary }}</div>
+                <sc-for list="{{ r.components }}" as="c" hint-placeholder-count="7">
+                  <div style="display: grid; grid-template-columns: 1fr 90px 68px; gap: 10px; align-items: center;">
+                    <span style="font-size: 12px; color: {{ c.labelColor }};">{{ c.label }}</span>
+                    <div style="height: 6px; background: #e6ebef; border-radius: 3px; overflow: hidden;"><div style="height: 100%; width: {{ c.w }}; background: {{ c.bar }};"></div></div>
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86; text-align: right; white-space: nowrap;">{{ c.pts }}</span>
+                  </div>
+                </sc-for>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; font-size: 12px;">
+                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">OWNER</span><span>{{ r.owner }}</span></div>
+                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">LAST ACTIVITY</span><span>{{ r.lastLine }}</span></div>
+                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">CONTACT</span><span>{{ r.contactLine }}</span></div>
+                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">NEXT STEPS</span><span>{{ r.nextLine }}</span></div>
+                </div>
+                <a href="{{ r.zohoUrl }}" target="_blank" style="align-self: flex-start; background: {{ r.accent }}; color: #fff; border-radius: 6px; padding: 9px 14px; font-size: 12px; font-weight: 600;">Open in Zoho</a>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+
+        <sc-if value="{{ isEmpty }}" hint-placeholder-val="{{ false }}">
+          <div style="padding: 44px 18px; text-align: center; font-size: 13px; color: #8b949c;">No prospects match these filters.</div>
+        </sc-if>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 18px; flex-wrap: wrap;" class="no-print">
+          <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86;">{{ rangeLabel }}</span>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <button onClick="{{ prevPage }}" style="background: #fff; border: 1px solid #dde3e9; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; color: #4d565e;" style-hover="border-color: oklch(0.55 0.10 250); color: oklch(0.55 0.10 250);">Prev</button>
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86; padding: 0 4px;">{{ pageLabel }}</span>
+            <button onClick="{{ nextPage }}" style="background: #fff; border: 1px solid #dde3e9; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; color: #4d565e;" style-hover="border-color: oklch(0.55 0.10 250); color: oklch(0.55 0.10 250);">Next</button>
+          </div>
+        </div>
+      </div>
+
+      <sc-if value="{{ showPanel }}" hint-placeholder-val="{{ false }}">
+        <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 18px; display: flex; flex-direction: column; gap: 16px; position: sticky; top: 14px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-bottom: 12px; border-bottom: 1px solid {{ sel.accent }};">
+            <sc-if value="{{ sel.isHail }}" hint-placeholder-val="{{ false }}">
+              <img src="assets/hail911.png" alt="Hail 911" style="height: 24px; width: auto; display: block;">
+            </sc-if>
+            <sc-if value="{{ sel.isElite }}" hint-placeholder-val="{{ false }}">
+              <img src="assets/elitecall.png" alt="Elite Call" style="height: 24px; width: auto; display: block;">
+            </sc-if>
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.1em; color: #737d86;">RANK {{ sel.rank }}</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 7px;">
+            <sc-if value="{{ sel.isPodium }}" hint-placeholder-val="{{ false }}">
+              <span style="align-self: flex-start; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.14em; padding: 4px 9px; border-radius: 11px; background: {{ sel.podiumBg }}; color: {{ sel.podiumFg }};">{{ sel.podiumLabel }}</span>
+            </sc-if>
+            <span style="font-size: 20px; font-weight: 700; line-height: 1.25; letter-spacing: -0.015em;">{{ sel.account }}</span>
+            <span style="font-size: 12px; color: #7b848d; line-height: 1.5;">{{ sel.sub }}</span>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <div style="flex: 1; background: {{ sel.accentSoft }}; border-radius: 7px; padding: 11px; display: flex; flex-direction: column; gap: 3px;">
+              <span style="font-size: 10px; font-family: 'IBM Plex Mono', monospace; color: #737d86;">SCORE</span>
+              <span style="font-size: 22px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: {{ sel.accent }};">{{ sel.score }}</span>
+              <span style="font-size: 10px; color: #8b949c;">{{ sel.tierLine }}</span>
+            </div>
+            <div style="flex: 1; background: {{ sel.accentSoft }}; border-radius: 7px; padding: 11px; display: flex; flex-direction: column; gap: 3px;">
+              <span style="font-size: 10px; font-family: 'IBM Plex Mono', monospace; color: #737d86;">EXP. VALUE</span>
+              <span style="font-size: 22px; font-weight: 700; font-family: 'IBM Plex Mono', monospace;">{{ sel.expected }}</span>
+              <span style="font-size: 10px; color: #8b949c;">of {{ sel.est }} est</span>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 9px;">
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">COMPONENTS</span>
+            <sc-for list="{{ sel.components }}" as="c" hint-placeholder-count="7">
+              <div style="display: grid; grid-template-columns: 1fr 62px 68px; gap: 9px; align-items: center;">
+                <span style="font-size: 12px; color: {{ c.labelColor }};">{{ c.label }}</span>
+                <div style="height: 6px; background: #e6ebef; border-radius: 3px; overflow: hidden;"><div style="height: 100%; width: {{ c.w }}; background: {{ c.bar }};"></div></div>
+                <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86; text-align: right; white-space: nowrap;">{{ c.pts }}</span>
+              </div>
+            </sc-for>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px; border-top: 1px solid #eef2f5; padding-top: 14px;">
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">EVALUATION</span>
+            <span style="font-size: 13px; line-height: 1.65; color: #3d454d; text-wrap: pretty;">{{ sel.summary }}</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid #eef2f5; padding-top: 14px; font-size: 12px;">
+            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Published rank today</span><span style="text-align: right;">{{ sel.publishedRank }}</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Owner</span><span style="text-align: right;">{{ sel.owner }}</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Stage</span><span style="text-align: right;">{{ sel.stage }}</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Industry</span><span style="text-align: right;">{{ sel.industry }}</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Lead source</span><span style="text-align: right;">{{ sel.source }}</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Last activity</span><span style="text-align: right;">{{ sel.lastLine }}</span></div>
+            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Next steps</span><span style="text-align: right;">{{ sel.nextLine }}</span></div>
+          </div>
+          <a href="{{ sel.zohoUrl }}" target="_blank" style="text-align: center; background: {{ sel.accent }}; color: #fff; border-radius: 6px; padding: 10px; font-size: 13px; font-weight: 600;">Open in Zoho</a>
+        </div>
+      </sc-if>
+    </div>
+
+    <div style="margin-top: 16px; background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 22px;">
+      <div style="display: flex; flex-direction: column; gap: 7px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">HOW THE SCORE WORKS</span>
+        <span style="font-size: 12px; line-height: 1.6; color: #4d565e; text-wrap: pretty;">Each prospect earns a fraction of the points available in seven components, summed to a 0&ndash;100 score. Revenue potential uses a log curve so a $50k estimate outranks a $12k one without swamping every other signal. Industry and source fit are historical win rates from closed records, Laplace-smoothed toward the {{ baseRateLabel }} house average so thin categories don't spike.</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 7px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">BRAND ROUTING</span>
+        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12px; line-height: 1.55; color: #4d565e;">
+          <div style="display: flex; gap: 8px; align-items: flex-start;"><span style="width: 3px; align-self: stretch; background: oklch(0.55 0.12 28); border-radius: 2px; flex-shrink: 0;"></span><span><strong style="font-weight: 600;">Hail 911</strong> &mdash; Roofing Residential and Roofing Commercial, plus any record already owned by the Hail 911 entity.</span></div>
+          <div style="display: flex; gap: 8px; align-items: flex-start;"><span style="width: 3px; align-self: stretch; background: oklch(0.55 0.10 250); border-radius: 2px; flex-shrink: 0;"></span><span><strong style="font-weight: 600;">Elite Call</strong> &mdash; every other vertical: home services, private equity, HVAC, garage door, medical and the rest.</span></div>
+        </div>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 7px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">KNOWN DATA GAPS</span>
+        <sc-for list="{{ gaps }}" as="g" hint-placeholder-count="4">
+          <div style="display: flex; gap: 7px; font-size: 12px; line-height: 1.5; color: #4d565e;"><span style="color: #b6bec5;">&mdash;</span><span>{{ g.text }}</span></div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1520},&quot;pageSize&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:25,&quot;min&quot;:10,&quot;max&quot;:100,&quot;step&quot;:5,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Report&quot;},&quot;scoreDisplay&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;points&quot;,&quot;options&quot;:[&quot;points&quot;,&quot;grade&quot;,&quot;tier&quot;],&quot;tsType&quot;:&quot;'points' | 'grade' | 'tier'&quot;,&quot;section&quot;:&quot;Report&quot;}}">
+class Component extends DCLogic {
+  state = { data: null, weights: null, applied: null, pending: false, rerankKey: 0,
+            sort: 'score', dir: -1, page: 0, sel: null,
+            query: '', owner: '', stage: '', industry: '', brand: '', narrow: false };
+
+  componentDidMount() {
+    this.onResize = () => {
+      const n = window.innerWidth < 1080;
+      if (n !== this.state.narrow) this.setState({ narrow: n });
+    };
+    window.addEventListener('resize', this.onResize);
+    fetch('data/top100.json').then(r => r.json()).then(d =>
+      this.setState({ data: d, weights: { ...d.weights }, applied: { ...d.weights },
+                      sel: d.rows[0].id, narrow: window.innerWidth < 1080 }));
+  }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize);
+    clearTimeout(this.rerankTimer);
+  }
+
+  RERANK_DELAY = 2500;
+
+  queueRerank() {
+    clearTimeout(this.rerankTimer);
+    this.rerankTimer = setTimeout(() => this.setState(s => ({
+      applied: { ...s.weights }, pending: false, page: 0, rerankKey: s.rerankKey + 1
+    })), this.RERANK_DELAY);
+  }
+
+  applyNow() {
+    clearTimeout(this.rerankTimer);
+    this.setState(s => ({ applied: { ...s.weights }, pending: false, page: 0, rerankKey: s.rerankKey + 1 }));
+  }
+
+  compact(n) {
+    if (n >= 1e6) return '$' + (Math.round(n / 1e4) / 100).toFixed(2) + 'M';
+    if (n >= 1000) return '$' + Math.round(n / 100) / 10 + 'k';
+    return '$' + Math.round(n);
+  }
+
+  delta(prev, rank) {
+    const d = prev - rank;
+    if (prev > 100) return { t: 'NEW', c: 'oklch(0.55 0.10 250)' };
+    if (d > 0) return { t: '\u25b2' + d, c: 'oklch(0.58 0.10 150)' };
+    if (d < 0) return { t: '\u25bc' + (-d), c: 'oklch(0.60 0.10 28)' };
+    return { t: '\u2013', c: '#a8b0b7' };
+  }
+
+  brandOf(r) {
+    const d = this.state.data;
+    const b = (d.brands || {})[r.brand] || {};
+    return {
+      key: r.brand, name: b.name || 'Elite Call',
+      color: b.color || 'oklch(0.55 0.10 250)',
+      logo: b.logo || 'assets/elitecall.png',
+      bg: r.brand === 'hail911' ? 'oklch(0.965 0.016 28)' : 'oklch(0.965 0.014 250)'
+    };
+  }
+
+  comps(row, accent) {
+    const on = accent || 'oklch(0.55 0.10 250)';
+    return row.components.map(c => ({
+      key: c.key,
+      label: c.pending ? c.label + ' \u00b7 pending' : c.label,
+      labelColor: c.pending ? '#a8b0b7' : '#3d454d',
+      w: c.pct + '%',
+      pts: c.points + ' / ' + c.max,
+      tip: c.label + ': ' + c.points + ' of ' + c.max + ' points',
+      bar: c.pending ? '#c7ced5' : on
+    }));
+  }
+
+  lastLine(r) {
+    if (!r.lastActivity) return 'None logged';
+    return r.lastActivity.slice(0, 10) + ' \u00b7 ' + r.daysSinceActivity + 'd ago';
+  }
+
+  bands(v) {
+    return {
+      tier: v >= 85 ? 'Platinum' : v >= 72 ? 'Gold' : v >= 60 ? 'Silver' : 'Bronze',
+      grade: v >= 88 ? 'A' : v >= 80 ? 'A-' : v >= 72 ? 'B+' : v >= 64 ? 'B' : v >= 56 ? 'C+' : 'C'
+    };
+  }
+
+  scoreLabel(r) {
+    const mode = this.props.scoreDisplay ?? 'points';
+    const b = this.bands(r.liveScore);
+    if (mode === 'grade') return b.grade;
+    if (mode === 'tier') return b.tier;
+    return r.liveScore;
+  }
+
+  computed() {
+    const d = this.state.data;
+    const W = this.state.applied || d.weights;
+    const maxW = Object.values(W).reduce((a, b) => a + b, 0) || 1;
+    return d.rows.map(r => {
+      const pts = r.components.map(c => ({
+        ...c, points: Math.round(c.pct / 100 * (W[c.key] ?? 0) * 10) / 10, max: W[c.key] ?? 0
+      }));
+      const raw = pts.reduce((a, c) => a + c.points, 0);
+      return { ...r, components: pts, liveScore: Math.round(raw / maxW * 100) };
+    });
+  }
+
+  filtered(all) {
+    const s = this.state;
+    const q = s.query.trim().toLowerCase();
+    return all.filter(r => {
+      if (s.owner && r.owner !== s.owner) return false;
+      if (s.stage && r.stage !== s.stage) return false;
+      if (s.industry && r.industry !== s.industry) return false;
+      if (s.brand && r.brand !== s.brand) return false;
+      if (q && !((r.account || '') + ' ' + (r.contact || '') + ' ' + (r.owner || '')).toLowerCase().includes(q)) return false;
+      return true;
+    });
+  }
+
+  sorted(rows) {
+    const { sort, dir } = this.state;
+    const key = r => {
+      if (sort === 'score') return r.liveScore;
+      if (sort === 'rank') return -r.rank;
+      if (sort === 'account') return (r.account || '').toLowerCase();
+      if (sort === 'stage') return (r.stage || '').toLowerCase();
+      if (sort === 'est') return r.estimate;
+      if (sort === 'expected') return r.expected;
+      return r.liveScore;
+    };
+    return [...rows].sort((a, b) => {
+      const ka = key(a), kb = key(b);
+      if (ka < kb) return -dir;
+      if (ka > kb) return dir;
+      return b.liveScore - a.liveScore;
+    });
+  }
+
+  header(col) {
+    const active = this.state.sort === col;
+    return {
+      arrow: active ? (this.state.dir === -1 ? ' \u2193' : ' \u2191') : '',
+      onClick: () => this.setState(s => ({
+        sort: col, dir: s.sort === col ? -s.dir : (col === 'account' || col === 'stage' ? 1 : -1), page: 0
+      }))
+    };
+  }
+
+  csv(rows) {
+    const cols = ['rank', 'account', 'brandName', 'contact', 'owner', 'stage', 'industry', 'source',
+                  'estimate', 'expected', 'score', 'tier', 'daysSinceActivity', 'zohoUrl', 'summary'];
+    const esc = v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
+    const lines = [cols.join(',')];
+    rows.forEach((r, i) => lines.push(cols.map(c => {
+      if (c === 'rank') return esc(i + 1);
+      if (c === 'score') return esc(r.liveScore);
+      if (c === 'brandName') return esc(this.brandOf(r).name);
+      if (c === 'tier') return esc(this.bands(r.liveScore).tier);
+      return esc(r[c]);
+    }).join(',')));
+    const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'top100-' + new Date().toISOString().slice(0, 10) + '.csv';
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }
+
+  blanks() {
+    const empty = {};
+    ['generatedShort', 'closedCount', 'openCount', 'totalEst', 'expectedTotal', 'avgScore',
+     'eliteCount', 'hailCount', 'upCount', 'downCount', 'newCount', 'staleCount',
+     'matchLabel', 'rangeLabel', 'pageLabel', 'baseRateLabel',
+     'arrowRank', 'arrowAccount', 'arrowStage', 'arrowEst', 'arrowExpected', 'arrowScore'
+    ].forEach(k => empty[k] = '');
+    return { ...empty, showPanel: false, isEmpty: false, pending: false, weightStatus: '', rerankKey: 'rk0',
+      sel: { accent: 'oklch(0.55 0.10 250)', accentSoft: 'oklch(0.975 0.010 250)',
+             brandName: 'Elite Call', isHail: false, isElite: false,
+             isPodium: false, podiumBg: 'transparent', podiumFg: '#3d2f0a', podiumLabel: '',
+             rank: '', publishedRank: '', account: '', sub: '', score: '', tierLine: '', expected: '', est: '',
+             components: [], summary: '', owner: '', stage: '', industry: '', source: '',
+             lastLine: '', nextLine: '', zohoUrl: '#' },
+      shellCols: '252px minmax(0, 1fr) 330px', tableGap: '12px',
+      tableCols: '44px minmax(200px, 1fr) 108px 84px 104px 78px' };
+  }
+
+  renderVals() {
+    const d = this.state.data;
+    if (!d) return this.blanks();
+    const s = this.state;
+    const PAGE = this.props.pageSize ?? 25;
+    const all = this.computed();
+    const list = this.sorted(this.filtered(all));
+    const pages = Math.max(1, Math.ceil(list.length / PAGE));
+    const page = Math.min(s.page, pages - 1);
+    const slice = list.slice(page * PAGE, page * PAGE + PAGE);
+
+    const chip = v => v >= 80
+      ? { bg: 'oklch(0.93 0.025 250)', fg: 'oklch(0.44 0.10 250)' }
+      : v >= 68 ? { bg: '#f0f3f6', fg: '#5a636b' }
+                : { bg: '#f4f6f8', fg: '#69727a' };
+
+    const pageRows = slice.map((r, i) => {
+      const pos = page * PAGE + i + 1;
+      const b = this.brandOf(r);
+      const dl = this.delta(r.prevRank, r.rank);
+      const ch = chip(r.liveScore);
+      const medal = pos === 1 ? { bg: 'oklch(0.80 0.115 85)', fg: '#3d2f0a', ring: 'oklch(0.72 0.12 85)' }
+                  : pos === 2 ? { bg: 'oklch(0.86 0.012 250)', fg: '#3a4048', ring: 'oklch(0.78 0.015 250)' }
+                  : pos === 3 ? { bg: 'oklch(0.79 0.075 55)', fg: '#402a12', ring: 'oklch(0.71 0.085 55)' }
+                  : null;
+      const selected = s.sel === r.id;
+      const hail = r.brand === 'hail911';
+      const accent = hail ? 'oklch(0.55 0.12 28)' : 'oklch(0.55 0.10 250)';
+      return {
+        rank: pos, delta: dl.t, deltaColor: dl.c, account: r.account,
+        rankBg: medal ? medal.bg : 'transparent',
+        rankFg: medal ? medal.fg : '#14181d',
+        rankRing: medal ? medal.ring : 'transparent',
+        rankSize: medal ? '15px' : '13px',
+        topGlow: medal ? 'linear-gradient(90deg, ' + medal.bg.replace(')', ' / 0.16)') + ', transparent 34%)' : 'none',
+        brandName: b.name, brandColor: b.color, brandBg: b.bg,
+        edge: selected ? accent : (hail ? 'oklch(0.93 0.02 28)' : 'oklch(0.93 0.018 250)'),
+        metaLine: [r.stage, r.industry, r.owner].filter(Boolean).join(' \u00b7 '),
+        est: this.compact(r.estimate), expected: this.compact(r.expected),
+        scoreLabel: this.scoreLabel(r),
+        chipBg: selected ? accent : ch.bg,
+        chipFg: selected ? '#fff' : ch.fg,
+        bg: selected ? (hail ? 'oklch(0.975 0.011 28)' : 'oklch(0.975 0.010 250)') : 'transparent',
+        chipBorder: medal ? medal.ring : 'transparent',
+        components: this.comps(r, selected ? accent : '#aeb8c1'),
+        accent,
+        showInline: selected && s.narrow,
+        summary: r.summary, owner: r.owner, lastLine: this.lastLine(r),
+        contactLine: [r.contact, r.phone].filter(Boolean).join(' \u00b7 ') || '\u2014',
+        nextLine: r.nextSteps || '\u2014', zohoUrl: r.zohoUrl,
+        select: () => this.setState({ sel: r.id })
+      };
+    });
+
+    const selRow = list.find(r => r.id === s.sel) || list[0] || all[0];
+    const selPos = Math.max(1, list.findIndex(r => r.id === selRow.id) + 1);
+    const selBands = this.bands(selRow.liveScore);
+    const sb = this.brandOf(selRow);
+    const selAccent = selRow.brand === 'hail911' ? 'oklch(0.55 0.12 28)' : 'oklch(0.55 0.10 250)';
+    const podium = { 1: 'oklch(0.80 0.115 85)', 2: 'oklch(0.86 0.012 250)', 3: 'oklch(0.79 0.075 55)' }[selPos];
+    const sel = {
+      accent: selAccent,
+      isPodium: !!podium,
+      podiumBg: podium || 'transparent',
+      podiumFg: selPos === 2 ? '#3a4048' : '#3d2f0a',
+      podiumLabel: selPos === 1 ? 'HIGHEST RANKED PROSPECT' : 'TOP 3 · RANK ' + selPos,
+      accentSoft: selRow.brand === 'hail911' ? 'oklch(0.975 0.012 28)' : 'oklch(0.975 0.010 250)',
+      rank: selPos, account: selRow.account,
+      publishedRank: '#' + selRow.rank,
+      brandName: sb.name,
+      isHail: selRow.brand === 'hail911',
+      isElite: selRow.brand !== 'hail911',
+      sub: [selRow.contact, selRow.title, selRow.entity].filter(Boolean).join(' \u00b7 ') || selRow.industry,
+      score: selRow.liveScore, tierLine: selBands.tier + ' \u00b7 grade ' + selBands.grade,
+      expected: this.compact(selRow.expected), est: this.compact(selRow.estimate),
+      components: this.comps(selRow, selAccent), summary: selRow.summary,
+      owner: selRow.owner, stage: selRow.stage, industry: selRow.industry, source: selRow.source,
+      lastLine: this.lastLine(selRow), nextLine: selRow.nextSteps || '\u2014', zohoUrl: selRow.zohoUrl
+    };
+
+    const labels = { revenue: 'Revenue potential', stage: 'Pipeline stage', engagement: 'Engagement depth',
+                     recency: 'Recency of contact', industry: 'Industry fit', source: 'Lead source quality',
+                     calls: 'Call intelligence' };
+    const W = s.weights || d.weights;
+    const weightControls = Object.keys(d.weights).map(k => ({
+      label: labels[k], value: W[k], labelColor: k === 'calls' ? '#a8b0b7' : '#3d454d',
+      onChange: e => {
+        const v = +e.target.value;
+        this.setState(st => ({ weights: { ...(st.weights || d.weights), [k]: v }, pending: true }));
+        this.queueRerank();
+      }
+    }));
+
+    const opts = arr => arr.map(v => ({ value: v, label: v }));
+    const brandTabs = [
+      { key: '', label: 'Both' },
+      { key: 'elitecall', label: 'Elite Call' },
+      { key: 'hail911', label: 'Hail 911' }
+    ].map(b => {
+      const on = s.brand === b.key;
+      const col = b.key === 'hail911' ? 'oklch(0.55 0.12 28)' : b.key === 'elitecall' ? 'oklch(0.55 0.10 250)' : '#4d565e';
+      return {
+        label: b.label,
+        bg: on ? col : '#f4f6f8',
+        fg: on ? '#fff' : '#5a636b',
+        border: on ? col : '#dde3e9',
+        onClick: () => this.setState({ brand: b.key, page: 0 })
+      };
+    });
+
+    const hR = this.header('rank'), hA = this.header('account'), hS = this.header('stage');
+    const hE = this.header('est'), hX = this.header('expected'), hC = this.header('score');
+    const gen = new Date(d.generated);
+    const totalEst = all.reduce((a, r) => a + r.estimate, 0);
+    const shown = list.length;
+    const start = shown === 0 ? 0 : page * PAGE + 1;
+
+    return {
+      pageRows, sel, weightControls, brandTabs,
+      showPanel: !s.narrow,
+      shellCols: s.narrow ? '1fr' : '252px minmax(0, 1fr) 330px',
+      tableCols: s.narrow ? '36px minmax(96px, 1fr) 0px 0px 66px 68px' : '44px minmax(200px, 1fr) 108px 84px 104px 78px',
+      tableGap: s.narrow ? '7px' : '12px',
+      isEmpty: shown === 0,
+      owners: opts(d.owners), stages: opts(d.stages), industries: opts(d.industries),
+      query: s.query, owner: s.owner, stage: s.stage, industry: s.industry,
+      setQuery: e => this.setState({ query: e.target.value, page: 0 }),
+      setOwner: e => this.setState({ owner: e.target.value, page: 0 }),
+      setStage: e => this.setState({ stage: e.target.value, page: 0 }),
+      setIndustry: e => this.setState({ industry: e.target.value, page: 0 }),
+      clearFilters: () => this.setState({ query: '', owner: '', stage: '', industry: '', brand: '', page: 0 }),
+      resetWeights: () => { clearTimeout(this.rerankTimer);
+        this.setState(s => ({ weights: { ...d.weights }, applied: { ...d.weights }, pending: false, page: 0, rerankKey: s.rerankKey + 1 })); },
+      pending: s.pending,
+      applyNow: () => this.applyNow(),
+      rerankKey: 'rk' + s.rerankKey,
+      weightStatus: s.pending ? 'Re-ranking…' : 'Ranking is current',
+      exportCsv: () => this.csv(list),
+      sortRank: hR.onClick, arrowRank: hR.arrow,
+      sortAccount: hA.onClick, arrowAccount: hA.arrow,
+      sortStage: hS.onClick, arrowStage: hS.arrow,
+      sortEst: hE.onClick, arrowEst: hE.arrow,
+      sortExpected: hX.onClick, arrowExpected: hX.arrow,
+      sortScore: hC.onClick, arrowScore: hC.arrow,
+      prevPage: () => this.setState(st => ({ page: Math.max(0, st.page - 1) })),
+      nextPage: () => this.setState(st => ({ page: Math.min(pages - 1, st.page + 1) })),
+      pageLabel: (page + 1) + ' / ' + pages,
+      rangeLabel: shown === 0 ? 'No matches' : 'Showing ' + start + '\u2013' + Math.min(shown, (page + 1) * PAGE) + ' of ' + shown,
+      matchLabel: shown + ' of 100 shown',
+      generatedShort: 'Updated ' + gen.toISOString().slice(0, 16).replace('T', ' ') + ' UTC',
+      closedCount: d.universe.closed.toLocaleString('en-US'),
+      openCount: d.universe.open.toLocaleString('en-US'),
+      totalEst: this.compact(totalEst),
+      expectedTotal: this.compact(all.reduce((a, r) => a + r.expected, 0)),
+      avgScore: Math.round(all.reduce((a, r) => a + r.liveScore, 0) / all.length),
+      eliteCount: all.filter(r => r.brand === 'elitecall').length,
+      hailCount: all.filter(r => r.brand === 'hail911').length,
+      upCount: '\u25b2' + all.filter(r => r.prevRank <= 100 && r.prevRank > r.rank).length,
+      downCount: '\u25bc' + all.filter(r => r.prevRank <= 100 && r.prevRank < r.rank).length,
+      newCount: all.filter(r => r.prevRank > 100).length,
+      staleCount: all.filter(r => r.daysSinceActivity > 60).length,
+      baseRateLabel: Math.round(d.baseWinRate * 100) + '%',
+      gaps: (d.gaps || []).map(t => ({ text: t }))
+    };
+  }
+}
+
+</script>
+</body>
+</html>
