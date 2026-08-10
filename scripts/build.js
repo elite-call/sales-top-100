@@ -16,6 +16,16 @@ const records = csvArg > -1 ? await fromCsv(process.argv[csvArg + 1]) : await fr
 const prev = await previousSnapshot();
 const built = scoreAll(records, cfg, prev);
 
+// The repo is public, so strip person-level detail from what gets committed. Reps click
+// through to Zoho for phone, email and notes, which their Zoho login already protects.
+// Set publish.redactPublic to false in scripts/config.json if the repo becomes private.
+if (cfg.publish && cfg.publish.redactPublic) {
+  const drop = cfg.publish.redactFields || [];
+  for (const row of built.rows) for (const key of drop) if (key in row) row[key] = null;
+  built.redacted = drop;
+  console.log('Redacted for public publishing: ' + drop.join(', '));
+}
+
 const today = new Date().toISOString().slice(0, 10);
 await fs.mkdir(path.join(ROOT, 'data/snapshots'), { recursive: true });
 await fs.writeFile(path.join(ROOT, 'data/top100.json'), JSON.stringify(built, null, 1));
@@ -60,6 +70,11 @@ async function fromZoho() {
     topPriority: bool(r[F.topPriority]),
     warboard: bool(r[F.warboard]),
     inTalks: bool(r[F.inTalks]),
+    contacted: bool(r[F.contacted]),
+    lastConversation: text(r[F.lastConversation]),
+    followUpTask: text(r[F.followUpTask]),
+    inboundSms: num(r[F.inboundSms]),
+    outboundSms: num(r[F.outboundSms]),
     trellus: F.trellusScore ? num(r[F.trellusScore]) : null
   }));
 }
