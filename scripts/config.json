@@ -2,7 +2,24 @@
   "module": "Deals",
   "openStageFilter": "^(?!Closed)",
   "rankCount": 100,
-  "revenue": { "floor": 1000, "cap": 50000, "fallbackMultiplierOnAmount": 3, "inferredDefault": 12000 },
+  "publish": {
+    "redactPublic": true,
+    "redactFields": [
+      "contact",
+      "title",
+      "phone",
+      "email",
+      "website",
+      "notes",
+      "nextSteps"
+    ]
+  },
+  "revenue": {
+    "floor": 1000,
+    "cap": 50000,
+    "fallbackMultiplierOnAmount": 3,
+    "inferredDefault": 12000
+  },
   "recencyHalfLifeDays": 75,
   "weights": {
     "revenue": 22,
@@ -22,8 +39,18 @@
     "Info Sent": 0.3,
     "Stale/Re-Engage": 0.15
   },
-  "tiers": { "Platinum": 85, "Gold": 72, "Silver": 60 },
-  "grades": { "A": 88, "A-": 80, "B+": 72, "B": 64, "C+": 56 },
+  "tiers": {
+    "Platinum": 85,
+    "Gold": 72,
+    "Silver": 60
+  },
+  "grades": {
+    "A": 88,
+    "A-": 80,
+    "B+": 72,
+    "B": 64,
+    "C+": 56
+  },
   "brands": {
     "hail911": {
       "name": "Hail 911",
@@ -56,18 +83,23 @@
     "closingPct": "Closing",
     "lastActivity": "Last_Activity_Time",
     "modified": "Modified_Time",
-    "created": "Created_Time",
+    "created": "Potential_Created_Date",
     "description": "Description",
-    "nextSteps": "Next_Steps",
+    "nextSteps": "Next_Step1",
     "bdr": "BDR_Agent",
-    "ae": "Account_Executive",
+    "ae": "SALES_REPS_NAME",
     "title": "Title",
-    "phone": "Phone",
-    "email": "Email",
-    "website": "Website",
+    "phone": "Phone_1",
+    "email": "Email_1",
+    "website": "Website1",
     "topPriority": "Top_Priority",
     "warboard": "Warboard",
     "inTalks": "In_Talks",
+    "contacted": "Contacted",
+    "lastConversation": "Last_Conversation",
+    "followUpTask": "Follow_Up_Task",
+    "inboundSms": "twiliosmsextension0__Num_Inbound_Twilio_Messages",
+    "outboundSms": "twiliosmsextension0__Num_Outbound_Twilio_Messages",
     "trellusScore": null
   }
 }
