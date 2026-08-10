@@ -27,36 +27,36 @@
 <div style="min-height: 100vh; background: #eef1f4; font-family: 'Space Grotesk', system-ui, sans-serif; color: #14181d; padding: 0 0 40px;">
 
   <div style="background: #fff; border-bottom: 1px solid #dfe5ea;">
-    <div style="max-width: 1520px; margin: 0 auto; padding: 16px 22px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;">
+    <div style="max-width: 1520px; margin: 0 auto; padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap;">
       <div style="display: flex; align-items: center; gap: 18px;">
-        <img src="assets/elitecall.png" alt="Elite Call" style="height: 32px; width: auto; display: block;">
-        <span style="width: 1px; height: 26px; background: #dfe5ea; display: block;"></span>
-        <img src="assets/hail911.png" alt="Hail 911" style="height: 26px; width: auto; display: block;">
+        <img src="assets/elitecall.png" alt="Elite Call" style="height: 26px; width: auto; max-width: 40vw; object-fit: contain; display: block;">
+        <span style="width: 1px; height: 22px; background: #dfe5ea; display: block;"></span>
+        <img src="assets/hail911.png" alt="Hail 911" style="height: 21px; width: auto; max-width: 30vw; object-fit: contain; display: block;">
       </div>
       <div style="display: flex; align-items: center; gap: 10px;" class="no-print">
         <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86;">{{ generatedShort }}</span>
-        <button onClick="{{ exportCsv }}" style="background: oklch(0.55 0.10 250); color: #fff; border: none; border-radius: 6px; padding: 8px 14px; font-size: 12px; font-weight: 600; cursor: pointer;" style-hover="background: oklch(0.47 0.11 250);">Export CSV</button>
+        <button onClick="{{ exportCsv }}" style="background: oklch(0.55 0.10 250); color: #fff; border: none; border-radius: 6px; padding: 10px 16px; min-height: 40px; font-size: 12px; font-weight: 600; cursor: pointer;" style-hover="background: oklch(0.47 0.11 250);">Export CSV</button>
       </div>
     </div>
   </div>
 
-  <div style="max-width: 1520px; margin: 0 auto; padding: 26px 22px 0;">
+  <div style="max-width: 1520px; margin: 0 auto; padding: 20px 18px 0;">
     <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 18px;">
       <div style="display: flex; flex-direction: column; gap: 6px;">
         <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: #737d86;">Daily build &middot; ranked from Zoho CRM</div>
-        <div style="font-size: 32px; font-weight: 700; letter-spacing: -0.025em; line-height: 1.1;">Sales Team Top 100</div>
+        <div style="font-size: clamp(26px, 7vw, 32px); font-weight: 700; letter-spacing: -0.025em; line-height: 1.08;">Sales Team Top 100</div>
         <div style="font-size: 14px; line-height: 1.55; color: #4d565e; max-width: 660px; text-wrap: pretty;">The most valuable unsold prospects across both brands, scored on seven weighted signals. Industry and lead-source fit are calibrated against {{ closedCount }} closed records, so the ranking reflects what has actually converted.</div>
       </div>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(184px, 1fr)); gap: 12px; margin-bottom: 16px;">
-      <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
-        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">RANKED PIPELINE VALUE</span>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax({{ kpiMin }}, 1fr)); gap: 12px; margin-bottom: 16px;">
+      <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 12px 14px; display: flex; flex-direction: column; gap: 4px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.1em; color: #737d86;">PIPELINE VALUE</span>
         <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; letter-spacing: -0.02em;">{{ totalEst }}</span>
         <span style="font-size: 11px; color: #8b949c;">{{ expectedTotal }} expected</span>
       </div>
       <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
-        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">BRAND SPLIT</span>
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.1em; color: #737d86;">BRAND SPLIT</span>
         <div style="display: flex; align-items: baseline; gap: 9px;">
           <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: oklch(0.55 0.10 250);">{{ eliteCount }}</span>
           <span style="font-size: 12px; color: #8b949c;">/</span>
@@ -65,12 +65,12 @@
         <span style="font-size: 11px; color: #8b949c;">Elite Call / Hail 911</span>
       </div>
       <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
-        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">AVG SCORE</span>
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.1em; color: #737d86;">AVG SCORE</span>
         <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace;">{{ avgScore }}</span>
         <span style="font-size: 11px; color: #8b949c;">{{ openCount }} open records assessed</span>
       </div>
       <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; padding: 14px 16px; display: flex; flex-direction: column; gap: 5px;">
-        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">MOVEMENT TODAY</span>
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.1em; color: #737d86;">MOVEMENT TODAY</span>
         <div style="display: flex; align-items: baseline; gap: 12px;">
           <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: oklch(0.58 0.10 150);">{{ upCount }}</span>
           <span style="font-size: 23px; font-weight: 700; font-family: 'IBM Plex Mono', monospace; color: oklch(0.60 0.10 28);">{{ downCount }}</span>
@@ -82,12 +82,16 @@
     <div style="display: grid; grid-template-columns: {{ shellCols }}; gap: 14px; align-items: start;">
 
       <div style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; display: flex; flex-direction: column;" class="no-print">
+        <sc-if value="{{ showControlsToggle }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ toggleControls }}" style="width: 100%; background: none; border: none; padding: 15px 16px; min-height: 48px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; color: oklch(0.55 0.10 250); cursor: pointer; text-align: left;">{{ controlsLabel }}</button>
+        </sc-if>
+        <sc-if value="{{ controlsOpen }}" hint-placeholder-val="{{ true }}">
         <div style="padding: 16px 16px 14px; display: flex; flex-direction: column; gap: 10px; border-bottom: 1px solid #eaeef2;">
           <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.12em; color: #737d86;">FILTERS</span>
-          <input value="{{ query }}" onChange="{{ setQuery }}" onInput="{{ setQuery }}" placeholder="Search account or contact" style="background: #f4f6f8; border: 1px solid #dde3e9; border-radius: 6px; padding: 8px 10px; font-size: 13px; width: 100%;">
+          <input value="{{ query }}" onChange="{{ setQuery }}" onInput="{{ setQuery }}" placeholder="{{ searchPlaceholder }}" style="background: #f4f6f8; border: 1px solid #dde3e9; border-radius: 6px; padding: 8px 10px; font-size: 13px; width: 100%;">
           <div style="display: flex; gap: 6px;">
             <sc-for list="{{ brandTabs }}" as="b" hint-placeholder-count="3">
-              <button onClick="{{ b.onClick }}" style="flex: 1; border-radius: 6px; padding: 7px 4px; font-size: 11px; font-weight: 600; cursor: pointer; border: 1px solid {{ b.border }}; background: {{ b.bg }}; color: {{ b.fg }};">{{ b.label }}</button>
+              <button onClick="{{ b.onClick }}" style="flex: 1; border-radius: 6px; padding: 11px 4px; min-height: 44px; font-size: 12px; font-weight: 600; cursor: pointer; border: 1px solid {{ b.border }}; background: {{ b.bg }}; color: {{ b.fg }};">{{ b.label }}</button>
             </sc-for>
           </div>
           <select value="{{ owner }}" onChange="{{ setOwner }}" style="background: #f4f6f8; border: 1px solid #dde3e9; border-radius: 6px; padding: 8px 9px; font-size: 12px; width: 100%;">
@@ -137,9 +141,11 @@
             <div style="font-size: 11px; line-height: 1.55; color: #8b949c; text-wrap: pretty;">Move a weight and the list re-ranks a couple of seconds later, once you have stopped adjusting. Nothing is written back to Zoho. Call intelligence holds a neutral value for every prospect until the Trellus transcript feed is connected.</div>
           </div>
         </div>
+        </sc-if>
       </div>
 
-      <div key="{{ rerankKey }}" style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; overflow: hidden; animation: om-settle 420ms ease-out;">
+      <div key="{{ rerankKey }}" style="background: #fff; border: 1px solid #dfe5ea; border-radius: 9px; overflow-x: auto; overflow-y: hidden; animation: om-settle 420ms ease-out;">
+        <sc-if value="{{ showTable }}" hint-placeholder-val="{{ true }}">
         <div style="display: grid; grid-template-columns: {{ tableCols }}; gap: {{ tableGap }}; padding: 11px 18px; border-bottom: 1px solid #e3e8ed; background: #fafbfc;" class="no-print">
           <div onClick="{{ sortRank }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer;">#{{ arrowRank }}</div>
           <div onClick="{{ sortAccount }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer;">ACCOUNT{{ arrowAccount }}</div>
@@ -148,9 +154,11 @@
           <div onClick="{{ sortExpected }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer; text-align: right;">EXP. VALUE{{ arrowExpected }}</div>
           <div onClick="{{ sortScore }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.08em; color: #737d86; cursor: pointer; text-align: right;">SCORE{{ arrowScore }}</div>
         </div>
+        </sc-if>
 
         <sc-for list="{{ pageRows }}" as="r" hint-placeholder-count="12">
           <div style="border-bottom: 1px solid #eef2f5;">
+            <sc-if value="{{ showTable }}" hint-placeholder-val="{{ true }}">
             <div onClick="{{ r.select }}" style="display: grid; grid-template-columns: {{ tableCols }}; gap: {{ tableGap }}; padding: 12px 18px; align-items: center; cursor: pointer; background: {{ r.bg }}; background-image: {{ r.topGlow }}; border-left: 3px solid {{ r.edge }};" style-hover="background: #eef3f8;">
               <div style="display: flex; flex-direction: column; gap: 2px; align-items: flex-start;">
                 <span style="font-family: 'IBM Plex Mono', monospace; font-size: {{ r.rankSize }}; font-weight: 700; min-width: 25px; height: 25px; padding: 0 5px; border-radius: 13px; display: flex; align-items: center; justify-content: center; background: {{ r.rankBg }}; color: {{ r.rankFg }}; box-shadow: inset 0 0 0 1px {{ r.rankRing }};">{{ r.rank }}</span>
@@ -172,6 +180,31 @@
               <div style="text-align: right; font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600;">{{ r.expected }}</div>
               <div style="text-align: right;"><span style="display: inline-block; min-width: 40px; padding: 4px 7px; border-radius: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 600; background: {{ r.chipBg }}; color: {{ r.chipFg }}; box-shadow: inset 0 0 0 1px {{ r.chipBorder }};">{{ r.scoreLabel }}</span></div>
             </div>
+            </sc-if>
+
+            <sc-if value="{{ showCards }}" hint-placeholder-val="{{ false }}">
+              <div onClick="{{ r.select }}" style="display: flex; flex-direction: column; gap: 9px; padding: 14px 15px; cursor: pointer; background: {{ r.bg }}; background-image: {{ r.topGlow }}; border-left: 3px solid {{ r.edge }};">
+                <div style="display: flex; align-items: flex-start; gap: 11px;">
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 700; min-width: 28px; height: 28px; padding: 0 6px; border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; background: {{ r.rankBg }}; color: {{ r.rankFg }}; box-shadow: inset 0 0 0 1px {{ r.rankRing }};">{{ r.rank }}</span>
+                  <div style="display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 0;">
+                    <span style="font-size: 16px; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; text-wrap: pretty;">{{ r.account }}</span>
+                    <div style="display: flex; align-items: center; gap: 7px; flex-wrap: wrap;">
+                      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.06em; padding: 2px 6px; border-radius: 3px; background: {{ r.brandBg }}; color: {{ r.brandColor }};">{{ r.brandName }}</span>
+                      <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: {{ r.deltaColor }};">{{ r.delta }}</span>
+                    </div>
+                  </div>
+                  <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0;">
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 22px; font-weight: 700; line-height: 1; letter-spacing: -0.02em; color: {{ r.cardScoreFg }};">{{ r.scoreLabel }}</span>
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.08em; color: #9aa3ab;">SCORE</span>
+                  </div>
+                </div>
+                <div style="height: 4px; background: #eaeef2; border-radius: 2px; overflow: hidden;"><div style="height: 100%; width: {{ r.scoreBarW }}; background: {{ r.accent }}; border-radius: 2px;"></div></div>
+                <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px;">
+                  <span style="font-size: 12px; color: #7b848d; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ r.cardLine }}</span>
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 14px; font-weight: 600; flex-shrink: 0;">{{ r.expected }}</span>
+                </div>
+              </div>
+            </sc-if>
 
             <sc-if value="{{ r.showInline }}" hint-placeholder-val="{{ false }}">
               <div style="padding: 16px 18px 20px; background: #f7f9fb; border-top: 1px solid #e3e8ed; display: flex; flex-direction: column; gap: 14px;">
@@ -186,8 +219,14 @@
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; font-size: 12px;">
                   <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">OWNER</span><span>{{ r.owner }}</span></div>
                   <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">LAST ACTIVITY</span><span>{{ r.lastLine }}</span></div>
-                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">CONTACT</span><span>{{ r.contactLine }}</span></div>
-                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">NEXT STEPS</span><span>{{ r.nextLine }}</span></div>
+                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">INDUSTRY</span><span>{{ r.industry }}</span></div>
+                  <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">LEAD SOURCE</span><span>{{ r.source }}</span></div>
+                  <sc-if value="{{ r.showPeopleFacts }}" hint-placeholder-val="{{ false }}">
+                    <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">CONTACT</span><span>{{ r.contactLine }}</span></div>
+                  </sc-if>
+                  <sc-if value="{{ r.showPeopleFacts }}" hint-placeholder-val="{{ false }}">
+                    <div style="display: flex; flex-direction: column; gap: 2px;"><span style="color: #8b949c; font-size: 10px; font-family: 'IBM Plex Mono', monospace;">NEXT STEPS</span><span>{{ r.nextLine }}</span></div>
+                  </sc-if>
                 </div>
                 <a href="{{ r.zohoUrl }}" target="_blank" style="align-self: flex-start; background: {{ r.accent }}; color: #fff; border-radius: 6px; padding: 9px 14px; font-size: 12px; font-weight: 600;">Open in Zoho</a>
               </div>
@@ -202,9 +241,9 @@
         <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 18px; flex-wrap: wrap;" class="no-print">
           <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86;">{{ rangeLabel }}</span>
           <div style="display: flex; gap: 6px; align-items: center;">
-            <button onClick="{{ prevPage }}" style="background: #fff; border: 1px solid #dde3e9; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; color: #4d565e;" style-hover="border-color: oklch(0.55 0.10 250); color: oklch(0.55 0.10 250);">Prev</button>
+            <button onClick="{{ prevPage }}" style="background: #fff; border: 1px solid #dde3e9; border-radius: 6px; padding: 12px 20px; min-height: 44px; font-size: 13px; cursor: pointer; color: #4d565e;" style-hover="border-color: oklch(0.55 0.10 250); color: oklch(0.55 0.10 250);">Prev</button>
             <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #737d86; padding: 0 4px;">{{ pageLabel }}</span>
-            <button onClick="{{ nextPage }}" style="background: #fff; border: 1px solid #dde3e9; border-radius: 6px; padding: 6px 12px; font-size: 12px; cursor: pointer; color: #4d565e;" style-hover="border-color: oklch(0.55 0.10 250); color: oklch(0.55 0.10 250);">Next</button>
+            <button onClick="{{ nextPage }}" style="background: #fff; border: 1px solid #dde3e9; border-radius: 6px; padding: 12px 20px; min-height: 44px; font-size: 13px; cursor: pointer; color: #4d565e;" style-hover="border-color: oklch(0.55 0.10 250); color: oklch(0.55 0.10 250);">Next</button>
           </div>
         </div>
       </div>
@@ -225,6 +264,12 @@
               <span style="align-self: flex-start; font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.14em; padding: 4px 9px; border-radius: 11px; background: {{ sel.podiumBg }}; color: {{ sel.podiumFg }};">{{ sel.podiumLabel }}</span>
             </sc-if>
             <span style="font-size: 20px; font-weight: 700; line-height: 1.25; letter-spacing: -0.015em;">{{ sel.account }}</span>
+            <sc-if value="{{ sel.hasCallIntel }}" hint-placeholder-val="{{ false }}">
+              <div style="display: flex; align-items: center; gap: 7px; margin-top: 1px;">
+                <span style="font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.12em; padding: 3px 8px; border-radius: 4px; background: {{ sel.callBg }}; color: {{ sel.callFg }};">{{ sel.callLabel }}</span>
+                <span style="font-size: 11px; color: #8b949c;">{{ sel.callCount }}</span>
+              </div>
+            </sc-if>
             <span style="font-size: 12px; color: #7b848d; line-height: 1.5;">{{ sel.sub }}</span>
           </div>
           <div style="display: flex; gap: 10px;">
@@ -258,9 +303,14 @@
             <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Owner</span><span style="text-align: right;">{{ sel.owner }}</span></div>
             <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Stage</span><span style="text-align: right;">{{ sel.stage }}</span></div>
             <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Industry</span><span style="text-align: right;">{{ sel.industry }}</span></div>
+            <sc-if value="{{ sel.hasEntity }}" hint-placeholder-val="{{ false }}">
+              <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Internal company</span><span style="text-align: right;">{{ sel.entity }}</span></div>
+            </sc-if>
             <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Lead source</span><span style="text-align: right;">{{ sel.source }}</span></div>
             <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Last activity</span><span style="text-align: right;">{{ sel.lastLine }}</span></div>
-            <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Next steps</span><span style="text-align: right;">{{ sel.nextLine }}</span></div>
+            <sc-if value="{{ showPeopleFacts }}" hint-placeholder-val="{{ false }}">
+              <div style="display: flex; justify-content: space-between; gap: 10px;"><span style="color: #7b848d;">Next steps</span><span style="text-align: right;">{{ sel.nextLine }}</span></div>
+            </sc-if>
           </div>
           <a href="{{ sel.zohoUrl }}" target="_blank" style="text-align: center; background: {{ sel.accent }}; color: #fff; border-radius: 6px; padding: 10px; font-size: 13px; font-weight: 600;">Open in Zoho</a>
         </div>
@@ -293,18 +343,23 @@
 <script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1520},&quot;pageSize&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:25,&quot;min&quot;:10,&quot;max&quot;:100,&quot;step&quot;:5,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Report&quot;},&quot;scoreDisplay&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;points&quot;,&quot;options&quot;:[&quot;points&quot;,&quot;grade&quot;,&quot;tier&quot;],&quot;tsType&quot;:&quot;'points' | 'grade' | 'tier'&quot;,&quot;section&quot;:&quot;Report&quot;}}">
 class Component extends DCLogic {
   state = { data: null, weights: null, applied: null, pending: false, rerankKey: 0,
-            sort: 'score', dir: -1, page: 0, sel: null,
+            sort: 'score', dir: -1, page: 0, sel: null, w: 1440, controlsOpen: false,
             query: '', owner: '', stage: '', industry: '', brand: '', narrow: false };
 
   componentDidMount() {
+    // The three-column shell needs ~1340px before the table fits at its own minimum
+    // width (678px of columns + 654px of sidebar, panel, gaps and padding). Below that
+    // the detail panel drops out and rows expand inline; below 1080 the filter sidebar
+    // stacks on top; below 760 the table sheds its two middle columns.
     this.onResize = () => {
-      const n = window.innerWidth < 1080;
-      if (n !== this.state.narrow) this.setState({ narrow: n });
+      const w = window.innerWidth;
+      if (Math.abs(w - this.state.w) > 4) this.setState({ w, narrow: w < 1340 });
     };
     window.addEventListener('resize', this.onResize);
     fetch('data/top100.json').then(r => r.json()).then(d =>
       this.setState({ data: d, weights: { ...d.weights }, applied: { ...d.weights },
-                      sel: d.rows[0].id, narrow: window.innerWidth < 1080 }));
+                      sel: d.rows[0].id, w: window.innerWidth,
+                      narrow: window.innerWidth < 1340 }));
   }
   componentWillUnmount() {
     window.removeEventListener('resize', this.onResize);
@@ -466,10 +521,14 @@ class Component extends DCLogic {
      'arrowRank', 'arrowAccount', 'arrowStage', 'arrowEst', 'arrowExpected', 'arrowScore'
     ].forEach(k => empty[k] = '');
     return { ...empty, showPanel: false, isEmpty: false, pending: false, weightStatus: '', rerankKey: 'rk0',
+      redacted: false, showPeopleFacts: false, searchPlaceholder: 'Search account or owner',
+      showCards: false, showTable: true, controlsOpen: true, showControlsToggle: false,
+      controlsLabel: '', kpiMin: '184px',
       sel: { accent: 'oklch(0.55 0.10 250)', accentSoft: 'oklch(0.975 0.010 250)',
              brandName: 'Elite Call', isHail: false, isElite: false,
              isPodium: false, podiumBg: 'transparent', podiumFg: '#3d2f0a', podiumLabel: '',
-             rank: '', publishedRank: '', account: '', sub: '', score: '', tierLine: '', expected: '', est: '',
+             hasCallIntel: false, callLabel: '', callBg: 'transparent', callFg: '#79838c', callCount: '',
+             rank: '', publishedRank: '', account: '', sub: '', entity: '', hasEntity: false, score: '', tierLine: '', expected: '', est: '',
              components: [], summary: '', owner: '', stage: '', industry: '', source: '',
              lastLine: '', nextLine: '', zohoUrl: '#' },
       shellCols: '252px minmax(0, 1fr) 330px', tableGap: '12px',
@@ -480,6 +539,11 @@ class Component extends DCLogic {
     const d = this.state.data;
     if (!d) return this.blanks();
     const s = this.state;
+    const redacted = Array.isArray(d.redacted) && d.redacted.length > 0;
+    const w = s.w || 1440;
+    const compact = w < 1340;   // no side panel, expand rows inline
+    const stacked = w < 1080;   // filter sidebar sits above the table
+    const tight = w < 760;      // phone: rows become cards, not table columns
     const PAGE = this.props.pageSize ?? 25;
     const all = this.computed();
     const list = this.sorted(this.filtered(all));
@@ -492,10 +556,13 @@ class Component extends DCLogic {
       : v >= 68 ? { bg: '#f0f3f6', fg: '#5a636b' }
                 : { bg: '#f4f6f8', fg: '#69727a' };
 
+    // On the first build every row is "new", which makes the badge noise. Only show
+    // movement once a real prior snapshot exists for most of the list.
+    const historyReal = all.filter(r => r.prevRank <= 100).length > all.length * 0.3;
     const pageRows = slice.map((r, i) => {
       const pos = page * PAGE + i + 1;
       const b = this.brandOf(r);
-      const dl = this.delta(r.prevRank, r.rank);
+      const dl = historyReal ? this.delta(r.prevRank, r.rank) : { t: '', c: 'transparent' };
       const ch = chip(r.liveScore);
       const medal = pos === 1 ? { bg: 'oklch(0.80 0.115 85)', fg: '#3d2f0a', ring: 'oklch(0.72 0.12 85)' }
                   : pos === 2 ? { bg: 'oklch(0.86 0.012 250)', fg: '#3a4048', ring: 'oklch(0.78 0.015 250)' }
@@ -506,6 +573,10 @@ class Component extends DCLogic {
       const accent = hail ? 'oklch(0.55 0.12 28)' : 'oklch(0.55 0.10 250)';
       return {
         rank: pos, delta: dl.t, deltaColor: dl.c, account: r.account,
+        industry: r.industry, source: r.source,
+        stage: r.stage, owner2: r.owner,
+        cardLine: [r.stage, r.industry].filter(Boolean).join(' \u00b7 '),
+        scoreBarW: Math.max(4, r.liveScore) + '%',
         rankBg: medal ? medal.bg : 'transparent',
         rankFg: medal ? medal.fg : '#14181d',
         rankRing: medal ? medal.ring : 'transparent',
@@ -518,11 +589,13 @@ class Component extends DCLogic {
         scoreLabel: this.scoreLabel(r),
         chipBg: selected ? accent : ch.bg,
         chipFg: selected ? '#fff' : ch.fg,
+        cardScoreFg: selected ? accent : '#1f262c',
         bg: selected ? (hail ? 'oklch(0.975 0.011 28)' : 'oklch(0.975 0.010 250)') : 'transparent',
         chipBorder: medal ? medal.ring : 'transparent',
         components: this.comps(r, selected ? accent : '#aeb8c1'),
         accent,
-        showInline: selected && s.narrow,
+        showPeopleFacts: !redacted,
+        showInline: selected && (compact || stacked),
         summary: r.summary, owner: r.owner, lastLine: this.lastLine(r),
         contactLine: [r.contact, r.phone].filter(Boolean).join(' \u00b7 ') || '\u2014',
         nextLine: r.nextSteps || '\u2014', zohoUrl: r.zohoUrl,
@@ -533,11 +606,26 @@ class Component extends DCLogic {
     const selRow = list.find(r => r.id === s.sel) || list[0] || all[0];
     const selPos = Math.max(1, list.findIndex(r => r.id === selRow.id) + 1);
     const selBands = this.bands(selRow.liveScore);
+    const CALL_STATE = {
+      advancing: { label: 'ADVANCING',  bg: 'oklch(0.94 0.035 150)', fg: 'oklch(0.42 0.09 150)' },
+      holding:   { label: 'HOLDING',    bg: '#eef2f5',               fg: '#5a636b' },
+      receding:  { label: 'RECEDING',   bg: 'oklch(0.95 0.030 55)',  fg: 'oklch(0.46 0.09 55)' },
+      dormant:   { label: 'DORMANT',    bg: 'oklch(0.95 0.025 28)',  fg: 'oklch(0.46 0.09 28)' },
+      rework:    { label: 'WRONG CONTACT', bg: 'oklch(0.95 0.030 28)', fg: 'oklch(0.44 0.11 28)' },
+      nocontact: { label: 'NO CONVERSATION YET', bg: '#f2f5f8', fg: '#79838c' }
+    };
+    const ciRaw = selRow.callIntel;
+    const ciState = ciRaw && CALL_STATE[ciRaw.state];
     const sb = this.brandOf(selRow);
     const selAccent = selRow.brand === 'hail911' ? 'oklch(0.55 0.12 28)' : 'oklch(0.55 0.10 250)';
     const podium = { 1: 'oklch(0.80 0.115 85)', 2: 'oklch(0.86 0.012 250)', 3: 'oklch(0.79 0.075 55)' }[selPos];
     const sel = {
       accent: selAccent,
+      hasCallIntel: !!ciState,
+      callLabel: ciState ? ciState.label : '',
+      callBg: ciState ? ciState.bg : 'transparent',
+      callFg: ciState ? ciState.fg : '#79838c',
+      callCount: ciRaw ? (ciRaw.calls === 1 ? '1 call read' : ciRaw.calls + ' calls read') : '',
       isPodium: !!podium,
       podiumBg: podium || 'transparent',
       podiumFg: selPos === 2 ? '#3a4048' : '#3d2f0a',
@@ -548,7 +636,9 @@ class Component extends DCLogic {
       brandName: sb.name,
       isHail: selRow.brand === 'hail911',
       isElite: selRow.brand !== 'hail911',
-      sub: [selRow.contact, selRow.title, selRow.entity].filter(Boolean).join(' \u00b7 ') || selRow.industry,
+      sub: [selRow.contact, selRow.title, selRow.industry].filter(Boolean).join(' \u00b7 '),
+      entity: selRow.entity || '\u2014',
+      hasEntity: !!selRow.entity,
       score: selRow.liveScore, tierLine: selBands.tier + ' \u00b7 grade ' + selBands.grade,
       expected: this.compact(selRow.expected), est: this.compact(selRow.estimate),
       components: this.comps(selRow, selAccent), summary: selRow.summary,
@@ -595,11 +685,21 @@ class Component extends DCLogic {
 
     return {
       pageRows, sel, weightControls, brandTabs,
-      showPanel: !s.narrow,
-      shellCols: s.narrow ? '1fr' : '252px minmax(0, 1fr) 330px',
-      tableCols: s.narrow ? '36px minmax(96px, 1fr) 0px 0px 66px 68px' : '44px minmax(200px, 1fr) 108px 84px 104px 78px',
-      tableGap: s.narrow ? '7px' : '12px',
+      showPanel: !stacked && !compact,
+      shellCols: stacked ? '1fr' : compact ? '252px minmax(680px, 1fr)' : '252px minmax(680px, 1fr) 330px',
+      tableCols: tight ? '36px minmax(96px, 1fr) 0px 0px 66px 68px' : '44px minmax(200px, 1fr) 108px 84px 104px 78px',
+      tableGap: tight ? '7px' : '12px',
       isEmpty: shown === 0,
+      showCards: tight,
+      showTable: !tight,
+      controlsOpen: !stacked || s.controlsOpen,
+      toggleControls: () => this.setState(st => ({ controlsOpen: !st.controlsOpen })),
+      controlsLabel: s.controlsOpen ? 'Hide filters' : 'Filters & weights',
+      showControlsToggle: stacked,
+      kpiMin: tight ? '150px' : '184px',
+      redacted,
+      showPeopleFacts: !redacted,
+      searchPlaceholder: redacted ? 'Search account or owner' : 'Search account or contact',
       owners: opts(d.owners), stages: opts(d.stages), industries: opts(d.industries),
       query: s.query, owner: s.owner, stage: s.stage, industry: s.industry,
       setQuery: e => this.setState({ query: e.target.value, page: 0 }),
