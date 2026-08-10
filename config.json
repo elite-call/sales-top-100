@@ -1,0 +1,105 @@
+{
+  "module": "Deals",
+  "openStageFilter": "^(?!Closed)",
+  "rankCount": 100,
+  "publish": {
+    "redactPublic": true,
+    "redactFields": [
+      "contact",
+      "title",
+      "phone",
+      "email",
+      "website",
+      "notes",
+      "nextSteps"
+    ]
+  },
+  "revenue": {
+    "floor": 1000,
+    "cap": 50000,
+    "fallbackMultiplierOnAmount": 3,
+    "inferredDefault": 12000
+  },
+  "recencyHalfLifeDays": 75,
+  "weights": {
+    "revenue": 22,
+    "stage": 18,
+    "engagement": 14,
+    "recency": 12,
+    "industry": 14,
+    "source": 10,
+    "calls": 10
+  },
+  "stageWeights": {
+    "Pending Revenue": 0.95,
+    "Zoom Sat": 0.8,
+    "Zoom Booked": 0.72,
+    "Vendor Relationship": 0.5,
+    "Zoom Missed": 0.45,
+    "Info Sent": 0.3,
+    "Stale/Re-Engage": 0.15
+  },
+  "tiers": {
+    "Platinum": 85,
+    "Gold": 72,
+    "Silver": 60
+  },
+  "grades": {
+    "A": 88,
+    "A-": 80,
+    "B+": 72,
+    "B": 64,
+    "C+": 56
+  },
+  "brands": {
+    "hail911": {
+      "name": "Hail 911",
+      "logo": "assets/hail911.png",
+      "color": "oklch(0.55 0.12 28)",
+      "industryMatch": "roofing",
+      "entityMatch": "hail\\s*911"
+    },
+    "elitecall": {
+      "name": "Elite Call",
+      "logo": "assets/elitecall.png",
+      "color": "oklch(0.55 0.10 250)",
+      "default": true
+    }
+  },
+  "fields": {
+    "id": "id",
+    "name": "Deal_Name",
+    "account": "Account_Name",
+    "contact": "Contact_Name",
+    "owner": "Owner",
+    "stage": "Stage",
+    "amount": "Amount",
+    "estimate": "Estimate_1st_Campaign",
+    "industry": "Industry_type",
+    "source": "Lead_Source",
+    "entity": "Internal_Company",
+    "pipeline": "Pipeline",
+    "probability": "Probability",
+    "closingPct": "Closing",
+    "lastActivity": "Last_Activity_Time",
+    "modified": "Modified_Time",
+    "created": "Potential_Created_Date",
+    "description": "Description",
+    "nextSteps": "Next_Step1",
+    "bdr": "BDR_Agent",
+    "ae": "SALES_REPS_NAME",
+    "title": "Title",
+    "phone": "Phone_1",
+    "email": "Email_1",
+    "website": "Website1",
+    "topPriority": "Top_Priority",
+    "warboard": "Warboard",
+    "inTalks": "In_Talks",
+    "contacted": "Contacted",
+    "lastConversation": "Last_Conversation",
+    "followUpTask": "Follow_Up_Task",
+    "inboundSms": "twiliosmsextension0__Num_Inbound_Twilio_Messages",
+    "outboundSms": "twiliosmsextension0__Num_Outbound_Twilio_Messages",
+    "trellusScore": null
+  }
+}

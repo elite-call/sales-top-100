@@ -1,0 +1,54 @@
+WHAT TO DO WITH THIS FOLDER
+
+1. Go to github.com/elite-call/sales-top-100/upload/main
+2. Drag the "scripts" folder from here onto that page.
+3. Drag package.json onto the same page.
+4. Commit changes.
+
+That replaces the whole scripts folder in one commit. No copy-paste.
+
+5. Then edit .github/workflows/daily.yml in GitHub (pencil icon) and paste
+   the contents of workflow-daily.yml.txt over it. That one has to be edited
+   in place, because the .github folder is hidden from the upload tool.
+
+
+SETTINGS TO ADD  (Settings > Secrets and variables > Actions)
+
+Secret:    TRELLUS_API_KEY        your Trellus API key
+Variable:  TRELLUS_TEAM_ID        b190d198c9a340479236d3781ed2d99b
+Variable:  TRELLUS_PHONE_COLUMN   only if the probe says it is not phone_number
+
+No Anthropic key is needed. Scoring reads your Trellus trackers directly.
+
+
+TRACKERS, ASSIGNED TO THE SALES TEAM
+
+  Substantive                boolean
+  Next Step Agreed           boolean
+  Scope Confirmed            boolean
+  Timeline Confirmed         boolean
+  Decision Maker Confirmed   boolean
+  Wrong Contact              boolean
+  Pause Requested            choice: weeks / months / indefinite
+
+Names are matched loosely: case, spaces, underscores and hyphens are all ignored,
+so whatever slug Trellus generates from the display name will still match. If you
+rename one later, update it in scripts/config.json under callIntelligence.trackers.
+
+
+HOW EACH ONE MOVES THE SCORE
+
+  Every substantive call starts at a neutral 0.50, then:
+
+    Next Step Agreed          +0.20
+    Scope Confirmed           +0.12
+    Timeline Confirmed        +0.12
+    Decision Maker Confirmed  +0.10
+    Wrong Contact             -0.28
+    Pause Requested           -0.12 weeks / -0.24 months / -0.34 indefinite
+
+  Last 3 substantive calls count, the most recent weighted double the one before.
+  Calls where Substantive is false are skipped entirely, never penalized.
+  A prospect with no calls holds a neutral score rather than being pushed down.
+
+  Change any of these in scripts/config.json under callIntelligence.trackerWeights.

@@ -2,11 +2,15 @@
   "name": "sales-team-top-100",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
+    "token": "node scripts/token.js",
     "build": "node scripts/build.js",
     "build:csv": "node scripts/build.js --csv",
     "discover": "node scripts/discover.js",
-    "serve": "npx --yes serve ."
+    "serve": "npx --yes serve .",
+    "trellus:probe": "node scripts/probe-trellus.js"
   }
 }

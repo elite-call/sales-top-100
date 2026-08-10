@@ -1,0 +1,69 @@
+name: Daily Top 100 build
+
+# Pulls Zoho, scores, commits data/top100.json. Committing triggers publish.yml,
+# which is what actually deploys the site. If this job fails the site stays up
+# with the last good data.
+
+on:
+  schedule:
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: top100-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check secrets are present
+        env:
+          ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          REFRESH: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+        run: |
+          missing=""
+          [ -z "$ID" ] && missing="$missing ZOHO_CLIENT_ID"
+          [ -z "$SECRET" ] && missing="$missing ZOHO_CLIENT_SECRET"
+          [ -z "$REFRESH" ] && missing="$missing ZOHO_REFRESH_TOKEN"
+          if [ -n "$missing" ]; then
+            echo "Missing repository secrets:$missing"
+            echo "Settings -> Secrets and variables -> Actions"
+            exit 1
+          fi
+          echo "All three secrets are set."
+
+      - name: Pull Zoho, score, write data
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+          ZOHO_DC: ${{ vars.ZOHO_DC || 'com' }}
+          ZOHO_ORG_ID: ${{ vars.ZOHO_ORG_ID }}
+          TRELLUS_API_KEY: ${{ secrets.TRELLUS_API_KEY }}
+          TRELLUS_TEAM_ID: ${{ vars.TRELLUS_TEAM_ID }}
+          TRELLUS_PHONE_COLUMN: ${{ vars.TRELLUS_PHONE_COLUMN }}
+        run: node scripts/build.js
+
+      - name: Commit today's data
+        run: |
+          git config user.name "top100-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data change today."
+          else
+            git commit -m "Top 100 for $(date -u +%Y-%m-%d)"
+            git push
+          fi
