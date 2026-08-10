@@ -11,7 +11,7 @@ export async function accessToken() {
     client_secret: required('ZOHO_CLIENT_SECRET'),
     grant_type: 'refresh_token'
   });
-  const res = await fetch(`${ACCOUNTS}/oauth/v2/token`, { method: 'POST', body });
+  const res = await fetchWithTimeout(`${ACCOUNTS}/oauth/v2/token`, { method: 'POST', body });
   const json = await res.json();
   if (!json.access_token) throw new Error('Token refresh failed: ' + JSON.stringify(json));
   return json.access_token;
@@ -30,7 +30,7 @@ export async function fetchAll(token, module, fields) {
   for (let guard = 0; guard < 200; guard++) {
     const qs = new URLSearchParams({ fields: fields.join(','), per_page: '200' });
     if (pageToken) qs.set('page_token', pageToken);
-    const res = await fetch(`${API}/${module}?${qs}`, {
+    const res = await fetchWithTimeout(`${API}/${module}?${qs}`, {
       headers: { Authorization: `Zoho-oauthtoken ${token}` }
     });
     if (res.status === 204) break;
@@ -49,7 +49,7 @@ export async function fetchAll(token, module, fields) {
 
 // Field API names for a module — run `npm run discover` to print these.
 export async function fieldNames(token, module) {
-  const res = await fetch(`${API}/settings/fields?module=${module}`, {
+  const res = await fetchWithTimeout(`${API}/settings/fields?module=${module}`, {
     headers: { Authorization: `Zoho-oauthtoken ${token}` }
   });
   if (!res.ok) throw new Error(`fields ${res.status}: ${await res.text()}`);
@@ -66,3 +66,9 @@ export function recordUrl(module, id) {
 }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// Every Zoho call gets a hard timeout. Without this a hung connection burns the
+// whole job budget before failing.
+export function fetchWithTimeout(url, opts = {}, ms = 30000) {
+  return fetch(url, { ...opts, signal: AbortSignal.timeout(ms) });
+}
