@@ -32,22 +32,22 @@
    "account": "J&J Roofing"
   },
   {
-   "id": "1843523000064793415",
+   "id": "1843523000070048016",
    "rank": 6,
+   "score": 72,
+   "account": "Apex satx"
+  },
+  {
+   "id": "1843523000064793415",
+   "rank": 7,
    "score": 72,
    "account": "FairWeather Roofing"
   },
   {
    "id": "1843523000070141202",
-   "rank": 7,
+   "rank": 8,
    "score": 72,
    "account": "FreshVendCLT"
-  },
-  {
-   "id": "1843523000070048016",
-   "rank": 8,
-   "score": 71,
-   "account": "Apex satx"
   },
   {
    "id": "1843523000067025011",
@@ -470,136 +470,136 @@
    "account": "Cotti-Johnson"
   },
   {
-   "id": "1843523000064793011",
+   "id": "1843523000070491047",
    "rank": 79,
+   "score": 62,
+   "account": "SIG Partners"
+  },
+  {
+   "id": "1843523000064793011",
+   "rank": 80,
    "score": 62,
    "account": "My Professional Plumber"
   },
   {
    "id": "1843523000063559122",
-   "rank": 80,
+   "rank": 81,
    "score": 62,
    "account": "Unified Service Partners"
   },
   {
    "id": "1843523000058135581",
-   "rank": 81,
+   "rank": 82,
    "score": 62,
    "account": "HomeX Services Group"
   },
   {
    "id": "1843523000069680123",
-   "rank": 82,
+   "rank": 83,
    "score": 62,
    "account": "Rapid Dry Services"
   },
   {
    "id": "1843523000065388220",
-   "rank": 83,
+   "rank": 84,
    "score": 62,
    "account": "Cardinal Heating and Air"
   },
   {
    "id": "1843523000070141142",
-   "rank": 84,
+   "rank": 85,
    "score": 62,
    "account": "Phoenix Garage Doors"
   },
   {
    "id": "1843523000058094131",
-   "rank": 85,
+   "rank": 86,
    "score": 62,
    "account": "House Doctors"
   },
   {
    "id": "1843523000069685019",
-   "rank": 86,
+   "rank": 87,
    "score": 62,
    "account": "Strategic America"
   },
   {
    "id": "1843523000057059326",
-   "rank": 87,
+   "rank": 88,
    "score": 62,
    "account": "Blue Jay Roofing"
   },
   {
    "id": "1843523000057238412",
-   "rank": 88,
+   "rank": 89,
    "score": 61,
    "account": "Guthrie and Sons"
   },
   {
    "id": "1843523000057324235",
-   "rank": 89,
+   "rank": 90,
    "score": 61,
    "account": "Right Time Group of Companies"
   },
   {
    "id": "1843523000062299408",
-   "rank": 90,
+   "rank": 91,
    "score": 61,
    "account": "Florida Energy Water & Air"
   },
   {
    "id": "1843523000063912539",
-   "rank": 91,
+   "rank": 92,
    "score": 61,
    "account": "Energy Air"
   },
   {
    "id": "1843523000057030509",
-   "rank": 92,
+   "rank": 93,
    "score": 61,
    "account": "Driven Brands Inc."
   },
   {
    "id": "1843523000057045828",
-   "rank": 93,
+   "rank": 94,
    "score": 61,
    "account": "Thomas Home Services"
   },
   {
    "id": "1843523000070200082",
-   "rank": 94,
+   "rank": 95,
    "score": 61,
    "account": "ED's Garage Doors"
   },
   {
    "id": "1843523000069313090",
-   "rank": 95,
+   "rank": 96,
    "score": 61,
    "account": "Raynor Garage Doors"
   },
   {
    "id": "1843523000069079001",
-   "rank": 96,
+   "rank": 97,
    "score": 61,
    "account": "AJ’s Heating & Air Conditioning"
   },
   {
    "id": "1843523000068361021",
-   "rank": 97,
+   "rank": 98,
    "score": 61,
    "account": "Harris"
   },
   {
    "id": "1843523000057039979",
-   "rank": 98,
+   "rank": 99,
    "score": 61,
    "account": "Schomburg Heating & Cooling"
   },
   {
    "id": "1843523000067432099",
-   "rank": 99,
-   "score": 61,
-   "account": "Humming AI"
-  },
-  {
-   "id": "1843523000069629408",
    "rank": 100,
    "score": 61,
-   "account": "Tactical Response Security Consulting Inc."
+   "account": "Humming AI"
   }
  ]
 }
