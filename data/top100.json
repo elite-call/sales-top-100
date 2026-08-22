@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-21T11:18:30.284Z",
+ "generated": "2026-08-22T11:14:03.096Z",
  "source": "Zoho CRM — Deals, open stages only",
  "universe": {
-  "total": 3853,
-  "open": 3173,
+  "total": 3868,
+  "open": 3188,
   "closed": 680,
   "ranked": 100
  },
@@ -42,7 +42,7 @@
   }
  },
  "gaps": [
-  "Amount is populated on only 16 of 3173 open records — Estimate - 1st Campaign (1856 populated) is used as the revenue signal.",
+  "Amount is populated on only 16 of 3188 open records — Estimate - 1st Campaign (1856 populated) is used as the revenue signal.",
   "Call transcript quality (Trellus) not yet connected.",
   "Company headcount / size is not present in the export, so company-size fit is unscored."
  ],
@@ -73,9 +73,9 @@
   "Pest Control",
   "Plumbing",
   "Private Equity",
+  "Roofing",
   "Roofing Commercial",
   "Roofing Residential",
-  "Security",
   "Sports",
   "Technology"
  ],
@@ -83,7 +83,8 @@
   "Pending Revenue",
   "Zoom Sat",
   "Zoom Booked",
-  "Vendor Relationship"
+  "Vendor Relationship",
+  "Info Sent"
  ],
  "sources": [
   "Client Referral",
@@ -123,7 +124,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 8,
+   "daysSinceActivity": 9,
    "lastActivity": "2026-08-13T14:21:05-05:00",
    "created": null,
    "phone": null,
@@ -137,7 +138,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 82,
-   "weighted": 82,
+   "weighted": 81.8,
    "tier": "Gold",
    "grade": "A-",
    "expected": 10018,
@@ -170,8 +171,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 90,
-     "points": 10.8,
+     "pct": 89,
+     "points": 10.6,
      "max": 12,
      "pending": false
     },
@@ -222,7 +223,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:14:53-05:00",
    "created": "2026-07-24T09:36:00-05:00",
    "phone": null,
@@ -236,7 +237,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 76,
-   "weighted": 75.9,
+   "weighted": 75.8,
    "tier": "Gold",
    "grade": "B+",
    "expected": 9118,
@@ -269,8 +270,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -321,7 +322,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:34:06-05:00",
    "created": "2026-06-17T09:17:00-05:00",
    "phone": null,
@@ -335,7 +336,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 76,
-   "weighted": 75.9,
+   "weighted": 75.8,
    "tier": "Gold",
    "grade": "B+",
    "expected": 9118,
@@ -368,8 +369,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -420,7 +421,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 53,
+   "daysSinceActivity": 54,
    "lastActivity": "2026-06-29T13:24:32-05:00",
    "created": "2026-06-23T07:24:00-05:00",
    "phone": null,
@@ -434,7 +435,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 75,
-   "weighted": 75.1,
+   "weighted": 75,
    "tier": "Gold",
    "grade": "B+",
    "expected": 10018,
@@ -468,7 +469,7 @@
      "key": "recency",
      "label": "Recency of contact",
      "pct": 49,
-     "points": 5.9,
+     "points": 5.8,
      "max": 12,
      "pending": false
     },
@@ -519,7 +520,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 8,
+   "daysSinceActivity": 9,
    "lastActivity": "2026-08-13T14:23:31-05:00",
    "created": null,
    "phone": null,
@@ -533,7 +534,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 75,
-   "weighted": 74.8,
+   "weighted": 74.6,
    "tier": "Gold",
    "grade": "B+",
    "expected": 8875,
@@ -566,8 +567,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 90,
-     "points": 10.8,
+     "pct": 89,
+     "points": 10.6,
      "max": 12,
      "pending": false
     },
@@ -618,7 +619,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 8,
+   "daysSinceActivity": 9,
    "lastActivity": "2026-08-13T14:21:31-05:00",
    "created": null,
    "phone": null,
@@ -632,7 +633,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 73,
-   "weighted": 72.8,
+   "weighted": 72.6,
    "tier": "Gold",
    "grade": "B+",
    "expected": 8554,
@@ -665,8 +666,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 90,
-     "points": 10.8,
+     "pct": 89,
+     "points": 10.6,
      "max": 12,
      "pending": false
     },
@@ -717,7 +718,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 93,
+   "daysSinceActivity": 94,
    "lastActivity": "2026-05-20T15:21:12-05:00",
    "created": "2026-05-20T15:21:00-05:00",
    "phone": null,
@@ -765,7 +766,7 @@
      "key": "recency",
      "label": "Recency of contact",
      "pct": 29,
-     "points": 3.5,
+     "points": 3.4,
      "max": 12,
      "pending": false
     },
@@ -794,109 +795,10 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 93 days ago. No activity in 93 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 94 days ago. No activity in 94 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 8,
-   "prevRank": 8,
-   "id": "1843523000070530010",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070530010",
-   "account": "Dixie Electric, Plumbing & Air.",
-   "contact": null,
-   "title": null,
-   "owner": "Kaden Randazzo",
-   "ae": "Kaden Randazo",
-   "bdr": null,
-   "stage": "Zoom Booked",
-   "industry": "Home Services",
-   "source": "Web Research",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 50000,
-   "estimateInferred": false,
-   "closingPct": 90,
-   "daysSinceActivity": 3,
-   "lastActivity": "2026-08-18T15:46:26-05:00",
-   "created": "2026-08-03T11:12:00-05:00",
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": false
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 71,
-   "weighted": 70.6,
-   "tier": "Silver",
-   "grade": "B",
-   "expected": 26624,
-   "engagementSignals": 5,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 100,
-     "points": 22,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 72,
-     "points": 13,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 71,
-     "points": 10,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 37,
-     "points": 5.2,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 40,
-     "points": 4,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on a $50,000 first-campaign estimate and sitting at Zoom Booked. Held back by lead source quality — Web Research leads convert at 37%. Zoom on the calendar; confirm attendance to protect the slot. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
-   "rank": 9,
    "prevRank": 9,
    "id": "1843523000070141202",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070141202",
@@ -915,7 +817,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:12:53-05:00",
    "created": "2026-07-29T12:29:00-05:00",
    "phone": null,
@@ -929,7 +831,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 71,
-   "weighted": 70.8,
+   "weighted": 70.7,
    "tier": "Silver",
    "grade": "B",
    "expected": 8452,
@@ -962,8 +864,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -995,7 +897,7 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by industry fit — Distinct converts at 30% historically (4 closed records). Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 10,
+   "rank": 9,
    "prevRank": 10,
    "id": "1843523000067025011",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067025011",
@@ -1014,7 +916,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 8,
+   "daysSinceActivity": 9,
    "lastActivity": "2026-08-13T14:15:32-05:00",
    "created": "2026-06-18T11:35:00-05:00",
    "phone": null,
@@ -1028,7 +930,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 71,
-   "weighted": 71.3,
+   "weighted": 71.2,
    "tier": "Silver",
    "grade": "B",
    "expected": 7979,
@@ -1061,8 +963,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 90,
-     "points": 10.8,
+     "pct": 89,
+     "points": 10.6,
      "max": 12,
      "pending": false
     },
@@ -1094,6 +996,105 @@
    "summary": "Ranked on sitting at Pending Revenue and 7 of 10 engagement signals present. Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
+   "rank": 10,
+   "prevRank": 8,
+   "id": "1843523000070530010",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070530010",
+   "account": "Dixie Electric, Plumbing & Air.",
+   "contact": null,
+   "title": null,
+   "owner": "Kaden Randazzo",
+   "ae": "Kaden Randazo",
+   "bdr": null,
+   "stage": "Zoom Booked",
+   "industry": "Home Services",
+   "source": "Web Research",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 50000,
+   "estimateInferred": false,
+   "closingPct": 90,
+   "daysSinceActivity": 4,
+   "lastActivity": "2026-08-18T15:46:26-05:00",
+   "created": "2026-08-03T11:12:00-05:00",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": false
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 70,
+   "weighted": 70.5,
+   "tier": "Silver",
+   "grade": "B",
+   "expected": 26624,
+   "engagementSignals": 5,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 100,
+     "points": 22,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 72,
+     "points": 13,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 71,
+     "points": 10,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 95,
+     "points": 11.4,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
+     "pct": 37,
+     "points": 5.2,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 40,
+     "points": 4,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on a $50,000 first-campaign estimate and sitting at Zoom Booked. Held back by lead source quality — Web Research leads convert at 37%. Zoom on the calendar; confirm attendance to protect the slot. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
    "rank": 11,
    "prevRank": 11,
    "id": "1843523000070048016",
@@ -1113,7 +1114,7 @@
    "estimate": 45000,
    "estimateInferred": false,
    "closingPct": 90,
-   "daysSinceActivity": 11,
+   "daysSinceActivity": 12,
    "lastActivity": "2026-08-10T09:09:40-05:00",
    "created": "2026-07-27T10:59:00-05:00",
    "phone": null,
@@ -1127,7 +1128,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 70,
-   "weighted": 70.3,
+   "weighted": 70.2,
    "tier": "Silver",
    "grade": "B",
    "expected": 25762,
@@ -1160,8 +1161,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 86,
-     "points": 10.4,
+     "pct": 85,
+     "points": 10.2,
      "max": 12,
      "pending": false
     },
@@ -1212,7 +1213,7 @@
    "estimate": 50000,
    "estimateInferred": false,
    "closingPct": 50,
-   "daysSinceActivity": 2,
+   "daysSinceActivity": 3,
    "lastActivity": "2026-08-19T10:01:54-05:00",
    "created": null,
    "phone": null,
@@ -1226,7 +1227,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 69,
-   "weighted": 68.8,
+   "weighted": 68.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 30364,
@@ -1259,8 +1260,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 97,
-     "points": 11.7,
+     "pct": 96,
+     "points": 11.5,
      "max": 12,
      "pending": false
     },
@@ -1311,7 +1312,7 @@
    "estimate": 50000,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 1,
+   "daysSinceActivity": 2,
    "lastActivity": "2026-08-20T08:02:38-05:00",
    "created": "2026-07-20T08:13:00-05:00",
    "phone": null,
@@ -1325,7 +1326,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 69,
-   "weighted": 69.1,
+   "weighted": 68.9,
    "tier": "Silver",
    "grade": "B",
    "expected": 28365,
@@ -1358,8 +1359,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 99,
-     "points": 11.8,
+     "pct": 97,
+     "points": 11.7,
      "max": 12,
      "pending": false
     },
@@ -1410,7 +1411,7 @@
    "estimate": 30000,
    "estimateInferred": false,
    "closingPct": 90,
-   "daysSinceActivity": 3,
+   "daysSinceActivity": 4,
    "lastActivity": "2026-08-18T09:01:58-05:00",
    "created": "2026-08-03T15:04:00-05:00",
    "phone": null,
@@ -1424,7 +1425,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 69,
-   "weighted": 69.2,
+   "weighted": 69,
    "tier": "Silver",
    "grade": "B",
    "expected": 17174,
@@ -1457,8 +1458,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
+     "pct": 95,
+     "points": 11.4,
      "max": 12,
      "pending": false
     },
@@ -1491,7 +1492,7 @@
   },
   {
    "rank": 15,
-   "prevRank": 17,
+   "prevRank": 15,
    "id": "1843523000058135581",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000058135581",
    "account": "HomeX Services Group",
@@ -1509,7 +1510,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T12:56:04-05:00",
    "created": null,
    "phone": null,
@@ -1523,7 +1524,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 69,
-   "weighted": 69.2,
+   "weighted": 69,
    "tier": "Silver",
    "grade": "B",
    "expected": 7079,
@@ -1556,8 +1557,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -1590,7 +1591,7 @@
   },
   {
    "rank": 16,
-   "prevRank": 18,
+   "prevRank": 16,
    "id": "1843523000067824711",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067824711",
    "account": "Howard Air",
@@ -1608,7 +1609,7 @@
    "estimate": 39000,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 3,
+   "daysSinceActivity": 4,
    "lastActivity": "2026-08-18T14:15:26-05:00",
    "created": "2026-06-30T13:15:00-05:00",
    "phone": null,
@@ -1622,7 +1623,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 68,
-   "weighted": 67.7,
+   "weighted": 67.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 24381,
@@ -1655,8 +1656,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
+     "pct": 95,
+     "points": 11.4,
      "max": 12,
      "pending": false
     },
@@ -1689,7 +1690,7 @@
   },
   {
    "rank": 17,
-   "prevRank": 20,
+   "prevRank": 17,
    "id": "1843523000063176024",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000063176024",
    "account": "Freedom Restoration and Remodeling",
@@ -1707,7 +1708,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 102,
+   "daysSinceActivity": 103,
    "lastActivity": "2026-05-11T13:36:35-05:00",
    "created": null,
    "phone": null,
@@ -1754,8 +1755,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 26,
-     "points": 3.1,
+     "pct": 25,
+     "points": 3,
      "max": 12,
      "pending": false
     },
@@ -1784,11 +1785,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 102 days ago. No activity in 102 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 103 days ago. No activity in 103 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 18,
-   "prevRank": 21,
+   "prevRank": 18,
    "id": "1843523000057015482",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057015482",
    "account": "Enercare",
@@ -1806,7 +1807,7 @@
    "estimate": 12000,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 30,
+   "daysSinceActivity": 31,
    "lastActivity": "2026-07-22T08:26:52-05:00",
    "created": null,
    "phone": null,
@@ -1820,7 +1821,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 68,
-   "weighted": 68.2,
+   "weighted": 68.1,
    "tier": "Silver",
    "grade": "B",
    "expected": 8576,
@@ -1853,8 +1854,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 67,
-     "points": 8,
+     "pct": 66,
+     "points": 7.9,
      "max": 12,
      "pending": false
     },
@@ -1887,7 +1888,7 @@
   },
   {
    "rank": 19,
-   "prevRank": 15,
+   "prevRank": 19,
    "id": "1843523000071537122",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071537122",
    "account": "Bryton Roofs",
@@ -1905,7 +1906,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T13:18:26-05:00",
    "created": "2026-08-13T10:33:00-05:00",
    "phone": null,
@@ -1919,7 +1920,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 68,
-   "weighted": 68.4,
+   "weighted": 68.2,
    "tier": "Silver",
    "grade": "B",
    "expected": 8221,
@@ -1952,8 +1953,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -1986,7 +1987,106 @@
   },
   {
    "rank": 20,
-   "prevRank": 16,
+   "prevRank": 27,
+   "id": "1843523000070141170",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070141170",
+   "account": "NY Garage Doors",
+   "contact": null,
+   "title": null,
+   "owner": "Travis French",
+   "ae": "Travis French",
+   "bdr": null,
+   "stage": "Pending Revenue",
+   "industry": "Garage Door",
+   "source": "Web Research",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 12000,
+   "estimateInferred": true,
+   "closingPct": 75,
+   "daysSinceActivity": 1,
+   "lastActivity": "2026-08-21T10:05:00-05:00",
+   "created": "2026-07-29T11:07:00-05:00",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": true
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 68,
+   "weighted": 67.9,
+   "tier": "Silver",
+   "grade": "B",
+   "expected": 7901,
+   "engagementSignals": 5,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 64,
+     "points": 14,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 95,
+     "points": 17.1,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 71,
+     "points": 10,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 99,
+     "points": 11.8,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
+     "pct": 43,
+     "points": 6,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 40,
+     "points": 4,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
+   "rank": 21,
+   "prevRank": 20,
    "id": "1843523000059024823",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000059024823",
    "account": "Good Golly Garage Doors",
@@ -2004,7 +2104,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 30,
+   "daysSinceActivity": 31,
    "lastActivity": "2026-07-22T08:26:22-05:00",
    "created": null,
    "phone": null,
@@ -2018,7 +2118,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 68,
-   "weighted": 68.5,
+   "weighted": 68.4,
    "tier": "Silver",
    "grade": "B",
    "expected": 7833,
@@ -2051,8 +2151,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 67,
-     "points": 8,
+     "pct": 66,
+     "points": 7.9,
      "max": 12,
      "pending": false
     },
@@ -2084,18 +2184,18 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by industry fit — Garage Door converts at 36% historically (10 closed records). Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 21,
-   "prevRank": 22,
-   "id": "1843523000068323030",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068323030",
-   "account": "Davenport Energy, Inc.",
+   "rank": 22,
+   "prevRank": 34,
+   "id": "1843523000067920122",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067920122",
+   "account": "AquaVerse",
    "contact": null,
    "title": null,
    "owner": "Travis French",
    "ae": "Travis French",
    "bdr": null,
    "stage": "Zoom Sat",
-   "industry": "Home Services",
+   "industry": "Private Equity",
    "source": "Web Research",
    "entity": "Elite Call",
    "pipeline": "Leads Pipeline",
@@ -2103,21 +2203,120 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 3,
-   "lastActivity": "2026-08-18T07:57:34-05:00",
-   "created": "2026-07-07T14:59:00-05:00",
+   "daysSinceActivity": 1,
+   "lastActivity": "2026-08-21T10:08:11-05:00",
+   "created": "2026-07-01T15:26:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
    "flags": {
     "topPriority": false,
-    "warboard": true,
-    "inTalks": false
+    "warboard": false,
+    "inTalks": true
    },
    "notes": null,
    "nextSteps": null,
    "score": 68,
-   "weighted": 68,
+   "weighted": 67.7,
+   "tier": "Silver",
+   "grade": "B",
+   "expected": 7079,
+   "engagementSignals": 6,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 64,
+     "points": 14,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 80,
+     "points": 14.4,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 86,
+     "points": 12,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 99,
+     "points": 11.8,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
+     "pct": 46,
+     "points": 6.5,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 40,
+     "points": 4,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
+   "rank": 23,
+   "prevRank": 53,
+   "id": "1843523000068447085",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068447085",
+   "account": "Trades Holding Co., LLC",
+   "contact": null,
+   "title": null,
+   "owner": "Travis French",
+   "ae": "Travis French",
+   "bdr": null,
+   "stage": "Zoom Sat",
+   "industry": "Private Equity",
+   "source": "LinkedIn",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 12000,
+   "estimateInferred": true,
+   "closingPct": 50,
+   "daysSinceActivity": 1,
+   "lastActivity": "2026-08-21T14:56:17-05:00",
+   "created": "2026-07-09T09:42:00-05:00",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": true
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 68,
+   "weighted": 68.4,
    "tier": "Silver",
    "grade": "B",
    "expected": 6870,
@@ -2150,8 +2349,107 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
+     "pct": 99,
+     "points": 11.8,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
+     "pct": 46,
+     "points": 6.5,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 27,
+     "points": 2.7,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
+   "rank": 24,
+   "prevRank": 65,
+   "id": "1843523000071751300",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071751300",
+   "account": "ALL MY SONS MOVING & STORAGE",
+   "contact": null,
+   "title": null,
+   "owner": "Travis French",
+   "ae": "Travis French",
+   "bdr": null,
+   "stage": "Zoom Sat",
+   "industry": "Home Services",
+   "source": "Web Research",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 12000,
+   "estimateInferred": true,
+   "closingPct": 50,
+   "daysSinceActivity": 1,
+   "lastActivity": "2026-08-21T14:57:15-05:00",
+   "created": "2026-08-17T15:56:00-05:00",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": true
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 68,
+   "weighted": 68.3,
+   "tier": "Silver",
+   "grade": "B",
+   "expected": 6870,
+   "engagementSignals": 7,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 64,
+     "points": 14,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 80,
+     "points": 14.4,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 100,
+     "points": 14,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 99,
+     "points": 11.8,
      "max": 12,
      "pending": false
     },
@@ -2183,11 +2481,11 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 22,
-   "prevRank": 23,
-   "id": "1843523000065014027",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000065014027",
-   "account": "Canter Power Systems",
+   "rank": 25,
+   "prevRank": 21,
+   "id": "1843523000068323030",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068323030",
+   "account": "Davenport Energy, Inc.",
    "contact": null,
    "title": null,
    "owner": "Travis French",
@@ -2203,15 +2501,15 @@
    "estimateInferred": true,
    "closingPct": 50,
    "daysSinceActivity": 4,
-   "lastActivity": "2026-08-17T11:36:32-05:00",
-   "created": "2026-05-22T10:05:00-05:00",
+   "lastActivity": "2026-08-18T07:57:34-05:00",
+   "created": "2026-07-07T14:59:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
    "flags": {
     "topPriority": false,
-    "warboard": false,
-    "inTalks": true
+    "warboard": true,
+    "inTalks": false
    },
    "notes": null,
    "nextSteps": null,
@@ -2282,8 +2580,107 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 23,
-   "prevRank": 19,
+   "rank": 26,
+   "prevRank": 22,
+   "id": "1843523000065014027",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000065014027",
+   "account": "Canter Power Systems",
+   "contact": null,
+   "title": null,
+   "owner": "Travis French",
+   "ae": "Travis French",
+   "bdr": null,
+   "stage": "Zoom Sat",
+   "industry": "Home Services",
+   "source": "Web Research",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 12000,
+   "estimateInferred": true,
+   "closingPct": 50,
+   "daysSinceActivity": 1,
+   "lastActivity": "2026-08-21T09:02:16-05:00",
+   "created": "2026-05-22T10:05:00-05:00",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": true
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 68,
+   "weighted": 68.3,
+   "tier": "Silver",
+   "grade": "B",
+   "expected": 6870,
+   "engagementSignals": 7,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 64,
+     "points": 14,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 80,
+     "points": 14.4,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 100,
+     "points": 14,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 99,
+     "points": 11.8,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
+     "pct": 37,
+     "points": 5.2,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 40,
+     "points": 4,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
+   "rank": 27,
+   "prevRank": 23,
    "id": "1843523000063335028",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000063335028",
    "account": "Going Green Roofing & Restoration",
@@ -2301,7 +2698,7 @@
    "estimate": 19500,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T14:49:27-05:00",
    "created": null,
    "phone": null,
@@ -2315,7 +2712,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 67,
-   "weighted": 67.4,
+   "weighted": 67.3,
    "tier": "Silver",
    "grade": "B",
    "expected": 13174,
@@ -2348,8 +2745,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -2381,7 +2778,7 @@
    "summary": "Ranked on sitting at Pending Revenue and a $19,500 first-campaign estimate. Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 24,
+   "rank": 28,
    "prevRank": 24,
    "id": "1843523000061519214",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000061519214",
@@ -2400,7 +2797,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 109,
+   "daysSinceActivity": 110,
    "lastActivity": "2026-05-04T11:53:44-05:00",
    "created": null,
    "phone": null,
@@ -2477,10 +2874,10 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by recency of contact — last touched 109 days ago. No activity in 109 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by recency of contact — last touched 110 days ago. No activity in 110 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 25,
+   "rank": 29,
    "prevRank": 25,
    "id": "1843523000067191252",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067191252",
@@ -2499,7 +2896,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 32,
+   "daysSinceActivity": 33,
    "lastActivity": "2026-07-20T08:27:03-05:00",
    "created": "2026-06-22T13:51:00-05:00",
    "phone": null,
@@ -2513,7 +2910,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 67,
-   "weighted": 67.4,
+   "weighted": 67.3,
    "tier": "Silver",
    "grade": "B",
    "expected": 8016,
@@ -2546,8 +2943,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 65,
-     "points": 7.8,
+     "pct": 64,
+     "points": 7.7,
      "max": 12,
      "pending": false
     },
@@ -2579,7 +2976,7 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 26,
+   "rank": 30,
    "prevRank": 26,
    "id": "1843523000069455059",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000069455059",
@@ -2598,7 +2995,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T07:51:26-05:00",
    "created": "2026-07-20T12:42:00-05:00",
    "phone": null,
@@ -2612,7 +3009,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 67,
-   "weighted": 66.7,
+   "weighted": 66.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 7975,
@@ -2645,8 +3042,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -2678,106 +3075,7 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 27,
-   "prevRank": 27,
-   "id": "1843523000070141170",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070141170",
-   "account": "NY Garage Doors",
-   "contact": null,
-   "title": null,
-   "owner": "Travis French",
-   "ae": "Travis French",
-   "bdr": null,
-   "stage": "Pending Revenue",
-   "industry": "Garage Door",
-   "source": "Web Research",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 12000,
-   "estimateInferred": true,
-   "closingPct": 75,
-   "daysSinceActivity": 8,
-   "lastActivity": "2026-08-13T14:12:35-05:00",
-   "created": "2026-07-29T11:07:00-05:00",
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": true
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 67,
-   "weighted": 66.8,
-   "tier": "Silver",
-   "grade": "B",
-   "expected": 7901,
-   "engagementSignals": 5,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 64,
-     "points": 14,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 95,
-     "points": 17.1,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 71,
-     "points": 10,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 90,
-     "points": 10.8,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 43,
-     "points": 6,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 40,
-     "points": 4,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
-   "rank": 28,
+   "rank": 31,
    "prevRank": 28,
    "id": "1843523000070307055",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070307055",
@@ -2796,7 +3094,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 16,
+   "daysSinceActivity": 17,
    "lastActivity": "2026-08-05T15:37:39-05:00",
    "created": "2026-07-30T10:53:00-05:00",
    "phone": null,
@@ -2810,7 +3108,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 67,
-   "weighted": 66.7,
+   "weighted": 66.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 7280,
@@ -2843,8 +3141,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 81,
-     "points": 9.7,
+     "pct": 80,
+     "points": 9.6,
      "max": 12,
      "pending": false
     },
@@ -2876,7 +3174,7 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by industry fit — HVAC converts at 30% historically (73 closed records). Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 29,
+   "rank": 32,
    "prevRank": 29,
    "id": "1843523000067920034",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067920034",
@@ -2895,7 +3193,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T09:32:51-05:00",
    "created": "2026-07-01T11:49:00-05:00",
    "phone": null,
@@ -2909,7 +3207,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 67,
-   "weighted": 66.7,
+   "weighted": 66.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 7001,
@@ -2942,8 +3240,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -2975,107 +3273,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 30,
-   "prevRank": 30,
-   "id": "1843523000070011100",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070011100",
-   "account": "FranServe, Inc.",
-   "contact": null,
-   "title": null,
-   "owner": "Travis French",
-   "ae": "Travis French",
-   "bdr": null,
-   "stage": "Zoom Sat",
-   "industry": "Marketing Company/Referral",
-   "source": "LinkedIn",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 12000,
-   "estimateInferred": true,
-   "closingPct": 50,
-   "daysSinceActivity": 15,
-   "lastActivity": "2026-08-06T09:46:59-05:00",
-   "created": "2026-07-27T10:50:00-05:00",
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": true
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 67,
-   "weighted": 66.6,
-   "tier": "Silver",
-   "grade": "B",
-   "expected": 6911,
-   "engagementSignals": 7,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 64,
-     "points": 14,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 80,
-     "points": 14.4,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 100,
-     "points": 14,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 82,
-     "points": 9.8,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 48,
-     "points": 6.7,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 27,
-     "points": 2.7,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
-   "rank": 31,
-   "prevRank": 57,
+   "rank": 33,
+   "prevRank": 31,
    "id": "1843523000059677128",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000059677128",
    "account": "Infinity Home Services",
@@ -3093,7 +3292,7 @@
    "estimate": 15000,
    "estimateInferred": false,
    "closingPct": 30,
-   "daysSinceActivity": 1,
+   "daysSinceActivity": 2,
    "lastActivity": "2026-08-20T11:24:30-05:00",
    "created": null,
    "phone": null,
@@ -3107,7 +3306,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 66.3,
+   "weighted": 66.2,
    "tier": "Silver",
    "grade": "B",
    "expected": 9713,
@@ -3140,8 +3339,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 99,
-     "points": 11.8,
+     "pct": 97,
+     "points": 11.7,
      "max": 12,
      "pending": false
     },
@@ -3173,8 +3372,8 @@
    "summary": "Ranked on sitting at Pending Revenue and a $15,000 first-campaign estimate. Held back by lead source quality — LinkedIn leads convert at 28%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 32,
-   "prevRank": 31,
+   "rank": 34,
+   "prevRank": 32,
    "id": "1843523000068513011",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068513011",
    "account": "Durable Roofing",
@@ -3192,7 +3391,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 24,
+   "daysSinceActivity": 25,
    "lastActivity": "2026-07-28T09:06:22-05:00",
    "created": "2026-07-09T13:32:00-05:00",
    "phone": null,
@@ -3206,7 +3405,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 66,
+   "weighted": 65.9,
    "tier": "Silver",
    "grade": "B",
    "expected": 8107,
@@ -3239,8 +3438,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 73,
-     "points": 8.7,
+     "pct": 72,
+     "points": 8.6,
      "max": 12,
      "pending": false
     },
@@ -3272,7 +3471,7 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 33,
+   "rank": 35,
    "prevRank": 33,
    "id": "1843523000064468101",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000064468101",
@@ -3291,7 +3490,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T11:57:15-05:00",
    "created": "2026-05-14T13:26:00-05:00",
    "phone": null,
@@ -3305,7 +3504,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 66,
+   "weighted": 65.9,
    "tier": "Silver",
    "grade": "B",
    "expected": 7208,
@@ -3338,8 +3537,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -3371,19 +3570,19 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by industry fit — Garage Door converts at 36% historically (10 closed records). Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 34,
-   "prevRank": 34,
-   "id": "1843523000067920122",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067920122",
-   "account": "AquaVerse",
+   "rank": 36,
+   "prevRank": 30,
+   "id": "1843523000070011100",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070011100",
+   "account": "FranServe, Inc.",
    "contact": null,
    "title": null,
    "owner": "Travis French",
    "ae": "Travis French",
    "bdr": null,
    "stage": "Zoom Sat",
-   "industry": "Private Equity",
-   "source": "Web Research",
+   "industry": "Marketing Company/Referral",
+   "source": "LinkedIn",
    "entity": "Elite Call",
    "pipeline": "Leads Pipeline",
    "brand": "elitecall",
@@ -3391,8 +3590,8 @@
    "estimateInferred": true,
    "closingPct": 50,
    "daysSinceActivity": 16,
-   "lastActivity": "2026-08-05T10:55:20-05:00",
-   "created": "2026-07-01T15:26:00-05:00",
+   "lastActivity": "2026-08-06T09:46:59-05:00",
+   "created": "2026-07-27T10:50:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
@@ -3404,11 +3603,11 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 65.5,
+   "weighted": 66.5,
    "tier": "Silver",
    "grade": "B",
-   "expected": 7079,
-   "engagementSignals": 6,
+   "expected": 6911,
+   "engagementSignals": 7,
    "components": [
     {
      "key": "revenue",
@@ -3429,8 +3628,8 @@
     {
      "key": "engagement",
      "label": "Engagement depth",
-     "pct": 86,
-     "points": 12,
+     "pct": 100,
+     "points": 14,
      "max": 14,
      "pending": false
     },
@@ -3445,16 +3644,16 @@
     {
      "key": "industry",
      "label": "Industry fit",
-     "pct": 46,
-     "points": 6.5,
+     "pct": 48,
+     "points": 6.7,
      "max": 14,
      "pending": false
     },
     {
      "key": "source",
      "label": "Lead source quality",
-     "pct": 40,
-     "points": 4,
+     "pct": 27,
+     "points": 2.7,
      "max": 10,
      "pending": false
     },
@@ -3467,10 +3666,10 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 35,
+   "rank": 37,
    "prevRank": 35,
    "id": "1843523000066768360",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000066768360",
@@ -3489,7 +3688,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T14:49:02-05:00",
    "created": "2026-06-15T14:36:00-05:00",
    "phone": null,
@@ -3503,7 +3702,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 65.9,
+   "weighted": 65.8,
    "tier": "Silver",
    "grade": "B",
    "expected": 6870,
@@ -3536,8 +3735,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -3569,8 +3768,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 36,
-   "prevRank": 51,
+   "rank": 38,
+   "prevRank": 36,
    "id": "1843523000071063027",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071063027",
    "account": "Belfor Franchise Group",
@@ -3588,7 +3787,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 30,
-   "daysSinceActivity": 1,
+   "daysSinceActivity": 2,
    "lastActivity": "2026-08-20T14:54:08-05:00",
    "created": "2026-08-07T14:40:00-05:00",
    "phone": null,
@@ -3602,7 +3801,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 66.2,
+   "weighted": 66.1,
    "tier": "Silver",
    "grade": "B",
    "expected": 6599,
@@ -3635,8 +3834,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 99,
-     "points": 11.8,
+     "pct": 97,
+     "points": 11.7,
      "max": 12,
      "pending": false
     },
@@ -3668,7 +3867,7 @@
    "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and sitting at Zoom Booked. Held back by lead source quality — Web Research leads convert at 37%. Zoom on the calendar; confirm attendance to protect the slot. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 37,
+   "rank": 39,
    "prevRank": 37,
    "id": "1843523000070667170",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070667170",
@@ -3687,7 +3886,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 3,
+   "daysSinceActivity": 4,
    "lastActivity": "2026-08-18T12:08:54-05:00",
    "created": "2026-08-04T10:37:00-05:00",
    "phone": null,
@@ -3701,7 +3900,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 66.2,
+   "weighted": 66,
    "tier": "Silver",
    "grade": "B",
    "expected": 6572,
@@ -3734,8 +3933,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
+     "pct": 95,
+     "points": 11.4,
      "max": 12,
      "pending": false
     },
@@ -3767,7 +3966,7 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 38,
+   "rank": 40,
    "prevRank": 38,
    "id": "1843523000071881168",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071881168",
@@ -3786,7 +3985,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 100,
-   "daysSinceActivity": 3,
+   "daysSinceActivity": 4,
    "lastActivity": "2026-08-18T14:09:17-05:00",
    "created": "2026-08-18T14:09:00-05:00",
    "phone": null,
@@ -3800,7 +3999,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 66.1,
+   "weighted": 66,
    "tier": "Silver",
    "grade": "B",
    "expected": 5966,
@@ -3833,8 +4032,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
+     "pct": 95,
+     "points": 11.4,
      "max": 12,
      "pending": false
     },
@@ -3866,7 +4065,7 @@
    "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and 6 of 10 engagement signals present. Held back by industry fit — Home Services converts at 33% historically (76 closed records). Info sent and unanswered — next touch should carry a new reason to reply. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 39,
+   "rank": 41,
    "prevRank": 39,
    "id": "1843523000057045542",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057045542",
@@ -3885,7 +4084,7 @@
    "estimate": 3500,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 49,
+   "daysSinceActivity": 50,
    "lastActivity": "2026-07-03T13:58:24-05:00",
    "created": null,
    "phone": null,
@@ -3899,7 +4098,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 66,
-   "weighted": 65.9,
+   "weighted": 65.8,
    "tier": "Silver",
    "grade": "B",
    "expected": 2892,
@@ -3932,7 +4131,7 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 52,
+     "pct": 51,
      "points": 6.2,
      "max": 12,
      "pending": false
@@ -3965,7 +4164,7 @@
    "summary": "Ranked on sitting at Pending Revenue and Roofing Residential converts at 70% historically (206 closed records). Held back by revenue potential — a $3,500 first-campaign estimate. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 40,
+   "rank": 42,
    "prevRank": 40,
    "id": "1843523000057220686",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057220686",
@@ -3984,7 +4183,7 @@
    "estimate": 50000,
    "estimateInferred": false,
    "closingPct": 60,
-   "daysSinceActivity": 225,
+   "daysSinceActivity": 226,
    "lastActivity": "2026-01-08T13:00:51-06:00",
    "created": null,
    "phone": null,
@@ -4061,10 +4260,10 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on a $50,000 first-campaign estimate and sitting at Pending Revenue. Held back by recency of contact — last touched 225 days ago. No activity in 225 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on a $50,000 first-campaign estimate and sitting at Pending Revenue. Held back by recency of contact — last touched 226 days ago. No activity in 226 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 41,
+   "rank": 43,
    "prevRank": 41,
    "id": "1843523000065410011",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000065410011",
@@ -4083,7 +4282,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 85,
+   "daysSinceActivity": 86,
    "lastActivity": "2026-05-28T09:10:48-05:00",
    "created": "2026-05-28T09:10:00-05:00",
    "phone": null,
@@ -4097,7 +4296,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 64.7,
+   "weighted": 64.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 9003,
@@ -4131,7 +4330,7 @@
      "key": "recency",
      "label": "Recency of contact",
      "pct": 32,
-     "points": 3.9,
+     "points": 3.8,
      "max": 12,
      "pending": false
     },
@@ -4160,10 +4359,10 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 85 days ago. No activity in 85 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 86 days ago. No activity in 86 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 42,
+   "rank": 44,
    "prevRank": 42,
    "id": "1843523000061082037",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000061082037",
@@ -4182,7 +4381,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 109,
+   "daysSinceActivity": 110,
    "lastActivity": "2026-05-04T12:22:45-05:00",
    "created": null,
    "phone": null,
@@ -4259,10 +4458,10 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 109 days ago. No activity in 109 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 110 days ago. No activity in 110 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 43,
+   "rank": 45,
    "prevRank": 43,
    "id": "1843523000071382011",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071382011",
@@ -4281,7 +4480,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T14:49:34-05:00",
    "created": "2026-08-12T09:31:00-05:00",
    "phone": null,
@@ -4295,7 +4494,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 64.9,
+   "weighted": 64.8,
    "tier": "Silver",
    "grade": "B",
    "expected": 8016,
@@ -4328,8 +4527,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -4361,8 +4560,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by engagement depth — 2 of 10 engagement signals present. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 44,
-   "prevRank": 32,
+   "rank": 46,
+   "prevRank": 44,
    "id": "1843523000057723694",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057723694",
    "account": "Fountain Comfort Group",
@@ -4380,7 +4579,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 28,
+   "daysSinceActivity": 29,
    "lastActivity": "2026-07-24T07:58:31-05:00",
    "created": null,
    "phone": null,
@@ -4394,7 +4593,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 65.5,
+   "weighted": 65.4,
    "tier": "Silver",
    "grade": "B",
    "expected": 7770,
@@ -4427,8 +4626,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 69,
-     "points": 8.3,
+     "pct": 68,
+     "points": 8.2,
      "max": 12,
      "pending": false
     },
@@ -4460,8 +4659,8 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — LinkedIn leads convert at 28%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 45,
-   "prevRank": 140,
+   "rank": 47,
+   "prevRank": 45,
    "id": "1843523000062299408",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000062299408",
    "account": "Florida Energy Water & Air",
@@ -4479,7 +4678,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 1,
+   "daysSinceActivity": 2,
    "lastActivity": "2026-08-20T12:19:23-05:00",
    "created": null,
    "phone": null,
@@ -4493,7 +4692,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 65,
+   "weighted": 64.9,
    "tier": "Silver",
    "grade": "B",
    "expected": 7770,
@@ -4526,8 +4725,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 99,
-     "points": 11.8,
+     "pct": 97,
+     "points": 11.7,
      "max": 12,
      "pending": false
     },
@@ -4559,28 +4758,28 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 46,
-   "prevRank": 44,
-   "id": "1843523000069057068",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000069057068",
-   "account": "Frederick Social Sports",
+   "rank": 48,
+   "prevRank": 140,
+   "id": "1843523000071606135",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071606135",
+   "account": "BGC Expert Contractors",
    "contact": null,
    "title": null,
-   "owner": "Tim Snyder",
-   "ae": "Tim Snyder",
+   "owner": "Dan Royal",
+   "ae": "Dan Royal",
    "bdr": null,
-   "stage": "Zoom Sat",
-   "industry": "Health/Wellness",
-   "source": "Web Research",
-   "entity": "ADC",
+   "stage": "Pending Revenue",
+   "industry": "Roofing",
+   "source": "ZoomInfo",
+   "entity": "Elite Call",
    "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
+   "brand": "hail911",
    "estimate": 12000,
    "estimateInferred": true,
-   "closingPct": 50,
-   "daysSinceActivity": 22,
-   "lastActivity": "2026-07-30T07:50:15-05:00",
-   "created": "2026-07-15T13:21:00-05:00",
+   "closingPct": 75,
+   "daysSinceActivity": 1,
+   "lastActivity": "2026-08-21T15:34:45-05:00",
+   "created": "2026-08-13T14:58:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
@@ -4592,10 +4791,10 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 64.5,
+   "weighted": 65.4,
    "tier": "Silver",
    "grade": "B",
-   "expected": 7358,
+   "expected": 7494,
    "engagementSignals": 5,
    "components": [
     {
@@ -4609,8 +4808,8 @@
     {
      "key": "stage",
      "label": "Pipeline stage",
-     "pct": 80,
-     "points": 14.4,
+     "pct": 95,
+     "points": 17.1,
      "max": 18,
      "pending": false
     },
@@ -4625,24 +4824,24 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 75,
-     "points": 8.9,
+     "pct": 99,
+     "points": 11.8,
      "max": 12,
      "pending": false
     },
     {
      "key": "industry",
      "label": "Industry fit",
-     "pct": 59,
-     "points": 8.2,
+     "pct": 36,
+     "points": 5.1,
      "max": 14,
      "pending": false
     },
     {
      "key": "source",
      "label": "Lead source quality",
-     "pct": 40,
-     "points": 4,
+     "pct": 23,
+     "points": 2.3,
      "max": 10,
      "pending": false
     },
@@ -4655,11 +4854,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — ZoomInfo leads convert at 26%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 47,
-   "prevRank": 46,
+   "rank": 49,
+   "prevRank": 47,
    "id": "1843523000067769307",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067769307",
    "account": "Evo Pest Control",
@@ -4677,7 +4876,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:18:10-05:00",
    "created": "2026-06-29T14:36:00-05:00",
    "phone": null,
@@ -4691,7 +4890,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 64.9,
+   "weighted": 64.8,
    "tier": "Silver",
    "grade": "B",
    "expected": 7024,
@@ -4724,8 +4923,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -4757,8 +4956,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 48,
-   "prevRank": 47,
+   "rank": 50,
+   "prevRank": 48,
    "id": "1843523000065602015",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000065602015",
    "account": "Shank Door",
@@ -4776,7 +4975,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T16:00:47-05:00",
    "created": "2026-06-02T08:31:00-05:00",
    "phone": null,
@@ -4790,7 +4989,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 64.8,
+   "weighted": 64.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 7001,
@@ -4823,8 +5022,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -4856,8 +5055,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 49,
-   "prevRank": 48,
+   "rank": 51,
+   "prevRank": 49,
    "id": "1843523000068859040",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068859040",
    "account": "Plumbing-Heating-Cooling Contractors -National Association",
@@ -4875,7 +5074,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 32,
+   "daysSinceActivity": 33,
    "lastActivity": "2026-07-20T14:05:03-05:00",
    "created": "2026-07-14T11:42:00-05:00",
    "phone": null,
@@ -4889,7 +5088,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 65,
+   "weighted": 64.9,
    "tier": "Silver",
    "grade": "B",
    "expected": 6972,
@@ -4922,8 +5121,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 65,
-     "points": 7.8,
+     "pct": 64,
+     "points": 7.7,
      "max": 12,
      "pending": false
     },
@@ -4955,8 +5154,8 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 50,
-   "prevRank": 49,
+   "rank": 52,
+   "prevRank": 50,
    "id": "1843523000058814314",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000058814314",
    "account": "Trivest Partners",
@@ -4974,7 +5173,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 28,
+   "daysSinceActivity": 29,
    "lastActivity": "2026-07-24T08:18:52-05:00",
    "created": null,
    "phone": null,
@@ -4988,7 +5187,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 64.8,
+   "weighted": 64.7,
    "tier": "Silver",
    "grade": "B",
    "expected": 6870,
@@ -5021,8 +5220,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 69,
-     "points": 8.3,
+     "pct": 68,
+     "points": 8.2,
      "max": 12,
      "pending": false
     },
@@ -5054,8 +5253,8 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 51,
-   "prevRank": 50,
+   "rank": 53,
+   "prevRank": 51,
    "id": "1843523000057723718",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057723718",
    "account": "Rotunda Capital Partners",
@@ -5073,7 +5272,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 28,
+   "daysSinceActivity": 29,
    "lastActivity": "2026-07-24T08:18:07-05:00",
    "created": null,
    "phone": null,
@@ -5087,7 +5286,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 64.8,
+   "weighted": 64.7,
    "tier": "Silver",
    "grade": "B",
    "expected": 6870,
@@ -5120,8 +5319,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 69,
-     "points": 8.3,
+     "pct": 68,
+     "points": 8.2,
      "max": 12,
      "pending": false
     },
@@ -5153,8 +5352,8 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 52,
-   "prevRank": 36,
+   "rank": 54,
+   "prevRank": 52,
    "id": "1843523000066105019",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000066105019",
    "account": "Bacon Plumbing, Heating, Air and Electric",
@@ -5172,7 +5371,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:38:02-05:00",
    "created": "2026-06-08T11:16:00-05:00",
    "phone": null,
@@ -5186,7 +5385,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 65.4,
+   "weighted": 65.3,
    "tier": "Silver",
    "grade": "B",
    "expected": 6780,
@@ -5219,8 +5418,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -5252,106 +5451,7 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 53,
-   "prevRank": 52,
-   "id": "1843523000068447085",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068447085",
-   "account": "Trades Holding Co., LLC",
-   "contact": null,
-   "title": null,
-   "owner": "Travis French",
-   "ae": "Travis French",
-   "bdr": null,
-   "stage": "Zoom Booked",
-   "industry": "Private Equity",
-   "source": "LinkedIn",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 12000,
-   "estimateInferred": true,
-   "closingPct": 30,
-   "daysSinceActivity": 3,
-   "lastActivity": "2026-08-18T14:05:41-05:00",
-   "created": "2026-07-09T09:42:00-05:00",
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": true
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 65,
-   "weighted": 64.6,
-   "tier": "Silver",
-   "grade": "B",
-   "expected": 6390,
-   "engagementSignals": 6,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 64,
-     "points": 14,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 72,
-     "points": 13,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 86,
-     "points": 12,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 46,
-     "points": 6.5,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 27,
-     "points": 2.7,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and sitting at Zoom Booked. Held back by lead source quality — LinkedIn leads convert at 28%. Zoom on the calendar; confirm attendance to protect the slot. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
-   "rank": 54,
+   "rank": 55,
    "prevRank": 54,
    "id": "1843523000067572392",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067572392",
@@ -5370,7 +5470,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 100,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:20:40-05:00",
    "created": "2026-06-26T08:01:00-05:00",
    "phone": null,
@@ -5384,7 +5484,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 65,
-   "weighted": 65,
+   "weighted": 64.8,
    "tier": "Silver",
    "grade": "B",
    "expected": 6113,
@@ -5417,8 +5517,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -5450,105 +5550,6 @@
    "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and 6 of 10 engagement signals present. Info sent and unanswered — next touch should carry a new reason to reply. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 55,
-   "prevRank": 55,
-   "id": "1843523000057045942",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057045942",
-   "account": "United Comfort Group",
-   "contact": null,
-   "title": null,
-   "owner": "Mike Siemieniec",
-   "ae": "Mike Siemieniec",
-   "bdr": null,
-   "stage": "Pending Revenue",
-   "industry": "Home Services",
-   "source": "Cold Calls",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 33000,
-   "estimateInferred": false,
-   "closingPct": 100,
-   "daysSinceActivity": 49,
-   "lastActivity": "2026-07-03T13:58:24-05:00",
-   "created": null,
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": false
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 64,
-   "weighted": 63.6,
-   "tier": "Silver",
-   "grade": "B",
-   "expected": 19767,
-   "engagementSignals": 5,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 89,
-     "points": 19.7,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 95,
-     "points": 17.1,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 71,
-     "points": 10,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 52,
-     "points": 6.2,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 37,
-     "points": 5.2,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 4,
-     "points": 0.4,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on a $33,000 first-campaign estimate and sitting at Pending Revenue. Held back by lead source quality — Cold Calls leads convert at 13%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
    "rank": 56,
    "prevRank": 56,
    "id": "1843523000066145041",
@@ -5568,7 +5569,7 @@
    "estimate": 30000,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 15,
+   "daysSinceActivity": 16,
    "lastActivity": "2026-08-06T12:04:40-05:00",
    "created": "2026-06-08T12:17:00-05:00",
    "phone": null,
@@ -5582,7 +5583,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 64.1,
+   "weighted": 64,
    "tier": "Silver",
    "grade": "B",
    "expected": 19405,
@@ -5615,8 +5616,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 82,
-     "points": 9.8,
+     "pct": 81,
+     "points": 9.7,
      "max": 12,
      "pending": false
     },
@@ -5649,7 +5650,7 @@
   },
   {
    "rank": 57,
-   "prevRank": 58,
+   "prevRank": 57,
    "id": "1843523000058567001",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000058567001",
    "account": "Current Electric",
@@ -5667,7 +5668,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 155,
+   "daysSinceActivity": 156,
    "lastActivity": "2026-03-19T09:00:26-05:00",
    "created": null,
    "phone": null,
@@ -5681,7 +5682,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 64.2,
+   "weighted": 64.1,
    "tier": "Silver",
    "grade": "B",
    "expected": 8189,
@@ -5714,7 +5715,7 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 13,
+     "pct": 12,
      "points": 1.5,
      "max": 12,
      "pending": false
@@ -5744,31 +5745,31 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 155 days ago. No activity in 155 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 156 days ago. No activity in 156 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 58,
-   "prevRank": 59,
-   "id": "1843523000068361021",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068361021",
-   "account": "Harris",
+   "prevRank": 46,
+   "id": "1843523000069057068",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000069057068",
+   "account": "Frederick Social Sports",
    "contact": null,
    "title": null,
-   "owner": "Mike Siemieniec",
-   "ae": "Mike Siemieniec",
+   "owner": "Tim Snyder",
+   "ae": "Tim Snyder",
    "bdr": null,
-   "stage": "Pending Revenue",
-   "industry": "HVAC",
+   "stage": "Zoom Sat",
+   "industry": "Health/Wellness",
    "source": "Web Research",
-   "entity": "Elite Call",
+   "entity": "ADC",
    "pipeline": "Leads Pipeline",
    "brand": "elitecall",
    "estimate": 12000,
    "estimateInferred": true,
-   "closingPct": 75,
-   "daysSinceActivity": 7,
-   "lastActivity": "2026-08-14T17:46:21-05:00",
-   "created": "2026-07-07T14:26:00-05:00",
+   "closingPct": 50,
+   "daysSinceActivity": 23,
+   "lastActivity": "2026-07-30T07:50:15-05:00",
+   "created": "2026-07-15T13:21:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
@@ -5780,11 +5781,11 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 63.6,
+   "weighted": 64.4,
    "tier": "Silver",
    "grade": "B",
-   "expected": 7680,
-   "engagementSignals": 4,
+   "expected": 7358,
+   "engagementSignals": 5,
    "components": [
     {
      "key": "revenue",
@@ -5797,32 +5798,32 @@
     {
      "key": "stage",
      "label": "Pipeline stage",
-     "pct": 95,
-     "points": 17.1,
+     "pct": 80,
+     "points": 14.4,
      "max": 18,
      "pending": false
     },
     {
      "key": "engagement",
      "label": "Engagement depth",
-     "pct": 57,
-     "points": 8,
+     "pct": 71,
+     "points": 10,
      "max": 14,
      "pending": false
     },
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 91,
-     "points": 10.9,
+     "pct": 74,
+     "points": 8.8,
      "max": 12,
      "pending": false
     },
     {
      "key": "industry",
      "label": "Industry fit",
-     "pct": 33,
-     "points": 4.6,
+     "pct": 59,
+     "points": 8.2,
      "max": 14,
      "pending": false
     },
@@ -5843,11 +5844,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 59,
-   "prevRank": 60,
+   "prevRank": 59,
    "id": "1843523000068596125",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068596125",
    "account": "International Franchise Professionals Group",
@@ -5865,7 +5866,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 32,
+   "daysSinceActivity": 33,
    "lastActivity": "2026-07-20T13:06:31-05:00",
    "created": "2026-07-10T14:36:00-05:00",
    "phone": null,
@@ -5879,7 +5880,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 63.9,
+   "weighted": 63.8,
    "tier": "Silver",
    "grade": "B",
    "expected": 7119,
@@ -5912,8 +5913,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 65,
-     "points": 7.8,
+     "pct": 64,
+     "points": 7.7,
      "max": 12,
      "pending": false
     },
@@ -5946,7 +5947,7 @@
   },
   {
    "rank": 60,
-   "prevRank": 45,
+   "prevRank": 60,
    "id": "1843523000065754064",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000065754064",
    "account": "Easton Select Group",
@@ -5964,7 +5965,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 25,
+   "daysSinceActivity": 26,
    "lastActivity": "2026-07-27T09:21:12-05:00",
    "created": "2026-06-04T09:17:00-05:00",
    "phone": null,
@@ -5978,7 +5979,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 64.4,
+   "weighted": 64.3,
    "tier": "Silver",
    "grade": "B",
    "expected": 7079,
@@ -6011,8 +6012,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 72,
-     "points": 8.6,
+     "pct": 71,
+     "points": 8.5,
      "max": 12,
      "pending": false
     },
@@ -6045,7 +6046,7 @@
   },
   {
    "rank": 61,
-   "prevRank": 62,
+   "prevRank": 61,
    "id": "1843523000066768553",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000066768553",
    "account": "Allied Roofing Partners",
@@ -6063,7 +6064,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:37:19-05:00",
    "created": "2026-06-16T08:18:00-05:00",
    "phone": null,
@@ -6077,7 +6078,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 64,
+   "weighted": 63.8,
    "tier": "Silver",
    "grade": "B",
    "expected": 6870,
@@ -6110,8 +6111,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -6144,7 +6145,7 @@
   },
   {
    "rank": 62,
-   "prevRank": 63,
+   "prevRank": 62,
    "id": "1843523000070336204",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070336204",
    "account": "Grasten Generators",
@@ -6162,7 +6163,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 90,
-   "daysSinceActivity": 1,
+   "daysSinceActivity": 2,
    "lastActivity": "2026-08-20T16:13:57-05:00",
    "created": "2026-07-31T11:00:00-05:00",
    "phone": null,
@@ -6176,7 +6177,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 64.3,
+   "weighted": 64.2,
    "tier": "Silver",
    "grade": "B",
    "expected": 6870,
@@ -6209,8 +6210,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 99,
-     "points": 11.8,
+     "pct": 97,
+     "points": 11.7,
      "max": 12,
      "pending": false
     },
@@ -6243,7 +6244,7 @@
   },
   {
    "rank": 63,
-   "prevRank": 64,
+   "prevRank": 63,
    "id": "1843523000059532079",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000059532079",
    "account": "Flotilla Partners",
@@ -6261,7 +6262,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 14,
+   "daysSinceActivity": 15,
    "lastActivity": "2026-08-07T09:58:11-05:00",
    "created": null,
    "phone": null,
@@ -6275,7 +6276,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 63.8,
+   "weighted": 63.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 6758,
@@ -6308,8 +6309,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 83,
-     "points": 10,
+     "pct": 82,
+     "points": 9.8,
      "max": 12,
      "pending": false
     },
@@ -6342,7 +6343,7 @@
   },
   {
    "rank": 64,
-   "prevRank": 92,
+   "prevRank": 64,
    "id": "1843523000070833258",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070833258",
    "account": "US Dock & Door",
@@ -6360,7 +6361,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 30,
-   "daysSinceActivity": 1,
+   "daysSinceActivity": 2,
    "lastActivity": "2026-08-20T14:58:18-05:00",
    "created": "2026-08-05T15:40:00-05:00",
    "phone": null,
@@ -6374,7 +6375,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 64,
-   "weighted": 63.7,
+   "weighted": 63.6,
    "tier": "Silver",
    "grade": "B",
    "expected": 6521,
@@ -6407,8 +6408,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 99,
-     "points": 11.8,
+     "pct": 97,
+     "points": 11.7,
      "max": 12,
      "pending": false
     },
@@ -6441,73 +6442,73 @@
   },
   {
    "rank": 65,
-   "prevRank": 53,
-   "id": "1843523000071751300",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071751300",
-   "account": "ALL MY SONS MOVING & STORAGE",
+   "prevRank": 55,
+   "id": "1843523000057045942",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057045942",
+   "account": "United Comfort Group",
    "contact": null,
    "title": null,
-   "owner": "Travis French",
-   "ae": "Travis French",
+   "owner": "Mike Siemieniec",
+   "ae": "Mike Siemieniec",
    "bdr": null,
-   "stage": "Zoom Booked",
+   "stage": "Pending Revenue",
    "industry": "Home Services",
-   "source": "Web Research",
+   "source": "Cold Calls",
    "entity": "Elite Call",
    "pipeline": "Leads Pipeline",
    "brand": "elitecall",
-   "estimate": 12000,
-   "estimateInferred": true,
-   "closingPct": 30,
-   "daysSinceActivity": 4,
-   "lastActivity": "2026-08-17T15:56:15-05:00",
-   "created": "2026-08-17T15:56:00-05:00",
+   "estimate": 33000,
+   "estimateInferred": false,
+   "closingPct": 100,
+   "daysSinceActivity": 50,
+   "lastActivity": "2026-07-03T13:58:24-05:00",
+   "created": null,
    "phone": null,
    "email": null,
    "website": null,
    "flags": {
     "topPriority": false,
     "warboard": false,
-    "inTalks": true
+    "inTalks": false
    },
    "notes": null,
    "nextSteps": null,
-   "score": 64,
-   "weighted": 64.4,
+   "score": 63,
+   "weighted": 63.5,
    "tier": "Silver",
-   "grade": "B",
-   "expected": 6390,
-   "engagementSignals": 6,
+   "grade": "C+",
+   "expected": 19767,
+   "engagementSignals": 5,
    "components": [
     {
      "key": "revenue",
      "label": "Revenue potential",
-     "pct": 64,
-     "points": 14,
+     "pct": 89,
+     "points": 19.7,
      "max": 22,
      "pending": false
     },
     {
      "key": "stage",
      "label": "Pipeline stage",
-     "pct": 72,
-     "points": 13,
+     "pct": 95,
+     "points": 17.1,
      "max": 18,
      "pending": false
     },
     {
      "key": "engagement",
      "label": "Engagement depth",
-     "pct": 86,
-     "points": 12,
+     "pct": 71,
+     "points": 10,
      "max": 14,
      "pending": false
     },
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 51,
+     "points": 6.2,
      "max": 12,
      "pending": false
     },
@@ -6522,8 +6523,8 @@
     {
      "key": "source",
      "label": "Lead source quality",
-     "pct": 40,
-     "points": 4,
+     "pct": 4,
+     "points": 0.4,
      "max": 10,
      "pending": false
     },
@@ -6536,110 +6537,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and sitting at Zoom Booked. Held back by lead source quality — Web Research leads convert at 37%. Zoom on the calendar; confirm attendance to protect the slot. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on a $33,000 first-campaign estimate and sitting at Pending Revenue. Held back by lead source quality — Cold Calls leads convert at 13%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 66,
-   "prevRank": 65,
-   "id": "1843523000071881082",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071881082",
-   "account": "Wally Falkes",
-   "contact": null,
-   "title": null,
-   "owner": "Travis French",
-   "ae": "Travis French",
-   "bdr": null,
-   "stage": "Zoom Booked",
-   "industry": "HVAC",
-   "source": "Web Research",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 12000,
-   "estimateInferred": true,
-   "closingPct": 30,
-   "daysSinceActivity": 3,
-   "lastActivity": "2026-08-18T14:43:39-05:00",
-   "created": "2026-08-18T11:27:00-05:00",
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": true
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 64,
-   "weighted": 64,
-   "tier": "Silver",
-   "grade": "B",
-   "expected": 6300,
-   "engagementSignals": 6,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 64,
-     "points": 14,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 72,
-     "points": 13,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 86,
-     "points": 12,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 96,
-     "points": 11.5,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 33,
-     "points": 4.6,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 40,
-     "points": 4,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and sitting at Zoom Booked. Held back by lead source quality — Web Research leads convert at 37%. Zoom on the calendar; confirm attendance to protect the slot. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
-   "rank": 67,
-   "prevRank": 66,
+   "prevRank": 67,
    "id": "1843523000056990341",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000056990341",
    "account": "Champions Group Holdings - Travis",
@@ -6657,7 +6559,7 @@
    "estimate": 20000,
    "estimateInferred": false,
    "closingPct": 70,
-   "daysSinceActivity": 66,
+   "daysSinceActivity": 67,
    "lastActivity": "2026-06-16T10:27:57-05:00",
    "created": null,
    "phone": null,
@@ -6671,7 +6573,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 62.8,
+   "weighted": 62.7,
    "tier": "Silver",
    "grade": "C+",
    "expected": 12328,
@@ -6705,7 +6607,7 @@
      "key": "recency",
      "label": "Recency of contact",
      "pct": 41,
-     "points": 5,
+     "points": 4.9,
      "max": 12,
      "pending": false
     },
@@ -6734,11 +6636,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Pending Revenue and a $20,000 first-campaign estimate. Held back by lead source quality — Cold Calls leads convert at 13%. No activity in 66 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Pending Revenue and a $20,000 first-campaign estimate. Held back by lead source quality — Cold Calls leads convert at 13%. No activity in 67 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 68,
-   "prevRank": 67,
+   "rank": 67,
+   "prevRank": 68,
    "id": "1843523000057039634",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057039634",
    "account": "Uassist ME",
@@ -6756,7 +6658,7 @@
    "estimate": 12000,
    "estimateInferred": false,
    "closingPct": 50,
-   "daysSinceActivity": 106,
+   "daysSinceActivity": 107,
    "lastActivity": "2026-05-07T09:34:26-05:00",
    "created": null,
    "phone": null,
@@ -6770,7 +6672,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 63.1,
+   "weighted": 63,
    "tier": "Silver",
    "grade": "C+",
    "expected": 8428,
@@ -6833,14 +6735,14 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate. Held back by recency of contact — last touched 106 days ago. No activity in 106 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate. Held back by recency of contact — last touched 107 days ago. No activity in 107 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 69,
-   "prevRank": 68,
-   "id": "1843523000059388025",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000059388025",
-   "account": "B&D Industries",
+   "rank": 68,
+   "prevRank": 58,
+   "id": "1843523000068361021",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068361021",
+   "account": "Harris",
    "contact": null,
    "title": null,
    "owner": "Mike Siemieniec",
@@ -6855,9 +6757,9 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 14,
-   "lastActivity": "2026-08-07T14:44:34-05:00",
-   "created": null,
+   "daysSinceActivity": 8,
+   "lastActivity": "2026-08-14T17:46:21-05:00",
+   "created": "2026-07-07T14:26:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
@@ -6869,7 +6771,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 62.6,
+   "weighted": 63.4,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7680,
@@ -6902,8 +6804,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 83,
-     "points": 10,
+     "pct": 90,
+     "points": 10.8,
      "max": 12,
      "pending": false
     },
@@ -6935,8 +6837,8 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 70,
-   "prevRank": 69,
+   "rank": 69,
+   "prevRank": 70,
    "id": "1843523000070404005",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070404005",
    "account": "Storm Smart",
@@ -6954,7 +6856,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T08:20:59-05:00",
    "created": "2026-08-03T06:57:00-05:00",
    "phone": null,
@@ -6968,7 +6870,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 62.8,
+   "weighted": 62.7,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7679,
@@ -7001,8 +6903,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -7034,8 +6936,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by engagement depth — 2 of 10 engagement signals present. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 71,
-   "prevRank": 70,
+   "rank": 70,
+   "prevRank": 71,
    "id": "1843523000063559238",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000063559238",
    "account": "Yarbrough and Sons",
@@ -7053,7 +6955,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 94,
+   "daysSinceActivity": 95,
    "lastActivity": "2026-05-19T14:30:07-05:00",
    "created": "2026-05-01T12:53:00-05:00",
    "phone": null,
@@ -7067,7 +6969,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 62.9,
+   "weighted": 62.8,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7676,
@@ -7100,7 +7002,7 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 29,
+     "pct": 28,
      "points": 3.4,
      "max": 12,
      "pending": false
@@ -7130,11 +7032,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 94 days ago. No activity in 94 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 95 days ago. No activity in 95 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 72,
-   "prevRank": 71,
+   "rank": 71,
+   "prevRank": 72,
    "id": "1843523000060626022",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000060626022",
    "account": "Smith's Plumbing, Heating & Air",
@@ -7152,7 +7054,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 87,
+   "daysSinceActivity": 88,
    "lastActivity": "2026-05-26T09:12:47-05:00",
    "created": null,
    "phone": null,
@@ -7166,7 +7068,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 63.2,
+   "weighted": 63.1,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7676,
@@ -7200,7 +7102,7 @@
      "key": "recency",
      "label": "Recency of contact",
      "pct": 31,
-     "points": 3.8,
+     "points": 3.7,
      "max": 12,
      "pending": false
     },
@@ -7229,11 +7131,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 87 days ago. No activity in 87 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 88 days ago. No activity in 88 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 73,
-   "prevRank": 72,
+   "rank": 72,
+   "prevRank": 73,
    "id": "1843523000069685047",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000069685047",
    "account": "Culinary Ventures Vending",
@@ -7251,7 +7153,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 25,
+   "daysSinceActivity": 26,
    "lastActivity": "2026-07-27T12:18:14-05:00",
    "created": "2026-07-22T15:42:00-05:00",
    "phone": null,
@@ -7265,7 +7167,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 63.1,
+   "weighted": 63,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7658,
@@ -7298,8 +7200,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 72,
-     "points": 8.6,
+     "pct": 71,
+     "points": 8.5,
      "max": 12,
      "pending": false
     },
@@ -7331,8 +7233,8 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 74,
-   "prevRank": 73,
+   "rank": 73,
+   "prevRank": 74,
    "id": "1843523000067572467",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067572467",
    "account": "Tree Care Partners",
@@ -7350,7 +7252,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:20:29-05:00",
    "created": "2026-06-26T13:59:00-05:00",
    "phone": null,
@@ -7364,7 +7266,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 63.2,
+   "weighted": 63.1,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7079,
@@ -7397,8 +7299,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -7430,8 +7332,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 75,
-   "prevRank": 74,
+   "rank": 74,
+   "prevRank": 75,
    "id": "1843523000062946042",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000062946042",
    "account": "Meadows Garage Doors, LLC",
@@ -7449,7 +7351,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 16,
+   "daysSinceActivity": 17,
    "lastActivity": "2026-08-05T10:51:14-05:00",
    "created": null,
    "phone": null,
@@ -7463,7 +7365,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 63,
+   "weighted": 62.9,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7001,
@@ -7496,8 +7398,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 81,
-     "points": 9.7,
+     "pct": 80,
+     "points": 9.6,
      "max": 12,
      "pending": false
     },
@@ -7529,8 +7431,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 76,
-   "prevRank": 61,
+   "rank": 75,
+   "prevRank": 76,
    "id": "1843523000068447059",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068447059",
    "account": "Building36",
@@ -7548,7 +7450,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 25,
+   "daysSinceActivity": 26,
    "lastActivity": "2026-07-27T10:39:59-05:00",
    "created": "2026-07-09T09:33:00-05:00",
    "phone": null,
@@ -7562,7 +7464,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 63.4,
+   "weighted": 63.3,
    "tier": "Silver",
    "grade": "C+",
    "expected": 6911,
@@ -7595,8 +7497,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 72,
-     "points": 8.6,
+     "pct": 71,
+     "points": 8.5,
      "max": 12,
      "pending": false
     },
@@ -7628,8 +7530,8 @@
    "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 77,
-   "prevRank": 75,
+   "rank": 76,
+   "prevRank": 77,
    "id": "1843523000068447113",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068447113",
    "account": "Galaxy Service Partners / Guild Garage Group",
@@ -7647,9 +7549,108 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 25,
+   "daysSinceActivity": 26,
    "lastActivity": "2026-07-27T09:24:04-05:00",
    "created": "2026-07-09T10:33:00-05:00",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": true
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 63,
+   "weighted": 63,
+   "tier": "Silver",
+   "grade": "C+",
+   "expected": 6870,
+   "engagementSignals": 6,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 64,
+     "points": 14,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 80,
+     "points": 14.4,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 86,
+     "points": 12,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 71,
+     "points": 8.5,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
+     "pct": 46,
+     "points": 6.5,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 27,
+     "points": 2.7,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
+   "rank": 77,
+   "prevRank": 78,
+   "id": "1843523000067432073",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067432073",
+   "account": "Wheelhouse Brands",
+   "contact": null,
+   "title": null,
+   "owner": "Travis French",
+   "ae": "Travis French",
+   "bdr": null,
+   "stage": "Zoom Sat",
+   "industry": "Private Equity",
+   "source": "LinkedIn",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 12000,
+   "estimateInferred": true,
+   "closingPct": 50,
+   "daysSinceActivity": 25,
+   "lastActivity": "2026-07-28T16:02:19-05:00",
+   "created": "2026-06-24T07:39:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
@@ -7728,106 +7729,7 @@
   },
   {
    "rank": 78,
-   "prevRank": 76,
-   "id": "1843523000067432073",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067432073",
-   "account": "Wheelhouse Brands",
-   "contact": null,
-   "title": null,
-   "owner": "Travis French",
-   "ae": "Travis French",
-   "bdr": null,
-   "stage": "Zoom Sat",
-   "industry": "Private Equity",
-   "source": "LinkedIn",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 12000,
-   "estimateInferred": true,
-   "closingPct": 50,
-   "daysSinceActivity": 24,
-   "lastActivity": "2026-07-28T16:02:19-05:00",
-   "created": "2026-06-24T07:39:00-05:00",
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": true
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 63,
-   "weighted": 63.2,
-   "tier": "Silver",
-   "grade": "C+",
-   "expected": 6870,
-   "engagementSignals": 6,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 64,
-     "points": 14,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 80,
-     "points": 14.4,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 86,
-     "points": 12,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 73,
-     "points": 8.7,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 46,
-     "points": 6.5,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 27,
-     "points": 2.7,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
-   "rank": 79,
-   "prevRank": 77,
+   "prevRank": 79,
    "id": "1843523000057892019",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057892019",
    "account": "Ned's Home",
@@ -7845,7 +7747,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 35,
+   "daysSinceActivity": 36,
    "lastActivity": "2026-07-17T13:10:51-05:00",
    "created": null,
    "phone": null,
@@ -7859,7 +7761,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 63,
-   "weighted": 62.7,
+   "weighted": 62.6,
    "tier": "Silver",
    "grade": "C+",
    "expected": 6661,
@@ -7892,8 +7794,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 63,
-     "points": 7.5,
+     "pct": 62,
+     "points": 7.4,
      "max": 12,
      "pending": false
     },
@@ -7925,8 +7827,8 @@
    "summary": "Ranked on sitting at Zoom Sat and 7 of 10 engagement signals present. Held back by lead source quality — LinkedIn leads convert at 28%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 80,
-   "prevRank": 78,
+   "rank": 79,
+   "prevRank": 80,
    "id": "1843523000057030134",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057030134",
    "account": "NorthCurrent Partners/OnTrack Partner",
@@ -7944,7 +7846,7 @@
    "estimate": 20000,
    "estimateInferred": false,
    "closingPct": 30,
-   "daysSinceActivity": 9,
+   "daysSinceActivity": 10,
    "lastActivity": "2026-08-12T10:25:29-05:00",
    "created": null,
    "phone": null,
@@ -7958,7 +7860,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 61.8,
+   "weighted": 61.6,
    "tier": "Silver",
    "grade": "C+",
    "expected": 10828,
@@ -7991,8 +7893,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 89,
-     "points": 10.6,
+     "pct": 88,
+     "points": 10.5,
      "max": 12,
      "pending": false
     },
@@ -8024,8 +7926,8 @@
    "summary": "Ranked on a $20,000 first-campaign estimate and sitting at Zoom Sat. Held back by lead source quality — Cold Calls leads convert at 13%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 81,
-   "prevRank": 80,
+   "rank": 80,
+   "prevRank": 81,
    "id": "1843523000057045683",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057045683",
    "account": "United Plumbing",
@@ -8043,7 +7945,7 @@
    "estimate": 12000,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 25,
+   "daysSinceActivity": 26,
    "lastActivity": "2026-07-27T17:02:42-05:00",
    "created": null,
    "phone": null,
@@ -8057,7 +7959,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 61.8,
+   "weighted": 61.7,
    "tier": "Silver",
    "grade": "C+",
    "expected": 8099,
@@ -8090,8 +7992,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 72,
-     "points": 8.6,
+     "pct": 71,
+     "points": 8.5,
      "max": 12,
      "pending": false
     },
@@ -8123,8 +8025,8 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate. Held back by industry fit — Home Services converts at 33% historically (76 closed records). Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
-   "rank": 82,
-   "prevRank": 81,
+   "rank": 81,
+   "prevRank": 82,
    "id": "1843523000057000386",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057000386",
    "account": "Long Home",
@@ -8142,7 +8044,7 @@
    "estimate": 12000,
    "estimateInferred": false,
    "closingPct": 75,
-   "daysSinceActivity": 8,
+   "daysSinceActivity": 9,
    "lastActivity": "2026-08-13T14:25:14-05:00",
    "created": null,
    "phone": null,
@@ -8156,7 +8058,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 62.1,
+   "weighted": 62,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7794,
@@ -8189,8 +8091,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 90,
-     "points": 10.8,
+     "pct": 89,
+     "points": 10.6,
      "max": 12,
      "pending": false
     },
@@ -8222,8 +8124,107 @@
    "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate. Held back by lead source quality — Rilla 26 leads convert at 38%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
+   "rank": 82,
+   "prevRank": 69,
+   "id": "1843523000059388025",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000059388025",
+   "account": "B&D Industries",
+   "contact": null,
+   "title": null,
+   "owner": "Mike Siemieniec",
+   "ae": "Mike Siemieniec",
+   "bdr": null,
+   "stage": "Pending Revenue",
+   "industry": "HVAC",
+   "source": "Web Research",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 12000,
+   "estimateInferred": true,
+   "closingPct": 75,
+   "daysSinceActivity": 15,
+   "lastActivity": "2026-08-07T14:44:34-05:00",
+   "created": null,
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": false
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 62,
+   "weighted": 62.5,
+   "tier": "Silver",
+   "grade": "C+",
+   "expected": 7680,
+   "engagementSignals": 4,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 64,
+     "points": 14,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 95,
+     "points": 17.1,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 57,
+     "points": 8,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 82,
+     "points": 9.8,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
+     "pct": 33,
+     "points": 4.6,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 40,
+     "points": 4,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on sitting at Pending Revenue and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Web Research leads convert at 37%. Revenue pending — chase paperwork, not persuasion. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
    "rank": 83,
-   "prevRank": 82,
+   "prevRank": 83,
    "id": "1843523000068068012",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000068068012",
    "account": "Tutor Doctor",
@@ -8241,7 +8242,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 9,
+   "daysSinceActivity": 10,
    "lastActivity": "2026-08-12T13:40:15-05:00",
    "created": "2026-07-02T10:05:00-05:00",
    "phone": null,
@@ -8255,7 +8256,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 62.2,
+   "weighted": 62.1,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7358,
@@ -8288,8 +8289,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 89,
-     "points": 10.6,
+     "pct": 88,
+     "points": 10.5,
      "max": 12,
      "pending": false
     },
@@ -8322,7 +8323,7 @@
   },
   {
    "rank": 84,
-   "prevRank": 83,
+   "prevRank": 84,
    "id": "1843523000069757618",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000069757618",
    "account": "Digitized Solutions",
@@ -8340,7 +8341,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 29,
+   "daysSinceActivity": 30,
    "lastActivity": "2026-07-23T11:39:55-05:00",
    "created": "2026-07-23T10:00:00-05:00",
    "phone": null,
@@ -8354,7 +8355,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 62,
+   "weighted": 61.9,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7084,
@@ -8387,8 +8388,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 68,
-     "points": 8.2,
+     "pct": 67,
+     "points": 8,
      "max": 12,
      "pending": false
     },
@@ -8421,7 +8422,7 @@
   },
   {
    "rank": 85,
-   "prevRank": 84,
+   "prevRank": 85,
    "id": "1843523000058623688",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000058623688",
    "account": "National Reliance Group",
@@ -8439,7 +8440,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 7,
+   "daysSinceActivity": 8,
    "lastActivity": "2026-08-14T09:25:58-05:00",
    "created": null,
    "phone": null,
@@ -8453,7 +8454,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 61.9,
+   "weighted": 61.8,
    "tier": "Silver",
    "grade": "C+",
    "expected": 6939,
@@ -8486,8 +8487,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 91,
-     "points": 10.9,
+     "pct": 90,
+     "points": 10.8,
      "max": 12,
      "pending": false
     },
@@ -8520,7 +8521,7 @@
   },
   {
    "rank": 86,
-   "prevRank": 85,
+   "prevRank": 86,
    "id": "1843523000057094011",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057094011",
    "account": "Senske Services",
@@ -8538,7 +8539,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 10,
+   "daysSinceActivity": 11,
    "lastActivity": "2026-08-11T14:10:55-05:00",
    "created": null,
    "phone": null,
@@ -8552,7 +8553,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 61.7,
+   "weighted": 61.6,
    "tier": "Silver",
    "grade": "C+",
    "expected": 6661,
@@ -8585,8 +8586,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 88,
-     "points": 10.5,
+     "pct": 86,
+     "points": 10.4,
      "max": 12,
      "pending": false
     },
@@ -8619,7 +8620,7 @@
   },
   {
    "rank": 87,
-   "prevRank": 86,
+   "prevRank": 87,
    "id": "1843523000059401082",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000059401082",
    "account": "Nations Roof",
@@ -8637,7 +8638,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 7,
+   "daysSinceActivity": 8,
    "lastActivity": "2026-08-14T09:25:53-05:00",
    "created": null,
    "phone": null,
@@ -8651,109 +8652,10 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 62,
+   "weighted": 61.8,
    "tier": "Silver",
    "grade": "C+",
    "expected": 6625,
-   "engagementSignals": 5,
-   "components": [
-    {
-     "key": "revenue",
-     "label": "Revenue potential",
-     "pct": 64,
-     "points": 14,
-     "max": 22,
-     "pending": false
-    },
-    {
-     "key": "stage",
-     "label": "Pipeline stage",
-     "pct": 80,
-     "points": 14.4,
-     "max": 18,
-     "pending": false
-    },
-    {
-     "key": "engagement",
-     "label": "Engagement depth",
-     "pct": 71,
-     "points": 10,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "recency",
-     "label": "Recency of contact",
-     "pct": 91,
-     "points": 10.9,
-     "max": 12,
-     "pending": false
-    },
-    {
-     "key": "industry",
-     "label": "Industry fit",
-     "pct": 52,
-     "points": 7.3,
-     "max": 14,
-     "pending": false
-    },
-    {
-     "key": "source",
-     "label": "Lead source quality",
-     "pct": 4,
-     "points": 0.4,
-     "max": 10,
-     "pending": false
-    },
-    {
-     "key": "calls",
-     "label": "Call intelligence",
-     "pct": 50,
-     "points": 5,
-     "max": 10,
-     "pending": true
-    }
-   ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Cold Calls leads convert at 13%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
-  },
-  {
-   "rank": 88,
-   "prevRank": 87,
-   "id": "1843523000063912539",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000063912539",
-   "account": "Energy Air",
-   "contact": null,
-   "title": null,
-   "owner": "Dan Royal",
-   "ae": "Dan Royal",
-   "bdr": null,
-   "stage": "Zoom Sat",
-   "industry": "Home Services",
-   "source": "ZoomInfo",
-   "entity": "Elite Call",
-   "pipeline": "Leads Pipeline",
-   "brand": "elitecall",
-   "estimate": 12000,
-   "estimateInferred": true,
-   "closingPct": 50,
-   "daysSinceActivity": 8,
-   "lastActivity": "2026-08-13T15:37:16-05:00",
-   "created": "2026-05-07T11:17:00-05:00",
-   "phone": null,
-   "email": null,
-   "website": null,
-   "flags": {
-    "topPriority": false,
-    "warboard": false,
-    "inTalks": false
-   },
-   "notes": null,
-   "nextSteps": null,
-   "score": 62,
-   "weighted": 61.6,
-   "tier": "Silver",
-   "grade": "C+",
-   "expected": 6602,
    "engagementSignals": 5,
    "components": [
     {
@@ -8791,6 +8693,105 @@
     {
      "key": "industry",
      "label": "Industry fit",
+     "pct": 52,
+     "points": 7.3,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "source",
+     "label": "Lead source quality",
+     "pct": 4,
+     "points": 0.4,
+     "max": 10,
+     "pending": false
+    },
+    {
+     "key": "calls",
+     "label": "Call intelligence",
+     "pct": 50,
+     "points": 5,
+     "max": 10,
+     "pending": true
+    }
+   ],
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by lead source quality — Cold Calls leads convert at 13%. Demo already sat — the next move is a proposal, not another call. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+  },
+  {
+   "rank": 88,
+   "prevRank": 88,
+   "id": "1843523000063912539",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000063912539",
+   "account": "Energy Air",
+   "contact": null,
+   "title": null,
+   "owner": "Dan Royal",
+   "ae": "Dan Royal",
+   "bdr": null,
+   "stage": "Zoom Sat",
+   "industry": "Home Services",
+   "source": "ZoomInfo",
+   "entity": "Elite Call",
+   "pipeline": "Leads Pipeline",
+   "brand": "elitecall",
+   "estimate": 12000,
+   "estimateInferred": true,
+   "closingPct": 50,
+   "daysSinceActivity": 9,
+   "lastActivity": "2026-08-13T15:37:16-05:00",
+   "created": "2026-05-07T11:17:00-05:00",
+   "phone": null,
+   "email": null,
+   "website": null,
+   "flags": {
+    "topPriority": false,
+    "warboard": false,
+    "inTalks": false
+   },
+   "notes": null,
+   "nextSteps": null,
+   "score": 62,
+   "weighted": 61.5,
+   "tier": "Silver",
+   "grade": "C+",
+   "expected": 6602,
+   "engagementSignals": 5,
+   "components": [
+    {
+     "key": "revenue",
+     "label": "Revenue potential",
+     "pct": 64,
+     "points": 14,
+     "max": 22,
+     "pending": false
+    },
+    {
+     "key": "stage",
+     "label": "Pipeline stage",
+     "pct": 80,
+     "points": 14.4,
+     "max": 18,
+     "pending": false
+    },
+    {
+     "key": "engagement",
+     "label": "Engagement depth",
+     "pct": 71,
+     "points": 10,
+     "max": 14,
+     "pending": false
+    },
+    {
+     "key": "recency",
+     "label": "Recency of contact",
+     "pct": 89,
+     "points": 10.6,
+     "max": 12,
+     "pending": false
+    },
+    {
+     "key": "industry",
+     "label": "Industry fit",
      "pct": 37,
      "points": 5.2,
      "max": 14,
@@ -8817,7 +8818,7 @@
   },
   {
    "rank": 89,
-   "prevRank": 88,
+   "prevRank": 89,
    "id": "1843523000071201089",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000071201089",
    "account": "AMB Sports and Entertainment",
@@ -8835,7 +8836,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T11:12:59-05:00",
    "created": "2026-08-10T11:18:00-05:00",
    "phone": null,
@@ -8849,7 +8850,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 61.9,
+   "weighted": 61.7,
    "tier": "Silver",
    "grade": "C+",
    "expected": 6549,
@@ -8882,8 +8883,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -8916,7 +8917,7 @@
   },
   {
    "rank": 90,
-   "prevRank": 89,
+   "prevRank": 90,
    "id": "1843523000066055088",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000066055088",
    "account": "Sporting JAX",
@@ -8934,7 +8935,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 4,
+   "daysSinceActivity": 5,
    "lastActivity": "2026-08-17T14:56:31-05:00",
    "created": "2026-06-08T10:24:00-05:00",
    "phone": null,
@@ -8948,7 +8949,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 61.9,
+   "weighted": 61.7,
    "tier": "Silver",
    "grade": "C+",
    "expected": 6549,
@@ -8981,8 +8982,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 95,
-     "points": 11.4,
+     "pct": 94,
+     "points": 11.2,
      "max": 12,
      "pending": false
     },
@@ -9015,27 +9016,27 @@
   },
   {
    "rank": 91,
-   "prevRank": 93,
-   "id": "1843523000070833222",
-   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070833222",
-   "account": "Brinks Home",
+   "prevRank": 140,
+   "id": "1843523000072174109",
+   "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000072174109",
+   "account": "NICE Companies/NICE Pest",
    "contact": null,
    "title": null,
    "owner": "Travis French",
    "ae": "Travis French",
    "bdr": null,
-   "stage": "Zoom Booked",
-   "industry": "Security",
-   "source": "Web Research",
+   "stage": "Info Sent",
+   "industry": "Private Equity",
+   "source": "Website - In House",
    "entity": "Elite Call",
    "pipeline": "Leads Pipeline",
    "brand": "elitecall",
    "estimate": 12000,
    "estimateInferred": true,
-   "closingPct": 30,
-   "daysSinceActivity": 16,
-   "lastActivity": "2026-08-05T14:35:00-05:00",
-   "created": "2026-08-05T14:35:00-05:00",
+   "closingPct": 20,
+   "daysSinceActivity": 1,
+   "lastActivity": "2026-08-21T10:43:50-05:00",
+   "created": "2026-08-21T10:43:00-05:00",
    "phone": null,
    "email": null,
    "website": null,
@@ -9047,10 +9048,10 @@
    "notes": null,
    "nextSteps": null,
    "score": 62,
-   "weighted": 61.5,
+   "weighted": 61.7,
    "tier": "Silver",
    "grade": "C+",
-   "expected": 6196,
+   "expected": 4578,
    "engagementSignals": 6,
    "components": [
     {
@@ -9064,8 +9065,8 @@
     {
      "key": "stage",
      "label": "Pipeline stage",
-     "pct": 72,
-     "points": 13,
+     "pct": 30,
+     "points": 5.4,
      "max": 18,
      "pending": false
     },
@@ -9080,24 +9081,24 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 81,
-     "points": 9.7,
+     "pct": 99,
+     "points": 11.8,
      "max": 12,
      "pending": false
     },
     {
      "key": "industry",
      "label": "Industry fit",
-     "pct": 28,
-     "points": 3.9,
+     "pct": 46,
+     "points": 6.5,
      "max": 14,
      "pending": false
     },
     {
      "key": "source",
      "label": "Lead source quality",
-     "pct": 40,
-     "points": 4,
+     "pct": 70,
+     "points": 7,
      "max": 10,
      "pending": false
     },
@@ -9110,11 +9111,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and sitting at Zoom Booked. Held back by industry fit — Security converts at 27% historically (5 closed records). Zoom on the calendar; confirm attendance to protect the slot. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on a $12,000 first-campaign estimate (inferred from category median — no estimate on record) and 6 of 10 engagement signals present. Held back by pipeline stage — sitting at Info Sent. Info sent and unanswered — next touch should carry a new reason to reply. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 92,
-   "prevRank": 94,
+   "prevRank": 92,
    "id": "1843523000057238412",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057238412",
    "account": "Guthrie and Sons",
@@ -9132,7 +9133,7 @@
    "estimate": 50000,
    "estimateInferred": false,
    "closingPct": 60,
-   "daysSinceActivity": 234,
+   "daysSinceActivity": 235,
    "lastActivity": "2025-12-30T08:58:35-06:00",
    "created": null,
    "phone": null,
@@ -9209,11 +9210,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on a $50,000 first-campaign estimate and sitting at Pending Revenue. Held back by recency of contact — last touched 234 days ago. No activity in 234 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on a $50,000 first-campaign estimate and sitting at Pending Revenue. Held back by recency of contact — last touched 235 days ago. No activity in 235 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 93,
-   "prevRank": 95,
+   "prevRank": 93,
    "id": "1843523000057220482",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000057220482",
    "account": "Antech Electric",
@@ -9231,7 +9232,7 @@
    "estimate": 20000,
    "estimateInferred": false,
    "closingPct": 50,
-   "daysSinceActivity": 2,
+   "daysSinceActivity": 3,
    "lastActivity": "2026-08-19T12:40:41-05:00",
    "created": null,
    "phone": null,
@@ -9245,7 +9246,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 61,
-   "weighted": 61.2,
+   "weighted": 61.1,
    "tier": "Silver",
    "grade": "C+",
    "expected": 11490,
@@ -9278,8 +9279,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 97,
-     "points": 11.7,
+     "pct": 96,
+     "points": 11.5,
      "max": 12,
      "pending": false
     },
@@ -9312,7 +9313,7 @@
   },
   {
    "rank": 94,
-   "prevRank": 79,
+   "prevRank": 94,
    "id": "1843523000063441145",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000063441145",
    "account": "Kaulig Companies",
@@ -9330,7 +9331,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 43,
+   "daysSinceActivity": 44,
    "lastActivity": "2026-07-09T14:07:52-05:00",
    "created": "2026-05-01T12:07:00-05:00",
    "phone": null,
@@ -9344,7 +9345,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 61,
-   "weighted": 61.5,
+   "weighted": 61.4,
    "tier": "Silver",
    "grade": "C+",
    "expected": 8666,
@@ -9378,7 +9379,7 @@
      "key": "recency",
      "label": "Recency of contact",
      "pct": 56,
-     "points": 6.8,
+     "points": 6.7,
      "max": 12,
      "pending": false
     },
@@ -9411,7 +9412,7 @@
   },
   {
    "rank": 95,
-   "prevRank": 96,
+   "prevRank": 95,
    "id": "1843523000067562012",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000067562012",
    "account": "Juniper Landscaping",
@@ -9429,7 +9430,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T10:55:11-05:00",
    "created": "2026-06-25T08:45:00-05:00",
    "phone": null,
@@ -9443,7 +9444,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 61,
-   "weighted": 61.3,
+   "weighted": 61.2,
    "tier": "Silver",
    "grade": "C+",
    "expected": 8193,
@@ -9476,8 +9477,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -9510,7 +9511,7 @@
   },
   {
    "rank": 96,
-   "prevRank": 97,
+   "prevRank": 96,
    "id": "1843523000061523020",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000061523020",
    "account": "Cotti-Johnson",
@@ -9528,7 +9529,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 18,
+   "daysSinceActivity": 19,
    "lastActivity": "2026-08-03T12:10:16-05:00",
    "created": null,
    "phone": null,
@@ -9542,7 +9543,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 61,
-   "weighted": 61.1,
+   "weighted": 61,
    "tier": "Silver",
    "grade": "C+",
    "expected": 8180,
@@ -9575,8 +9576,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 79,
-     "points": 9.4,
+     "pct": 78,
+     "points": 9.3,
      "max": 12,
      "pending": false
     },
@@ -9609,7 +9610,7 @@
   },
   {
    "rank": 97,
-   "prevRank": 98,
+   "prevRank": 97,
    "id": "1843523000070491047",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000070491047",
    "account": "SIG Partners",
@@ -9627,7 +9628,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 11,
+   "daysSinceActivity": 12,
    "lastActivity": "2026-08-10T09:22:16-05:00",
    "created": "2026-08-03T09:38:00-05:00",
    "phone": null,
@@ -9641,7 +9642,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 61,
-   "weighted": 60.9,
+   "weighted": 60.7,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7979,
@@ -9674,8 +9675,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 86,
-     "points": 10.4,
+     "pct": 85,
+     "points": 10.2,
      "max": 12,
      "pending": false
     },
@@ -9708,7 +9709,7 @@
   },
   {
    "rank": 98,
-   "prevRank": 99,
+   "prevRank": 98,
    "id": "1843523000069676067",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000069676067",
    "account": "Hisense",
@@ -9726,7 +9727,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 75,
-   "daysSinceActivity": 2,
+   "daysSinceActivity": 3,
    "lastActivity": "2026-08-19T13:46:32-05:00",
    "created": "2026-07-22T15:40:00-05:00",
    "phone": null,
@@ -9740,7 +9741,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 61,
-   "weighted": 60.8,
+   "weighted": 60.7,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7762,
@@ -9773,8 +9774,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 97,
-     "points": 11.7,
+     "pct": 96,
+     "points": 11.5,
      "max": 12,
      "pending": false
     },
@@ -9807,7 +9808,7 @@
   },
   {
    "rank": 99,
-   "prevRank": 100,
+   "prevRank": 99,
    "id": "1843523000064793011",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000064793011",
    "account": "My Professional Plumber",
@@ -9825,7 +9826,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 50,
-   "daysSinceActivity": 80,
+   "daysSinceActivity": 81,
    "lastActivity": "2026-06-02T15:21:05-05:00",
    "created": "2026-05-20T07:49:00-05:00",
    "phone": null,
@@ -9902,11 +9903,11 @@
      "pending": true
     }
    ],
-   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 80 days ago. No activity in 80 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
+   "summary": "Ranked on sitting at Zoom Sat and a $12,000 first-campaign estimate (inferred from category median — no estimate on record). Held back by recency of contact — last touched 81 days ago. No activity in 81 days; re-engagement required before this decays further. Call intelligence is not yet scored; the Trellus transcript component holds a neutral 5 of 10 until that feed is connected."
   },
   {
    "rank": 100,
-   "prevRank": 140,
+   "prevRank": 100,
    "id": "1843523000069680152",
    "zohoUrl": "https://crm.zoho.com/crm/tab/Deals/1843523000069680152",
    "account": "Better Health Solutions",
@@ -9924,7 +9925,7 @@
    "estimate": 12000,
    "estimateInferred": true,
    "closingPct": 70,
-   "daysSinceActivity": 17,
+   "daysSinceActivity": 18,
    "lastActivity": "2026-08-04T09:57:07-05:00",
    "created": "2026-07-23T12:36:00-05:00",
    "phone": null,
@@ -9938,7 +9939,7 @@
    "notes": null,
    "nextSteps": null,
    "score": 61,
-   "weighted": 61.1,
+   "weighted": 61,
    "tier": "Silver",
    "grade": "C+",
    "expected": 7358,
@@ -9971,8 +9972,8 @@
     {
      "key": "recency",
      "label": "Recency of contact",
-     "pct": 80,
-     "points": 9.6,
+     "pct": 79,
+     "points": 9.4,
      "max": 12,
      "pending": false
     },
