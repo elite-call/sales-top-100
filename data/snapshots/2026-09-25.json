@@ -1,0 +1,605 @@
+{
+ "date": "2026-09-25",
+ "rows": [
+  {
+   "id": "1843523000005058025",
+   "rank": 1,
+   "score": 70,
+   "account": "Indy Roof Company"
+  },
+  {
+   "id": "1843523000005058025",
+   "rank": 2,
+   "score": 70,
+   "account": "Indy Roof Company"
+  },
+  {
+   "id": "1843523000074353013",
+   "rank": 3,
+   "score": 69,
+   "account": "Debug Pest Control"
+  },
+  {
+   "id": "1843523000057059326",
+   "rank": 4,
+   "score": 67,
+   "account": "Blue Jay Roofing"
+  },
+  {
+   "id": "1843523000057059326",
+   "rank": 5,
+   "score": 67,
+   "account": "Blue Jay Roofing"
+  },
+  {
+   "id": "1843523000057045942",
+   "rank": 6,
+   "score": 66,
+   "account": "United Comfort Group"
+  },
+  {
+   "id": "1843523000057045942",
+   "rank": 7,
+   "score": 66,
+   "account": "United Comfort Group"
+  },
+  {
+   "id": "1843523000005038025",
+   "rank": 8,
+   "score": 65,
+   "account": "All Star Construction MN"
+  },
+  {
+   "id": "1843523000005038025",
+   "rank": 9,
+   "score": 65,
+   "account": "All Star Construction MN"
+  },
+  {
+   "id": "1843523000056990341",
+   "rank": 10,
+   "score": 65,
+   "account": "Champions Group Holdings - Travis"
+  },
+  {
+   "id": "1843523000056990341",
+   "rank": 11,
+   "score": 65,
+   "account": "Champions Group Holdings - Travis"
+  },
+  {
+   "id": "1843523000057045542",
+   "rank": 12,
+   "score": 65,
+   "account": "RoofKing Construction TX"
+  },
+  {
+   "id": "1843523000057045542",
+   "rank": 13,
+   "score": 65,
+   "account": "RoofKing Construction TX"
+  },
+  {
+   "id": "1843523000057045683",
+   "rank": 14,
+   "score": 64,
+   "account": "United Plumbing"
+  },
+  {
+   "id": "1843523000057045683",
+   "rank": 15,
+   "score": 64,
+   "account": "United Plumbing"
+  },
+  {
+   "id": "1843523000057000298",
+   "rank": 16,
+   "score": 64,
+   "account": "Elevate Franchise Brands"
+  },
+  {
+   "id": "1843523000057000298",
+   "rank": 17,
+   "score": 64,
+   "account": "Elevate Franchise Brands"
+  },
+  {
+   "id": "1843523000057000386",
+   "rank": 18,
+   "score": 63,
+   "account": "Long Home"
+  },
+  {
+   "id": "1843523000057000386",
+   "rank": 19,
+   "score": 63,
+   "account": "Long Home"
+  },
+  {
+   "id": "1843523000057059298",
+   "rank": 20,
+   "score": 63,
+   "account": "Storm ReNU"
+  },
+  {
+   "id": "1843523000057059298",
+   "rank": 21,
+   "score": 63,
+   "account": "Storm ReNU"
+  },
+  {
+   "id": "1843523000057060211",
+   "rank": 22,
+   "score": 63,
+   "account": "Burrage Roofing"
+  },
+  {
+   "id": "1843523000057060211",
+   "rank": 23,
+   "score": 63,
+   "account": "Burrage Roofing"
+  },
+  {
+   "id": "1843523000057039634",
+   "rank": 24,
+   "score": 62,
+   "account": "Uassist ME"
+  },
+  {
+   "id": "1843523000057039634",
+   "rank": 25,
+   "score": 62,
+   "account": "Uassist ME"
+  },
+  {
+   "id": "1843523000057015482",
+   "rank": 26,
+   "score": 62,
+   "account": "Enercare"
+  },
+  {
+   "id": "1843523000057015482",
+   "rank": 27,
+   "score": 62,
+   "account": "Enercare"
+  },
+  {
+   "id": "1843523000057039692",
+   "rank": 28,
+   "score": 61,
+   "account": "Cold Factor Heating & Air Services"
+  },
+  {
+   "id": "1843523000057039692",
+   "rank": 29,
+   "score": 61,
+   "account": "Cold Factor Heating & Air Services"
+  },
+  {
+   "id": "1843523000057015511",
+   "rank": 30,
+   "score": 61,
+   "account": "Blanton’s Air Plumbing & Electric"
+  },
+  {
+   "id": "1843523000057015511",
+   "rank": 31,
+   "score": 61,
+   "account": "Blanton’s Air Plumbing & Electric"
+  },
+  {
+   "id": "1843523000057024096",
+   "rank": 32,
+   "score": 60,
+   "account": "Window World"
+  },
+  {
+   "id": "1843523000057024096",
+   "rank": 33,
+   "score": 60,
+   "account": "Window World"
+  },
+  {
+   "id": "1843523000073687012",
+   "rank": 34,
+   "score": 60,
+   "account": "Gorilla Property Services (Austin TX)"
+  },
+  {
+   "id": "1843523000057059677",
+   "rank": 35,
+   "score": 60,
+   "account": "Elite Remodeling Group"
+  },
+  {
+   "id": "1843523000057059677",
+   "rank": 36,
+   "score": 60,
+   "account": "Elite Remodeling Group"
+  },
+  {
+   "id": "1843523000057039895",
+   "rank": 37,
+   "score": 60,
+   "account": "leblanccleaning"
+  },
+  {
+   "id": "1843523000057039866",
+   "rank": 38,
+   "score": 60,
+   "account": "Flow Masters Plumbing"
+  },
+  {
+   "id": "1843523000057039779",
+   "rank": 39,
+   "score": 60,
+   "account": "A&A Plumbing, Heating & Cooling"
+  },
+  {
+   "id": "1843523000057039895",
+   "rank": 40,
+   "score": 60,
+   "account": "leblanccleaning"
+  },
+  {
+   "id": "1843523000057039866",
+   "rank": 41,
+   "score": 60,
+   "account": "Flow Masters Plumbing"
+  },
+  {
+   "id": "1843523000057039779",
+   "rank": 42,
+   "score": 60,
+   "account": "A&A Plumbing, Heating & Cooling"
+  },
+  {
+   "id": "1843523000057021158",
+   "rank": 43,
+   "score": 60,
+   "account": "Turnpoint Services"
+  },
+  {
+   "id": "1843523000057000126",
+   "rank": 44,
+   "score": 60,
+   "account": "Apex Service Partners - Moonshine Market"
+  },
+  {
+   "id": "1843523000057021158",
+   "rank": 45,
+   "score": 60,
+   "account": "Turnpoint Services"
+  },
+  {
+   "id": "1843523000057000126",
+   "rank": 46,
+   "score": 60,
+   "account": "Apex Service Partners - Moonshine Market"
+  },
+  {
+   "id": "1843523000057072526",
+   "rank": 47,
+   "score": 60,
+   "account": "Polar Bear Jacks"
+  },
+  {
+   "id": "1843523000057059066",
+   "rank": 48,
+   "score": 60,
+   "account": "KB Service Co."
+  },
+  {
+   "id": "1843523000057059008",
+   "rank": 49,
+   "score": 60,
+   "account": "JP Heating"
+  },
+  {
+   "id": "1843523000057072526",
+   "rank": 50,
+   "score": 60,
+   "account": "Polar Bear Jacks"
+  },
+  {
+   "id": "1843523000057059066",
+   "rank": 51,
+   "score": 60,
+   "account": "KB Service Co."
+  },
+  {
+   "id": "1843523000057059008",
+   "rank": 52,
+   "score": 60,
+   "account": "JP Heating"
+  },
+  {
+   "id": "1843523000057030453",
+   "rank": 53,
+   "score": 60,
+   "account": "Door Pro America - Travis"
+  },
+  {
+   "id": "1843523000057030453",
+   "rank": 54,
+   "score": 60,
+   "account": "Door Pro America - Travis"
+  },
+  {
+   "id": "1843523000057039663",
+   "rank": 55,
+   "score": 60,
+   "account": "SC Mechanical Co."
+  },
+  {
+   "id": "1843523000057039663",
+   "rank": 56,
+   "score": 60,
+   "account": "SC Mechanical Co."
+  },
+  {
+   "id": "1843523000057061488",
+   "rank": 57,
+   "score": 59,
+   "account": "Service Country - Grove Mountain Partners"
+  },
+  {
+   "id": "1843523000057061488",
+   "rank": 58,
+   "score": 59,
+   "account": "Service Country - Grove Mountain Partners"
+  },
+  {
+   "id": "1843523000057030134",
+   "rank": 59,
+   "score": 59,
+   "account": "NorthCurrent Partners/OnTrack Partner"
+  },
+  {
+   "id": "1843523000057030134",
+   "rank": 60,
+   "score": 59,
+   "account": "NorthCurrent Partners/OnTrack Partner"
+  },
+  {
+   "id": "1843523000072571122",
+   "rank": 61,
+   "score": 59,
+   "account": "Beam Dental"
+  },
+  {
+   "id": "1843523000057045912",
+   "rank": 62,
+   "score": 59,
+   "account": "Stafford Home Service"
+  },
+  {
+   "id": "1843523000057045828",
+   "rank": 63,
+   "score": 59,
+   "account": "Thomas Home Services"
+  },
+  {
+   "id": "1843523000057045742",
+   "rank": 64,
+   "score": 59,
+   "account": "Hill & Company Service"
+  },
+  {
+   "id": "1843523000057045912",
+   "rank": 65,
+   "score": 59,
+   "account": "Stafford Home Service"
+  },
+  {
+   "id": "1843523000057045828",
+   "rank": 66,
+   "score": 59,
+   "account": "Thomas Home Services"
+  },
+  {
+   "id": "1843523000057045742",
+   "rank": 67,
+   "score": 59,
+   "account": "Hill & Company Service"
+  },
+  {
+   "id": "1843523000057061139",
+   "rank": 68,
+   "score": 59,
+   "account": "Propane Ninja"
+  },
+  {
+   "id": "1843523000057059530",
+   "rank": 69,
+   "score": 59,
+   "account": "Skradski Heating and Cooling"
+  },
+  {
+   "id": "1843523000057061139",
+   "rank": 70,
+   "score": 59,
+   "account": "Propane Ninja"
+  },
+  {
+   "id": "1843523000057059530",
+   "rank": 71,
+   "score": 59,
+   "account": "Skradski Heating and Cooling"
+  },
+  {
+   "id": "1843523000057035937",
+   "rank": 72,
+   "score": 58,
+   "account": "The Boyd Group, Inc."
+  },
+  {
+   "id": "1843523000057035937",
+   "rank": 73,
+   "score": 58,
+   "account": "The Boyd Group, Inc."
+  },
+  {
+   "id": "1843523000057049193",
+   "rank": 74,
+   "score": 58,
+   "account": "Energy Store Consulting"
+  },
+  {
+   "id": "1843523000057049193",
+   "rank": 75,
+   "score": 58,
+   "account": "Energy Store Consulting"
+  },
+  {
+   "id": "1843523000057014782",
+   "rank": 76,
+   "score": 58,
+   "account": "Iconic Garage Door Services"
+  },
+  {
+   "id": "1843523000057014782",
+   "rank": 77,
+   "score": 58,
+   "account": "Iconic Garage Door Services"
+  },
+  {
+   "id": "1843523000057025505",
+   "rank": 78,
+   "score": 58,
+   "account": "Southern Home Services"
+  },
+  {
+   "id": "1843523000057025505",
+   "rank": 79,
+   "score": 58,
+   "account": "Southern Home Services"
+  },
+  {
+   "id": "1843523000057039809",
+   "rank": 80,
+   "score": 58,
+   "account": "Maloney Plumbing"
+  },
+  {
+   "id": "1843523000057039809",
+   "rank": 81,
+   "score": 58,
+   "account": "Maloney Plumbing"
+  },
+  {
+   "id": "1843523000057059647",
+   "rank": 82,
+   "score": 58,
+   "account": "Hyde-Whipp Heating & Air Conditioning"
+  },
+  {
+   "id": "1843523000057059647",
+   "rank": 83,
+   "score": 58,
+   "account": "Hyde-Whipp Heating & Air Conditioning"
+  },
+  {
+   "id": "1843523000056988970",
+   "rank": 84,
+   "score": 58,
+   "account": "P3 Services"
+  },
+  {
+   "id": "1843523000056988970",
+   "rank": 85,
+   "score": 58,
+   "account": "P3 Services"
+  },
+  {
+   "id": "1843523000057060153",
+   "rank": 86,
+   "score": 58,
+   "account": "Climate Control Group"
+  },
+  {
+   "id": "1843523000057060153",
+   "rank": 87,
+   "score": 58,
+   "account": "Climate Control Group"
+  },
+  {
+   "id": "1843523000057061227",
+   "rank": 88,
+   "score": 57,
+   "account": "Old Republic Home Protection - Bruce Davis"
+  },
+  {
+   "id": "1843523000057094011",
+   "rank": 89,
+   "score": 57,
+   "account": "Senske Services"
+  },
+  {
+   "id": "1843523000057061227",
+   "rank": 90,
+   "score": 57,
+   "account": "Old Republic Home Protection - Bruce Davis"
+  },
+  {
+   "id": "1843523000057014206",
+   "rank": 91,
+   "score": 57,
+   "account": "Camping World / Good Sam"
+  },
+  {
+   "id": "1843523000057014206",
+   "rank": 92,
+   "score": 57,
+   "account": "Camping World / Good Sam"
+  },
+  {
+   "id": "1843523000057000978",
+   "rank": 93,
+   "score": 57,
+   "account": "Climate Control Solutions"
+  },
+  {
+   "id": "1843523000057000978",
+   "rank": 94,
+   "score": 57,
+   "account": "Climate Control Solutions"
+  },
+  {
+   "id": "1843523000057015656",
+   "rank": 95,
+   "score": 57,
+   "account": "AiRCO Mechanical Ltd"
+  },
+  {
+   "id": "1843523000057015656",
+   "rank": 96,
+   "score": 57,
+   "account": "AiRCO Mechanical Ltd"
+  },
+  {
+   "id": "1843523000057061314",
+   "rank": 97,
+   "score": 57,
+   "account": "K Komfort"
+  },
+  {
+   "id": "1843523000057047908",
+   "rank": 98,
+   "score": 57,
+   "account": "LR Gregory & Son"
+  },
+  {
+   "id": "1843523000057047443",
+   "rank": 99,
+   "score": 57,
+   "account": "Starved Rock Heating & Cooling"
+  },
+  {
+   "id": "1843523000057047414",
+   "rank": 100,
+   "score": 57,
+   "account": "Scott Walker Heating and Air"
+  }
+ ]
+}
