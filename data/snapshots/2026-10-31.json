@@ -1,0 +1,605 @@
+{
+ "date": "2026-10-31",
+ "rows": [
+  {
+   "id": "1843523000057220686",
+   "rank": 1,
+   "score": 66,
+   "account": "Neighborly® - Tim"
+  },
+  {
+   "id": "1843523000005058025",
+   "rank": 2,
+   "score": 66,
+   "account": "Indy Roof Company"
+  },
+  {
+   "id": "1843523000005058025",
+   "rank": 3,
+   "score": 66,
+   "account": "Indy Roof Company"
+  },
+  {
+   "id": "1843523000056990341",
+   "rank": 4,
+   "score": 63,
+   "account": "Champions Group Holdings - Travis"
+  },
+  {
+   "id": "1843523000056990341",
+   "rank": 5,
+   "score": 63,
+   "account": "Champions Group Holdings - Travis"
+  },
+  {
+   "id": "1843523000057039634",
+   "rank": 6,
+   "score": 63,
+   "account": "Uassist ME"
+  },
+  {
+   "id": "1843523000057039634",
+   "rank": 7,
+   "score": 63,
+   "account": "Uassist ME"
+  },
+  {
+   "id": "1843523000057009866",
+   "rank": 8,
+   "score": 63,
+   "account": "Daikin Comfort"
+  },
+  {
+   "id": "1843523000057009866",
+   "rank": 9,
+   "score": 63,
+   "account": "Daikin Comfort"
+  },
+  {
+   "id": "1843523000057045542",
+   "rank": 10,
+   "score": 63,
+   "account": "RoofKing Construction TX"
+  },
+  {
+   "id": "1843523000057045542",
+   "rank": 11,
+   "score": 63,
+   "account": "RoofKing Construction TX"
+  },
+  {
+   "id": "1843523000057059326",
+   "rank": 12,
+   "score": 63,
+   "account": "Blue Jay Roofing"
+  },
+  {
+   "id": "1843523000057059326",
+   "rank": 13,
+   "score": 63,
+   "account": "Blue Jay Roofing"
+  },
+  {
+   "id": "1843523000057464007",
+   "rank": 14,
+   "score": 62,
+   "account": "Forshee Contracting Services"
+  },
+  {
+   "id": "1843523000005038025",
+   "rank": 15,
+   "score": 61,
+   "account": "All Star Construction MN"
+  },
+  {
+   "id": "1843523000005038025",
+   "rank": 16,
+   "score": 61,
+   "account": "All Star Construction MN"
+  },
+  {
+   "id": "1843523000057045942",
+   "rank": 17,
+   "score": 61,
+   "account": "United Comfort Group"
+  },
+  {
+   "id": "1843523000057045942",
+   "rank": 18,
+   "score": 61,
+   "account": "United Comfort Group"
+  },
+  {
+   "id": "1843523000056990845",
+   "rank": 19,
+   "score": 61,
+   "account": "Any Hour Group"
+  },
+  {
+   "id": "1843523000056990845",
+   "rank": 20,
+   "score": 61,
+   "account": "Any Hour Group"
+  },
+  {
+   "id": "1843523000057027650",
+   "rank": 21,
+   "score": 61,
+   "account": "Angi"
+  },
+  {
+   "id": "1843523000057027650",
+   "rank": 22,
+   "score": 61,
+   "account": "Angi"
+  },
+  {
+   "id": "1843523000057015482",
+   "rank": 23,
+   "score": 61,
+   "account": "Enercare"
+  },
+  {
+   "id": "1843523000057015482",
+   "rank": 24,
+   "score": 61,
+   "account": "Enercare"
+  },
+  {
+   "id": "1843523000057000298",
+   "rank": 25,
+   "score": 61,
+   "account": "Elevate Franchise Brands"
+  },
+  {
+   "id": "1843523000057000298",
+   "rank": 26,
+   "score": 61,
+   "account": "Elevate Franchise Brands"
+  },
+  {
+   "id": "1843523000057030714",
+   "rank": 27,
+   "score": 61,
+   "account": "Clover Growth Partners"
+  },
+  {
+   "id": "1843523000057030714",
+   "rank": 28,
+   "score": 61,
+   "account": "Clover Growth Partners"
+  },
+  {
+   "id": "1843523000057324100",
+   "rank": 29,
+   "score": 60,
+   "account": "Schneller & Knochelmann"
+  },
+  {
+   "id": "1843523000057465013",
+   "rank": 30,
+   "score": 60,
+   "account": "Smiling Plumbing, Electric, Heating and Cooling"
+  },
+  {
+   "id": "1843523000057238412",
+   "rank": 31,
+   "score": 59,
+   "account": "Guthrie and Sons"
+  },
+  {
+   "id": "1843523000057045683",
+   "rank": 32,
+   "score": 59,
+   "account": "United Plumbing"
+  },
+  {
+   "id": "1843523000057045683",
+   "rank": 33,
+   "score": 59,
+   "account": "United Plumbing"
+  },
+  {
+   "id": "1843523000057059880",
+   "rank": 34,
+   "score": 59,
+   "account": "Dual Temp"
+  },
+  {
+   "id": "1843523000057059880",
+   "rank": 35,
+   "score": 59,
+   "account": "Dual Temp"
+  },
+  {
+   "id": "1843523000057015511",
+   "rank": 36,
+   "score": 59,
+   "account": "Blanton’s Air Plumbing & Electric"
+  },
+  {
+   "id": "1843523000057015511",
+   "rank": 37,
+   "score": 59,
+   "account": "Blanton’s Air Plumbing & Electric"
+  },
+  {
+   "id": "1843523000057059298",
+   "rank": 38,
+   "score": 59,
+   "account": "Storm ReNU"
+  },
+  {
+   "id": "1843523000057059298",
+   "rank": 39,
+   "score": 59,
+   "account": "Storm ReNU"
+  },
+  {
+   "id": "1843523000057030453",
+   "rank": 40,
+   "score": 59,
+   "account": "Door Pro America - Travis"
+  },
+  {
+   "id": "1843523000057030453",
+   "rank": 41,
+   "score": 59,
+   "account": "Door Pro America - Travis"
+  },
+  {
+   "id": "1843523000057060211",
+   "rank": 42,
+   "score": 59,
+   "account": "Burrage Roofing"
+  },
+  {
+   "id": "1843523000057060211",
+   "rank": 43,
+   "score": 59,
+   "account": "Burrage Roofing"
+  },
+  {
+   "id": "1843523000057270578",
+   "rank": 44,
+   "score": 58,
+   "account": "Vivint"
+  },
+  {
+   "id": "1843523000057000386",
+   "rank": 45,
+   "score": 58,
+   "account": "Long Home"
+  },
+  {
+   "id": "1843523000057000386",
+   "rank": 46,
+   "score": 58,
+   "account": "Long Home"
+  },
+  {
+   "id": "1843523000057025505",
+   "rank": 47,
+   "score": 58,
+   "account": "Southern Home Services"
+  },
+  {
+   "id": "1843523000057025505",
+   "rank": 48,
+   "score": 58,
+   "account": "Southern Home Services"
+  },
+  {
+   "id": "1843523000057059910",
+   "rank": 49,
+   "score": 58,
+   "account": "Prestige Paving Company"
+  },
+  {
+   "id": "1843523000057059910",
+   "rank": 50,
+   "score": 58,
+   "account": "Prestige Paving Company"
+  },
+  {
+   "id": "1843523000057180561",
+   "rank": 51,
+   "score": 57,
+   "account": "Astound Broadband"
+  },
+  {
+   "id": "1843523000057028270",
+   "rank": 52,
+   "score": 57,
+   "account": "Fast Air Repair"
+  },
+  {
+   "id": "1843523000057028270",
+   "rank": 53,
+   "score": 57,
+   "account": "Fast Air Repair"
+  },
+  {
+   "id": "1843523000057417216",
+   "rank": 54,
+   "score": 57,
+   "account": "Results.ai"
+  },
+  {
+   "id": "1843523000057300039",
+   "rank": 55,
+   "score": 56,
+   "account": "Side By Side Home Improvement"
+  },
+  {
+   "id": "1843523000057024096",
+   "rank": 56,
+   "score": 56,
+   "account": "Window World"
+  },
+  {
+   "id": "1843523000057298001",
+   "rank": 57,
+   "score": 56,
+   "account": "Sears Home Services - 2025"
+  },
+  {
+   "id": "1843523000057024096",
+   "rank": 58,
+   "score": 56,
+   "account": "Window World"
+  },
+  {
+   "id": "1843523000057061488",
+   "rank": 59,
+   "score": 56,
+   "account": "Service Country - Grove Mountain Partners"
+  },
+  {
+   "id": "1843523000057061488",
+   "rank": 60,
+   "score": 56,
+   "account": "Service Country - Grove Mountain Partners"
+  },
+  {
+   "id": "1843523000057039692",
+   "rank": 61,
+   "score": 56,
+   "account": "Cold Factor Heating & Air Services"
+  },
+  {
+   "id": "1843523000057039692",
+   "rank": 62,
+   "score": 56,
+   "account": "Cold Factor Heating & Air Services"
+  },
+  {
+   "id": "1843523000057021158",
+   "rank": 63,
+   "score": 56,
+   "account": "Turnpoint Services"
+  },
+  {
+   "id": "1843523000057021158",
+   "rank": 64,
+   "score": 56,
+   "account": "Turnpoint Services"
+  },
+  {
+   "id": "1843523000057015656",
+   "rank": 65,
+   "score": 56,
+   "account": "AiRCO Mechanical Ltd"
+  },
+  {
+   "id": "1843523000057015656",
+   "rank": 66,
+   "score": 56,
+   "account": "AiRCO Mechanical Ltd"
+  },
+  {
+   "id": "1843523000057017442",
+   "rank": 67,
+   "score": 56,
+   "account": "Precision Xteriors"
+  },
+  {
+   "id": "1843523000057017442",
+   "rank": 68,
+   "score": 56,
+   "account": "Precision Xteriors"
+  },
+  {
+   "id": "1843523000057290786",
+   "rank": 69,
+   "score": 55,
+   "account": "USA Insulation"
+  },
+  {
+   "id": "1843523000057035937",
+   "rank": 70,
+   "score": 55,
+   "account": "The Boyd Group, Inc."
+  },
+  {
+   "id": "1843523000057035937",
+   "rank": 71,
+   "score": 55,
+   "account": "The Boyd Group, Inc."
+  },
+  {
+   "id": "1843523000057013393",
+   "rank": 72,
+   "score": 55,
+   "account": "Omnia Exterior Solutions™"
+  },
+  {
+   "id": "1843523000057013393",
+   "rank": 73,
+   "score": 55,
+   "account": "Omnia Exterior Solutions™"
+  },
+  {
+   "id": "1843523000057237359",
+   "rank": 74,
+   "score": 55,
+   "account": "Office Pride"
+  },
+  {
+   "id": "1843523000057049193",
+   "rank": 75,
+   "score": 55,
+   "account": "Energy Store Consulting"
+  },
+  {
+   "id": "1843523000057049193",
+   "rank": 76,
+   "score": 55,
+   "account": "Energy Store Consulting"
+  },
+  {
+   "id": "1843523000057059677",
+   "rank": 77,
+   "score": 55,
+   "account": "Elite Remodeling Group"
+  },
+  {
+   "id": "1843523000057059677",
+   "rank": 78,
+   "score": 55,
+   "account": "Elite Remodeling Group"
+  },
+  {
+   "id": "1843523000057000126",
+   "rank": 79,
+   "score": 55,
+   "account": "Apex Service Partners - Moonshine Market"
+  },
+  {
+   "id": "1843523000057000126",
+   "rank": 80,
+   "score": 55,
+   "account": "Apex Service Partners - Moonshine Market"
+  },
+  {
+   "id": "1843523000057049661",
+   "rank": 81,
+   "score": 55,
+   "account": "Kine Remodeling"
+  },
+  {
+   "id": "1843523000057049661",
+   "rank": 82,
+   "score": 55,
+   "account": "Kine Remodeling"
+  },
+  {
+   "id": "1843523000057072526",
+   "rank": 83,
+   "score": 55,
+   "account": "Polar Bear Jacks"
+  },
+  {
+   "id": "1843523000057059066",
+   "rank": 84,
+   "score": 55,
+   "account": "KB Service Co."
+  },
+  {
+   "id": "1843523000057059008",
+   "rank": 85,
+   "score": 55,
+   "account": "JP Heating"
+  },
+  {
+   "id": "1843523000057072526",
+   "rank": 86,
+   "score": 55,
+   "account": "Polar Bear Jacks"
+  },
+  {
+   "id": "1843523000057059066",
+   "rank": 87,
+   "score": 55,
+   "account": "KB Service Co."
+  },
+  {
+   "id": "1843523000057059008",
+   "rank": 88,
+   "score": 55,
+   "account": "JP Heating"
+  },
+  {
+   "id": "1843523000056988970",
+   "rank": 89,
+   "score": 55,
+   "account": "P3 Services"
+  },
+  {
+   "id": "1843523000056988970",
+   "rank": 90,
+   "score": 55,
+   "account": "P3 Services"
+  },
+  {
+   "id": "1843523000057039663",
+   "rank": 91,
+   "score": 55,
+   "account": "SC Mechanical Co."
+  },
+  {
+   "id": "1843523000057039663",
+   "rank": 92,
+   "score": 55,
+   "account": "SC Mechanical Co."
+  },
+  {
+   "id": "1843523000057030134",
+   "rank": 93,
+   "score": 54,
+   "account": "NorthCurrent Partners/OnTrack Partner"
+  },
+  {
+   "id": "1843523000057030134",
+   "rank": 94,
+   "score": 54,
+   "account": "NorthCurrent Partners/OnTrack Partner"
+  },
+  {
+   "id": "1843523000057326023",
+   "rank": 95,
+   "score": 54,
+   "account": "Comcast"
+  },
+  {
+   "id": "1843523000057464714",
+   "rank": 96,
+   "score": 54,
+   "account": "Trident Roof Solutions"
+  },
+  {
+   "id": "1843523000057014782",
+   "rank": 97,
+   "score": 54,
+   "account": "Iconic Garage Door Services"
+  },
+  {
+   "id": "1843523000057014782",
+   "rank": 98,
+   "score": 54,
+   "account": "Iconic Garage Door Services"
+  },
+  {
+   "id": "1843523000057045971",
+   "rank": 99,
+   "score": 54,
+   "account": "Lakeshore Builders Restoration - mike"
+  },
+  {
+   "id": "1843523000057045971",
+   "rank": 100,
+   "score": 54,
+   "account": "Lakeshore Builders Restoration - mike"
+  }
+ ]
+}
