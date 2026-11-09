@@ -1,0 +1,605 @@
+{
+ "date": "2026-11-09",
+ "rows": [
+  {
+   "id": "1843523000060934429",
+   "rank": 1,
+   "score": 75,
+   "account": "Specialty Roofing"
+  },
+  {
+   "id": "1843523000072459060",
+   "rank": 2,
+   "score": 74,
+   "account": "John Beal Roofing"
+  },
+  {
+   "id": "1843523000074650117",
+   "rank": 3,
+   "score": 74,
+   "account": "Panther Service Group"
+  },
+  {
+   "id": "1843523000070141202",
+   "rank": 4,
+   "score": 73,
+   "account": "FreshVendCLT"
+  },
+  {
+   "id": "1843523000061519214",
+   "rank": 5,
+   "score": 73,
+   "account": "Half Moon Plumbing & Electrical"
+  },
+  {
+   "id": "1843523000057015482",
+   "rank": 6,
+   "score": 72,
+   "account": "Enercare"
+  },
+  {
+   "id": "1843523000058567001",
+   "rank": 7,
+   "score": 72,
+   "account": "Current Electric"
+  },
+  {
+   "id": "1843523000067191390",
+   "rank": 8,
+   "score": 71,
+   "account": "J&J Roofing"
+  },
+  {
+   "id": "1843523000059653674",
+   "rank": 9,
+   "score": 70,
+   "account": "Regional Roofing & Restoration"
+  },
+  {
+   "id": "1843523000064793415",
+   "rank": 10,
+   "score": 70,
+   "account": "FairWeather Roofing"
+  },
+  {
+   "id": "1843523000069890013",
+   "rank": 11,
+   "score": 70,
+   "account": "Middle Creek Roof"
+  },
+  {
+   "id": "1843523000066986023",
+   "rank": 12,
+   "score": 70,
+   "account": "Porter Exteriors"
+  },
+  {
+   "id": "1843523000059152407",
+   "rank": 13,
+   "score": 70,
+   "account": "Cam Collective"
+  },
+  {
+   "id": "1843523000061328771",
+   "rank": 14,
+   "score": 69,
+   "account": "HydroGenesis"
+  },
+  {
+   "id": "1843523000077505360",
+   "rank": 15,
+   "score": 69,
+   "account": "Xperience Roofing"
+  },
+  {
+   "id": "1843523000056990341",
+   "rank": 16,
+   "score": 69,
+   "account": "Champions Group Holdings - Travis"
+  },
+  {
+   "id": "1843523000073105133",
+   "rank": 17,
+   "score": 69,
+   "account": "EverSmith Brands"
+  },
+  {
+   "id": "1843523000075842032",
+   "rank": 18,
+   "score": 69,
+   "account": "Precision Air"
+  },
+  {
+   "id": "1843523000078270196",
+   "rank": 19,
+   "score": 69,
+   "account": "Avery Telehealth"
+  },
+  {
+   "id": "1843523000069427141",
+   "rank": 20,
+   "score": 68,
+   "account": "Guardian Dentistry Partners"
+  },
+  {
+   "id": "1843523000070577012",
+   "rank": 21,
+   "score": 68,
+   "account": "WyattWorks"
+  },
+  {
+   "id": "1843523000073242224",
+   "rank": 22,
+   "score": 68,
+   "account": "Marr's Heating, AC, Plumbing and Electrical"
+  },
+  {
+   "id": "1843523000068447113",
+   "rank": 23,
+   "score": 68,
+   "account": "Galaxy Service Partners / Guild Garage Group"
+  },
+  {
+   "id": "1843523000074353013",
+   "rank": 24,
+   "score": 68,
+   "account": "Debug Pest Control"
+  },
+  {
+   "id": "1843523000059924139",
+   "rank": 25,
+   "score": 67,
+   "account": "Chesapeake Health Care"
+  },
+  {
+   "id": "1843523000062330147",
+   "rank": 26,
+   "score": 67,
+   "account": "Creative Service Partners"
+  },
+  {
+   "id": "1843523000073057011",
+   "rank": 27,
+   "score": 67,
+   "account": "Sila Services"
+  },
+  {
+   "id": "1843523000077756011",
+   "rank": 28,
+   "score": 67,
+   "account": "Prime Plumbing"
+  },
+  {
+   "id": "1843523000077301091",
+   "rank": 29,
+   "score": 66,
+   "account": "Peachtree Restorations"
+  },
+  {
+   "id": "1843523000060626022",
+   "rank": 30,
+   "score": 66,
+   "account": "Smith's Plumbing, Heating & Air"
+  },
+  {
+   "id": "1843523000077207047",
+   "rank": 31,
+   "score": 66,
+   "account": "College Hunks"
+  },
+  {
+   "id": "1843523000077591129",
+   "rank": 32,
+   "score": 66,
+   "account": "American Service Partners"
+  },
+  {
+   "id": "1843523000075401146",
+   "rank": 33,
+   "score": 66,
+   "account": "ReferPro"
+  },
+  {
+   "id": "1843523000063176024",
+   "rank": 34,
+   "score": 65,
+   "account": "Freedom Restoration and Remodeling"
+  },
+  {
+   "id": "1843523000071382011",
+   "rank": 35,
+   "score": 65,
+   "account": "Exact Customer"
+  },
+  {
+   "id": "1843523000063441145",
+   "rank": 36,
+   "score": 65,
+   "account": "Kaulig Companies"
+  },
+  {
+   "id": "1843523000076739191",
+   "rank": 37,
+   "score": 65,
+   "account": "UrbanX Pest & Wildlife Removal"
+  },
+  {
+   "id": "1843523000073649022",
+   "rank": 38,
+   "score": 65,
+   "account": "Deer Valley Plumbing"
+  },
+  {
+   "id": "1843523000074119030",
+   "rank": 39,
+   "score": 65,
+   "account": "Hörmann Group"
+  },
+  {
+   "id": "1843523000075401024",
+   "rank": 40,
+   "score": 65,
+   "account": "Footprint Capital"
+  },
+  {
+   "id": "1843523000076409065",
+   "rank": 41,
+   "score": 65,
+   "account": "SeachLight"
+  },
+  {
+   "id": "1843523000057220686",
+   "rank": 42,
+   "score": 64,
+   "account": "Neighborly® - Tim"
+  },
+  {
+   "id": "1843523000005058025",
+   "rank": 43,
+   "score": 64,
+   "account": "Indy Roof Company"
+  },
+  {
+   "id": "1843523000057024096",
+   "rank": 44,
+   "score": 64,
+   "account": "Window World"
+  },
+  {
+   "id": "1843523000056990845",
+   "rank": 45,
+   "score": 64,
+   "account": "Any Hour Group"
+  },
+  {
+   "id": "1843523000063916154",
+   "rank": 46,
+   "score": 64,
+   "account": "Mission Roof"
+  },
+  {
+   "id": "1843523000073198013",
+   "rank": 47,
+   "score": 64,
+   "account": "Fyzical (Tim + Travis)"
+  },
+  {
+   "id": "1843523000076053200",
+   "rank": 48,
+   "score": 64,
+   "account": "Aireserv Heating & Air Conditioning"
+  },
+  {
+   "id": "1843523000074894086",
+   "rank": 49,
+   "score": 64,
+   "account": "Nordic Energy"
+  },
+  {
+   "id": "1843523000075703123",
+   "rank": 50,
+   "score": 64,
+   "account": "Seattle Pain Relief"
+  },
+  {
+   "id": "1843523000071063027",
+   "rank": 51,
+   "score": 64,
+   "account": "Belfor Franchise Group"
+  },
+  {
+   "id": "1843523000059532079",
+   "rank": 52,
+   "score": 64,
+   "account": "Flotilla Partners"
+  },
+  {
+   "id": "1843523000075553101",
+   "rank": 53,
+   "score": 64,
+   "account": "Cool Blew"
+  },
+  {
+   "id": "1843523000078270016",
+   "rank": 54,
+   "score": 64,
+   "account": "Palmetto"
+  },
+  {
+   "id": "1843523000075401209",
+   "rank": 55,
+   "score": 64,
+   "account": "EGIA"
+  },
+  {
+   "id": "1843523000075401072",
+   "rank": 56,
+   "score": 64,
+   "account": "Charter"
+  },
+  {
+   "id": "1843523000076854029",
+   "rank": 57,
+   "score": 64,
+   "account": "Katie Smith Consults"
+  },
+  {
+   "id": "1843523000072287074",
+   "rank": 58,
+   "score": 63,
+   "account": "A-Star Air Conditioning and Plumbing"
+  },
+  {
+   "id": "1843523000065410011",
+   "rank": 59,
+   "score": 63,
+   "account": "Mosaic Roofing Company"
+  },
+  {
+   "id": "1843523000077965011",
+   "rank": 60,
+   "score": 63,
+   "account": "Painter Bros"
+  },
+  {
+   "id": "1843523000075344058",
+   "rank": 61,
+   "score": 63,
+   "account": "Aire Serv of Omaha"
+  },
+  {
+   "id": "1843523000059685185",
+   "rank": 62,
+   "score": 63,
+   "account": "Roman Air"
+  },
+  {
+   "id": "1843523000075553148",
+   "rank": 63,
+   "score": 63,
+   "account": "Pro Bid LLC"
+  },
+  {
+   "id": "1843523000074779019",
+   "rank": 64,
+   "score": 63,
+   "account": "Lauren Kingsley Strategy"
+  },
+  {
+   "id": "1843523000070048016",
+   "rank": 65,
+   "score": 62,
+   "account": "Apex satx"
+  },
+  {
+   "id": "1843523000057045942",
+   "rank": 66,
+   "score": 62,
+   "account": "United Comfort Group"
+  },
+  {
+   "id": "1843523000061082037",
+   "rank": 67,
+   "score": 62,
+   "account": "AirWorks Solutions"
+  },
+  {
+   "id": "1843523000057000386",
+   "rank": 68,
+   "score": 62,
+   "account": "Long Home"
+  },
+  {
+   "id": "1843523000065014027",
+   "rank": 69,
+   "score": 62,
+   "account": "Canter Power Systems"
+  },
+  {
+   "id": "1843523000057000298",
+   "rank": 70,
+   "score": 62,
+   "account": "Elevate Franchise Brands"
+  },
+  {
+   "id": "1843523000077191051",
+   "rank": 71,
+   "score": 62,
+   "account": "The Lee Thompson"
+  },
+  {
+   "id": "1843523000076205010",
+   "rank": 72,
+   "score": 62,
+   "account": "Lex Air Conditioning and Heating"
+  },
+  {
+   "id": "1843523000074911019",
+   "rank": 73,
+   "score": 62,
+   "account": "CINFAB"
+  },
+  {
+   "id": "1843523000071751300",
+   "rank": 74,
+   "score": 62,
+   "account": "ALL MY SONS MOVING & STORAGE"
+  },
+  {
+   "id": "1843523000057015511",
+   "rank": 75,
+   "score": 62,
+   "account": "Blanton’s Air Plumbing & Electric"
+  },
+  {
+   "id": "1843523000074894122",
+   "rank": 76,
+   "score": 62,
+   "account": "Rose Pest Solutions"
+  },
+  {
+   "id": "1843523000068447085",
+   "rank": 77,
+   "score": 62,
+   "account": "Trades Holding Co., LLC"
+  },
+  {
+   "id": "1843523000070833258",
+   "rank": 78,
+   "score": 62,
+   "account": "US Dock & Door"
+  },
+  {
+   "id": "1843523000077296025",
+   "rank": 79,
+   "score": 62,
+   "account": "Morehart Air Conditioning & Heating"
+  },
+  {
+   "id": "1843523000073105020",
+   "rank": 80,
+   "score": 62,
+   "account": "LB Capital, LLC"
+  },
+  {
+   "id": "1843523000057045542",
+   "rank": 81,
+   "score": 62,
+   "account": "RoofKing Construction TX"
+  },
+  {
+   "id": "1843523000070530010",
+   "rank": 82,
+   "score": 61,
+   "account": "Dixie Electric, Plumbing & Air."
+  },
+  {
+   "id": "1843523000071545039",
+   "rank": 83,
+   "score": 61,
+   "account": "Air Repair Pros"
+  },
+  {
+   "id": "1843523000072862018",
+   "rank": 84,
+   "score": 61,
+   "account": "Healthtrax Fitness & Wellness"
+  },
+  {
+   "id": "1843523000057039634",
+   "rank": 85,
+   "score": 61,
+   "account": "Uassist ME"
+  },
+  {
+   "id": "1843523000068513011",
+   "rank": 86,
+   "score": 61,
+   "account": "Durable Roofing"
+  },
+  {
+   "id": "1843523000063559238",
+   "rank": 87,
+   "score": 61,
+   "account": "Yarbrough and Sons"
+  },
+  {
+   "id": "1843523000072697416",
+   "rank": 88,
+   "score": 61,
+   "account": "Southeastern Cooling"
+  },
+  {
+   "id": "1843523000074953028",
+   "rank": 89,
+   "score": 61,
+   "account": "Lyme Green Heat"
+  },
+  {
+   "id": "1843523000073419034",
+   "rank": 90,
+   "score": 61,
+   "account": "Hearth & Home Technologies"
+  },
+  {
+   "id": "1843523000057021158",
+   "rank": 91,
+   "score": 61,
+   "account": "Turnpoint Services"
+  },
+  {
+   "id": "1843523000073284011",
+   "rank": 92,
+   "score": 61,
+   "account": "Tempo Air"
+  },
+  {
+   "id": "1843523000058135581",
+   "rank": 93,
+   "score": 61,
+   "account": "HomeX Services Group"
+  },
+  {
+   "id": "1843523000075063088",
+   "rank": 94,
+   "score": 61,
+   "account": "DC Creek Heating & Cooling"
+  },
+  {
+   "id": "1843523000070854169",
+   "rank": 95,
+   "score": 61,
+   "account": "Pacific Heating & Cooling"
+  },
+  {
+   "id": "1843523000075842104",
+   "rank": 96,
+   "score": 61,
+   "account": "Peak Alliance"
+  },
+  {
+   "id": "1843523000070833222",
+   "rank": 97,
+   "score": 61,
+   "account": "Brinks Home"
+  },
+  {
+   "id": "1843523000074650017",
+   "rank": 98,
+   "score": 61,
+   "account": "Ricky Heath Plumbing, Heating & Cooling"
+  },
+  {
+   "id": "1843523000068380032",
+   "rank": 99,
+   "score": 61,
+   "account": "SWAT Environmental"
+  },
+  {
+   "id": "1843523000076409127",
+   "rank": 100,
+   "score": 61,
+   "account": "West Spa"
+  }
+ ]
+}
